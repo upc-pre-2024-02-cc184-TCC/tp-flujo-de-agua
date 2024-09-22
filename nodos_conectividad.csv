@@ -1,4 +1,4 @@
-Source Node,Destination Node,Node Type,Flow Capacity (L/s),Distance Between Nodes (km)
+Source Node,Destination Node,Node Type,Flow Capacity,Distance Between Nodes
 Hogar Barranco,Estación Ate,Pumping Station,600,835
 La Atarjea,Planta Chillón,Water Treatment Plant,829,514
 La Atarjea,Tanque Surco,Pumping Station,153,996
@@ -100,7 +100,6 @@ Estación Rímac,Hogar Barranco,Storage Tank,461,307
 Tanque Surco,Planta Huachipa,Storage Tank,865,374
 La Atarjea,Hogar Barranco,Storage Tank,569,382
 Tanque San Borja,Planta Chillón,Storage Tank,383,547
-La Atarjea,Estación Ate,Pumping Station,325,459
 Tanque San Borja,La Atarjea,Consumption Point,801,82
 Hogar Barranco,Estación Ate,Water Treatment Plant,705,32
 La Atarjea,Estación Ate,Water Treatment Plant,720,220
