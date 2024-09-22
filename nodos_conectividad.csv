@@ -1,0 +1,1501 @@
+Source Node,Destination Node,Node Type,Flow Capacity (L/s),Distance Between Nodes (km)
+Hogar Barranco,Estación Ate,Pumping Station,600,835
+La Atarjea,Planta Chillón,Water Treatment Plant,829,514
+La Atarjea,Tanque Surco,Pumping Station,153,996
+Comercial Lince,Hogar Miraflores,Consumption Point,229,921
+Industria La Victoria,Hogar Barranco,Pumping Station,135,229
+Industria La Victoria,Hogar Miraflores,Storage Tank,320,732
+Hogar Barranco,Industria La Victoria,Pumping Station,714,156
+Estación Ate,Comercial Lince,Pumping Station,830,364
+Planta Huachipa,Tanque Surco,Water Treatment Plant,927,598
+Hogar Miraflores,Planta Huachipa,Consumption Point,541,921
+Estación Ate,Estación Rímac,Consumption Point,980,625
+Planta Huachipa,Hogar Barranco,Pumping Station,815,154
+Comercial Lince,Estación Ate,Water Treatment Plant,617,628
+Tanque San Borja,Industria La Victoria,Water Treatment Plant,998,658
+Hogar Miraflores,Tanque Surco,Water Treatment Plant,312,939
+Planta Huachipa,Hogar Barranco,Storage Tank,371,957
+Planta Chillón,Industria La Victoria,Consumption Point,949,799
+Industria La Victoria,Hogar Barranco,Consumption Point,348,705
+Hogar Miraflores,Estación Ate,Consumption Point,640,473
+Industria La Victoria,Planta Huachipa,Pumping Station,728,367
+Tanque San Borja,Hogar Barranco,Storage Tank,727,725
+Hogar Miraflores,Estación Rímac,Pumping Station,887,619
+Comercial Lince,La Atarjea,Consumption Point,402,115
+Estación Ate,Planta Huachipa,Pumping Station,735,385
+Industria La Victoria,Planta Chillón,Storage Tank,813,572
+Industria La Victoria,Estación Rímac,Water Treatment Plant,162,51
+Planta Chillón,Estación Ate,Pumping Station,391,542
+Hogar Barranco,Hogar Miraflores,Consumption Point,863,306
+Hogar Miraflores,Estación Rímac,Storage Tank,862,737
+Tanque Surco,Hogar Barranco,Pumping Station,409,57
+Planta Chillón,Tanque Surco,Storage Tank,295,559
+Comercial Lince,Hogar Barranco,Consumption Point,951,804
+Comercial Lince,Industria La Victoria,Consumption Point,890,931
+Hogar Barranco,Estación Ate,Water Treatment Plant,770,955
+Industria La Victoria,Tanque Surco,Pumping Station,435,954
+La Atarjea,Industria La Victoria,Water Treatment Plant,631,786
+Planta Huachipa,Comercial Lince,Pumping Station,391,478
+Tanque Surco,Industria La Victoria,Consumption Point,561,623
+Hogar Barranco,Tanque La Molina,Water Treatment Plant,153,321
+Planta Chillón,Comercial Lince,Pumping Station,853,197
+Hogar Miraflores,Hogar Barranco,Water Treatment Plant,754,209
+Estación Ate,Tanque La Molina,Storage Tank,392,757
+Planta Huachipa,La Atarjea,Consumption Point,467,488
+Planta Huachipa,Comercial Lince,Consumption Point,602,310
+Hogar Barranco,La Atarjea,Storage Tank,866,779
+Tanque La Molina,Comercial Lince,Pumping Station,838,96
+Estación Ate,Comercial Lince,Storage Tank,481,201
+Industria La Victoria,Hogar Miraflores,Storage Tank,525,798
+Estación Ate,Planta Huachipa,Pumping Station,926,733
+Hogar Barranco,Estación Ate,Storage Tank,296,993
+Estación Rímac,Hogar Barranco,Storage Tank,600,835
+Tanque La Molina,Planta Huachipa,Consumption Point,962,645
+Comercial Lince,La Atarjea,Pumping Station,663,332
+Planta Huachipa,Hogar Barranco,Consumption Point,578,848
+Tanque La Molina,Comercial Lince,Water Treatment Plant,561,252
+Tanque San Borja,Planta Chillón,Storage Tank,561,788
+Planta Huachipa,La Atarjea,Pumping Station,804,740
+Planta Chillón,Comercial Lince,Storage Tank,932,18
+Estación Ate,Planta Huachipa,Water Treatment Plant,360,788
+Hogar Barranco,Tanque Surco,Water Treatment Plant,544,70
+Planta Huachipa,Estación Ate,Water Treatment Plant,897,474
+Hogar Miraflores,Hogar Barranco,Water Treatment Plant,802,502
+Hogar Barranco,Planta Huachipa,Pumping Station,111,853
+Planta Huachipa,Estación Rímac,Pumping Station,372,502
+La Atarjea,Planta Huachipa,Consumption Point,941,966
+Tanque La Molina,La Atarjea,Consumption Point,792,769
+Comercial Lince,Estación Ate,Storage Tank,387,266
+Industria La Victoria,Comercial Lince,Consumption Point,274,722
+Tanque La Molina,Planta Chillón,Water Treatment Plant,698,562
+Planta Chillón,Hogar Miraflores,Pumping Station,235,336
+La Atarjea,Tanque Surco,Water Treatment Plant,647,507
+Estación Rímac,La Atarjea,Storage Tank,236,64
+Comercial Lince,Estación Ate,Storage Tank,314,986
+Planta Chillón,Industria La Victoria,Water Treatment Plant,342,177
+Industria La Victoria,Planta Chillón,Storage Tank,360,54
+Hogar Miraflores,Tanque La Molina,Consumption Point,489,646
+Hogar Miraflores,Estación Rímac,Water Treatment Plant,388,511
+Planta Huachipa,Estación Rímac,Pumping Station,617,715
+Estación Ate,La Atarjea,Consumption Point,161,467
+Tanque La Molina,Industria La Victoria,Pumping Station,462,141
+Comercial Lince,Industria La Victoria,Water Treatment Plant,931,692
+Tanque La Molina,Estación Ate,Storage Tank,502,419
+Estación Rímac,Industria La Victoria,Water Treatment Plant,289,908
+Planta Chillón,Tanque Surco,Water Treatment Plant,421,64
+Industria La Victoria,Hogar Miraflores,Water Treatment Plant,403,58
+La Atarjea,Planta Huachipa,Water Treatment Plant,829,628
+Tanque San Borja,Hogar Miraflores,Water Treatment Plant,509,209
+La Atarjea,Tanque La Molina,Storage Tank,690,979
+Hogar Miraflores,Tanque La Molina,Pumping Station,968,898
+Tanque Surco,Industria La Victoria,Water Treatment Plant,666,629
+Comercial Lince,Planta Huachipa,Storage Tank,272,942
+Estación Rímac,Industria La Victoria,Water Treatment Plant,695,867
+Comercial Lince,Tanque Surco,Storage Tank,920,187
+Tanque La Molina,Industria La Victoria,Water Treatment Plant,215,394
+Planta Chillón,Planta Huachipa,Consumption Point,726,393
+Industria La Victoria,Hogar Barranco,Consumption Point,712,96
+Estación Ate,Hogar Miraflores,Water Treatment Plant,816,218
+Estación Rímac,Hogar Barranco,Storage Tank,461,307
+Tanque Surco,Planta Huachipa,Storage Tank,865,374
+La Atarjea,Hogar Barranco,Storage Tank,569,382
+Tanque San Borja,Planta Chillón,Storage Tank,383,547
+La Atarjea,Estación Ate,Pumping Station,325,459
+Tanque San Borja,La Atarjea,Consumption Point,801,82
+Hogar Barranco,Estación Ate,Water Treatment Plant,705,32
+La Atarjea,Estación Ate,Water Treatment Plant,720,220
+Tanque San Borja,Hogar Miraflores,Consumption Point,825,112
+Planta Huachipa,Tanque La Molina,Consumption Point,863,960
+Tanque La Molina,Hogar Barranco,Pumping Station,212,711
+Tanque Surco,Planta Huachipa,Consumption Point,261,823
+Estación Ate,Estación Rímac,Water Treatment Plant,249,160
+Hogar Barranco,Estación Rímac,Water Treatment Plant,958,262
+Hogar Miraflores,Estación Ate,Water Treatment Plant,555,281
+Hogar Barranco,Planta Chillón,Consumption Point,187,123
+Planta Huachipa,Estación Ate,Storage Tank,220,349
+La Atarjea,Hogar Miraflores,Pumping Station,526,205
+Tanque Surco,Planta Huachipa,Consumption Point,249,548
+Hogar Miraflores,Planta Huachipa,Pumping Station,854,463
+Tanque Surco,Planta Huachipa,Pumping Station,146,47
+La Atarjea,Industria La Victoria,Storage Tank,409,247
+Tanque Surco,Planta Chillón,Pumping Station,126,119
+Industria La Victoria,Planta Chillón,Storage Tank,284,991
+Planta Chillón,Hogar Miraflores,Pumping Station,483,931
+Comercial Lince,Hogar Barranco,Water Treatment Plant,460,248
+Planta Chillón,La Atarjea,Water Treatment Plant,350,725
+Tanque Surco,Comercial Lince,Consumption Point,518,489
+Hogar Miraflores,Hogar Barranco,Pumping Station,852,762
+Industria La Victoria,Tanque Surco,Pumping Station,694,414
+Tanque San Borja,Estación Rímac,Pumping Station,432,135
+Planta Huachipa,Estación Rímac,Water Treatment Plant,835,884
+Industria La Victoria,Comercial Lince,Water Treatment Plant,613,234
+Hogar Barranco,Estación Ate,Consumption Point,928,377
+Hogar Miraflores,Tanque La Molina,Consumption Point,551,11
+La Atarjea,Planta Chillón,Pumping Station,471,950
+Comercial Lince,Hogar Barranco,Pumping Station,849,538
+Planta Huachipa,Tanque La Molina,Water Treatment Plant,336,238
+La Atarjea,Hogar Miraflores,Storage Tank,915,857
+La Atarjea,Tanque Surco,Pumping Station,866,95
+Hogar Miraflores,Planta Chillón,Storage Tank,712,815
+La Atarjea,Hogar Barranco,Water Treatment Plant,788,909
+Estación Ate,Planta Chillón,Pumping Station,764,644
+Comercial Lince,Estación Ate,Storage Tank,679,384
+Tanque San Borja,Estación Ate,Water Treatment Plant,354,696
+Estación Ate,Comercial Lince,Storage Tank,866,754
+Tanque San Borja,La Atarjea,Water Treatment Plant,987,544
+Estación Ate,Planta Huachipa,Consumption Point,353,809
+Tanque La Molina,Comercial Lince,Pumping Station,364,408
+Hogar Barranco,Estación Rímac,Storage Tank,160,480
+Tanque La Molina,La Atarjea,Pumping Station,315,429
+Tanque Surco,Estación Rímac,Storage Tank,856,884
+Planta Chillón,La Atarjea,Consumption Point,637,835
+Estación Rímac,Estación Ate,Storage Tank,646,915
+Planta Chillón,Planta Huachipa,Storage Tank,567,479
+Planta Chillón,Planta Huachipa,Consumption Point,467,145
+Planta Chillón,Industria La Victoria,Storage Tank,686,802
+Planta Chillón,Industria La Victoria,Storage Tank,104,203
+Comercial Lince,Tanque Surco,Pumping Station,542,505
+Tanque Surco,Tanque La Molina,Storage Tank,245,428
+Hogar Miraflores,Hogar Barranco,Pumping Station,452,179
+Comercial Lince,Tanque La Molina,Storage Tank,421,979
+Planta Huachipa,Industria La Victoria,Consumption Point,226,350
+Tanque Surco,Hogar Miraflores,Pumping Station,162,435
+Planta Huachipa,Industria La Victoria,Water Treatment Plant,722,647
+Industria La Victoria,Planta Chillón,Consumption Point,929,137
+Estación Rímac,Estación Ate,Storage Tank,956,697
+Planta Chillón,Estación Ate,Consumption Point,856,145
+Tanque La Molina,Hogar Miraflores,Consumption Point,233,714
+Tanque San Borja,Hogar Miraflores,Water Treatment Plant,244,229
+Planta Chillón,Hogar Barranco,Water Treatment Plant,368,525
+Industria La Victoria,Planta Chillón,Consumption Point,522,376
+Comercial Lince,Estación Ate,Storage Tank,832,436
+Estación Rímac,Comercial Lince,Storage Tank,301,635
+Tanque La Molina,Hogar Barranco,Pumping Station,379,895
+Estación Rímac,Planta Huachipa,Water Treatment Plant,605,334
+Tanque La Molina,Hogar Miraflores,Consumption Point,116,695
+Planta Chillón,La Atarjea,Water Treatment Plant,366,333
+Industria La Victoria,La Atarjea,Pumping Station,870,669
+Industria La Victoria,Hogar Miraflores,Consumption Point,333,976
+Estación Rímac,La Atarjea,Pumping Station,547,819
+Comercial Lince,La Atarjea,Storage Tank,554,96
+Planta Chillón,Estación Ate,Water Treatment Plant,861,831
+Planta Chillón,Planta Huachipa,Water Treatment Plant,936,274
+Hogar Miraflores,Planta Chillón,Pumping Station,698,652
+Planta Chillón,Hogar Barranco,Storage Tank,869,425
+Comercial Lince,Tanque La Molina,Pumping Station,532,40
+Tanque Surco,Planta Chillón,Consumption Point,980,773
+Estación Ate,Hogar Barranco,Pumping Station,980,739
+Hogar Barranco,Estación Rímac,Pumping Station,950,679
+Tanque Surco,Hogar Miraflores,Pumping Station,369,651
+Planta Huachipa,Hogar Miraflores,Water Treatment Plant,454,249
+Estación Ate,La Atarjea,Pumping Station,312,893
+Tanque Surco,Hogar Barranco,Pumping Station,863,132
+Estación Rímac,Planta Chillón,Consumption Point,532,614
+Hogar Miraflores,Comercial Lince,Storage Tank,310,509
+Tanque Surco,Industria La Victoria,Pumping Station,833,847
+Industria La Victoria,Comercial Lince,Storage Tank,116,832
+Planta Huachipa,La Atarjea,Consumption Point,673,452
+Tanque La Molina,Planta Huachipa,Storage Tank,208,837
+Tanque Surco,Hogar Barranco,Pumping Station,699,826
+Comercial Lince,Industria La Victoria,Consumption Point,971,383
+Hogar Barranco,Tanque Surco,Pumping Station,419,363
+Hogar Miraflores,Hogar Barranco,Storage Tank,213,285
+Estación Rímac,Estación Ate,Water Treatment Plant,558,982
+Industria La Victoria,Tanque La Molina,Pumping Station,999,827
+Planta Huachipa,Estación Rímac,Storage Tank,957,359
+Estación Rímac,Planta Chillón,Water Treatment Plant,154,692
+Planta Huachipa,Industria La Victoria,Storage Tank,106,596
+Tanque Surco,Estación Ate,Consumption Point,164,545
+Estación Rímac,Industria La Victoria,Water Treatment Plant,725,236
+Industria La Victoria,Tanque Surco,Water Treatment Plant,924,513
+Tanque La Molina,La Atarjea,Pumping Station,131,723
+Tanque La Molina,Comercial Lince,Pumping Station,774,452
+La Atarjea,Estación Ate,Water Treatment Plant,486,683
+Planta Huachipa,Tanque Surco,Water Treatment Plant,105,175
+Tanque San Borja,La Atarjea,Storage Tank,765,364
+Tanque La Molina,Tanque Surco,Consumption Point,597,875
+La Atarjea,Estación Ate,Storage Tank,218,379
+Estación Rímac,Planta Chillón,Storage Tank,852,727
+Estación Rímac,Tanque La Molina,Storage Tank,374,147
+Estación Ate,Hogar Barranco,Storage Tank,865,317
+Tanque San Borja,La Atarjea,Consumption Point,539,545
+Hogar Miraflores,Estación Rímac,Storage Tank,550,57
+Tanque San Borja,Estación Rímac,Consumption Point,745,373
+Hogar Barranco,Estación Rímac,Water Treatment Plant,914,766
+Tanque La Molina,Hogar Miraflores,Storage Tank,733,831
+Planta Chillón,Estación Rímac,Pumping Station,686,45
+Tanque San Borja,Planta Huachipa,Pumping Station,648,656
+Hogar Barranco,Planta Huachipa,Consumption Point,941,356
+Hogar Miraflores,Tanque Surco,Water Treatment Plant,747,585
+Hogar Barranco,Planta Huachipa,Storage Tank,590,763
+Industria La Victoria,Planta Chillón,Water Treatment Plant,326,838
+Planta Huachipa,Estación Rímac,Pumping Station,409,891
+Hogar Miraflores,Estación Ate,Consumption Point,593,588
+Industria La Victoria,Tanque La Molina,Consumption Point,112,651
+Industria La Victoria,Estación Ate,Consumption Point,398,384
+Tanque La Molina,Estación Rímac,Storage Tank,107,205
+Comercial Lince,Industria La Victoria,Water Treatment Plant,178,347
+Hogar Barranco,Tanque Surco,Pumping Station,629,716
+Industria La Victoria,Estación Ate,Pumping Station,403,670
+Tanque La Molina,Hogar Barranco,Storage Tank,774,784
+Estación Ate,Tanque La Molina,Storage Tank,597,527
+Comercial Lince,Planta Huachipa,Consumption Point,896,805
+Tanque San Borja,Industria La Victoria,Storage Tank,207,526
+Hogar Miraflores,Estación Rímac,Pumping Station,806,997
+Planta Huachipa,Tanque La Molina,Pumping Station,109,146
+Planta Chillón,Tanque Surco,Pumping Station,305,490
+Tanque Surco,La Atarjea,Water Treatment Plant,586,951
+Tanque Surco,Hogar Barranco,Pumping Station,488,193
+Tanque Surco,Planta Huachipa,Consumption Point,629,124
+Planta Chillón,Tanque La Molina,Consumption Point,319,362
+Estación Ate,Planta Huachipa,Pumping Station,913,449
+Hogar Barranco,Comercial Lince,Storage Tank,488,707
+Hogar Barranco,Hogar Miraflores,Water Treatment Plant,143,604
+Planta Huachipa,Planta Chillón,Consumption Point,469,960
+Comercial Lince,Estación Rímac,Storage Tank,750,102
+Tanque San Borja,Industria La Victoria,Water Treatment Plant,596,558
+Tanque La Molina,Planta Huachipa,Consumption Point,105,293
+Industria La Victoria,Planta Huachipa,Pumping Station,409,611
+Tanque La Molina,Planta Chillón,Pumping Station,881,637
+Planta Chillón,Estación Rímac,Storage Tank,862,737
+Estación Rímac,Hogar Barranco,Water Treatment Plant,996,950
+Tanque La Molina,Industria La Victoria,Consumption Point,848,706
+Comercial Lince,Tanque Surco,Storage Tank,154,752
+Estación Ate,Tanque Surco,Water Treatment Plant,420,243
+La Atarjea,Hogar Barranco,Water Treatment Plant,587,590
+Estación Rímac,La Atarjea,Water Treatment Plant,377,880
+Estación Ate,Comercial Lince,Storage Tank,639,613
+La Atarjea,Planta Huachipa,Consumption Point,759,867
+Hogar Barranco,Hogar Miraflores,Water Treatment Plant,335,853
+Tanque San Borja,Hogar Barranco,Pumping Station,553,169
+Tanque Surco,Hogar Miraflores,Storage Tank,390,724
+Industria La Victoria,Hogar Miraflores,Storage Tank,607,829
+Hogar Miraflores,Tanque La Molina,Water Treatment Plant,858,291
+Hogar Barranco,Planta Huachipa,Water Treatment Plant,942,536
+Planta Chillón,Tanque Surco,Storage Tank,528,709
+La Atarjea,Planta Huachipa,Consumption Point,261,186
+La Atarjea,Hogar Barranco,Water Treatment Plant,979,668
+Hogar Barranco,Comercial Lince,Storage Tank,215,358
+Tanque San Borja,Hogar Miraflores,Consumption Point,566,382
+Estación Rímac,Comercial Lince,Water Treatment Plant,491,816
+La Atarjea,Estación Rímac,Storage Tank,133,117
+La Atarjea,Hogar Barranco,Storage Tank,486,110
+Hogar Barranco,Estación Ate,Water Treatment Plant,967,357
+Comercial Lince,Tanque La Molina,Storage Tank,308,338
+Tanque La Molina,Hogar Miraflores,Storage Tank,605,108
+Estación Rímac,Planta Huachipa,Water Treatment Plant,815,764
+Comercial Lince,La Atarjea,Water Treatment Plant,744,32
+Comercial Lince,Planta Chillón,Water Treatment Plant,661,102
+Planta Huachipa,Comercial Lince,Consumption Point,136,214
+Hogar Miraflores,La Atarjea,Consumption Point,270,25
+Planta Huachipa,Estación Rímac,Storage Tank,356,403
+Estación Rímac,Comercial Lince,Storage Tank,384,333
+Estación Ate,Hogar Miraflores,Consumption Point,920,361
+Planta Chillón,Estación Rímac,Pumping Station,861,827
+Hogar Barranco,Industria La Victoria,Pumping Station,914,844
+Planta Chillón,Estación Rímac,Consumption Point,508,876
+La Atarjea,Estación Rímac,Water Treatment Plant,287,292
+Hogar Miraflores,Comercial Lince,Water Treatment Plant,902,306
+Comercial Lince,Planta Chillón,Water Treatment Plant,360,770
+Planta Chillón,Comercial Lince,Storage Tank,705,196
+La Atarjea,Hogar Barranco,Storage Tank,893,60
+Hogar Barranco,Estación Rímac,Consumption Point,994,353
+Hogar Barranco,Planta Huachipa,Water Treatment Plant,462,83
+Hogar Miraflores,Planta Huachipa,Pumping Station,820,161
+Hogar Barranco,La Atarjea,Pumping Station,192,290
+Tanque San Borja,Comercial Lince,Water Treatment Plant,503,678
+Planta Chillón,La Atarjea,Water Treatment Plant,908,701
+Tanque San Borja,Tanque La Molina,Storage Tank,217,451
+Tanque Surco,Hogar Miraflores,Consumption Point,357,911
+Industria La Victoria,Estación Rímac,Pumping Station,137,709
+Tanque Surco,Comercial Lince,Water Treatment Plant,504,811
+Industria La Victoria,Planta Huachipa,Storage Tank,612,115
+Tanque San Borja,Estación Rímac,Water Treatment Plant,539,210
+La Atarjea,Planta Chillón,Consumption Point,898,24
+Tanque San Borja,Comercial Lince,Water Treatment Plant,553,479
+Tanque Surco,Tanque La Molina,Water Treatment Plant,1000,778
+Tanque La Molina,Hogar Barranco,Pumping Station,993,34
+Industria La Victoria,Estación Ate,Water Treatment Plant,730,14
+Comercial Lince,Industria La Victoria,Pumping Station,284,465
+Planta Huachipa,Planta Chillón,Water Treatment Plant,379,932
+Comercial Lince,Tanque Surco,Water Treatment Plant,872,54
+Planta Huachipa,Tanque La Molina,Storage Tank,648,133
+Comercial Lince,La Atarjea,Pumping Station,109,908
+Hogar Barranco,Planta Huachipa,Storage Tank,310,116
+La Atarjea,Industria La Victoria,Water Treatment Plant,421,893
+Planta Chillón,Tanque Surco,Pumping Station,168,838
+Industria La Victoria,Hogar Miraflores,Storage Tank,342,933
+Planta Huachipa,Hogar Barranco,Storage Tank,943,860
+Tanque Surco,Planta Huachipa,Storage Tank,853,583
+Hogar Miraflores,Planta Chillón,Pumping Station,402,387
+Tanque Surco,La Atarjea,Storage Tank,633,603
+Tanque San Borja,Hogar Miraflores,Consumption Point,196,544
+Hogar Miraflores,Tanque La Molina,Water Treatment Plant,323,943
+Tanque Surco,Estación Ate,Water Treatment Plant,227,152
+Tanque Surco,Hogar Barranco,Consumption Point,545,400
+Tanque La Molina,Estación Ate,Pumping Station,500,655
+Estación Rímac,La Atarjea,Water Treatment Plant,894,91
+Planta Chillón,Comercial Lince,Pumping Station,853,471
+Industria La Victoria,La Atarjea,Storage Tank,356,816
+Estación Ate,Comercial Lince,Water Treatment Plant,639,395
+Comercial Lince,Estación Ate,Storage Tank,385,880
+Tanque Surco,Hogar Barranco,Pumping Station,844,919
+Planta Huachipa,La Atarjea,Storage Tank,424,959
+Hogar Miraflores,La Atarjea,Consumption Point,818,110
+Planta Huachipa,Hogar Miraflores,Consumption Point,423,443
+Tanque San Borja,Hogar Barranco,Consumption Point,318,19
+Tanque Surco,Hogar Barranco,Consumption Point,377,461
+Hogar Miraflores,Comercial Lince,Pumping Station,619,423
+Hogar Miraflores,Industria La Victoria,Pumping Station,918,766
+Planta Chillón,Hogar Miraflores,Consumption Point,590,452
+Planta Chillón,Hogar Barranco,Water Treatment Plant,583,415
+Tanque La Molina,Hogar Miraflores,Pumping Station,696,946
+La Atarjea,Tanque Surco,Storage Tank,386,46
+Hogar Miraflores,Estación Ate,Water Treatment Plant,435,606
+Industria La Victoria,Hogar Barranco,Water Treatment Plant,745,97
+Industria La Victoria,Planta Huachipa,Storage Tank,215,795
+Estación Rímac,Comercial Lince,Water Treatment Plant,105,209
+Planta Chillón,Comercial Lince,Water Treatment Plant,890,613
+La Atarjea,Planta Chillón,Water Treatment Plant,942,858
+Hogar Miraflores,Estación Ate,Water Treatment Plant,430,734
+Tanque Surco,Planta Chillón,Consumption Point,541,11
+Hogar Miraflores,Planta Huachipa,Water Treatment Plant,516,125
+Industria La Victoria,Planta Chillón,Storage Tank,934,618
+Estación Ate,Hogar Miraflores,Water Treatment Plant,379,813
+Estación Ate,Planta Huachipa,Water Treatment Plant,188,779
+Tanque San Borja,Planta Huachipa,Storage Tank,650,186
+Estación Rímac,Hogar Miraflores,Storage Tank,503,450
+Estación Rímac,Industria La Victoria,Storage Tank,772,156
+Tanque San Borja,Estación Ate,Consumption Point,243,869
+Tanque San Borja,Comercial Lince,Pumping Station,804,696
+Tanque San Borja,Hogar Miraflores,Storage Tank,669,636
+Industria La Victoria,Estación Ate,Water Treatment Plant,139,32
+Hogar Miraflores,Planta Chillón,Storage Tank,928,815
+Estación Rímac,Tanque Surco,Water Treatment Plant,131,985
+Tanque Surco,Estación Ate,Pumping Station,655,665
+Planta Huachipa,Hogar Miraflores,Water Treatment Plant,175,511
+La Atarjea,Industria La Victoria,Storage Tank,827,950
+Tanque Surco,Hogar Miraflores,Consumption Point,481,160
+Tanque La Molina,Comercial Lince,Storage Tank,385,638
+Planta Huachipa,Estación Rímac,Consumption Point,269,503
+Planta Chillón,Comercial Lince,Storage Tank,910,505
+Tanque Surco,Planta Huachipa,Storage Tank,858,95
+Industria La Victoria,Hogar Miraflores,Pumping Station,995,816
+Planta Chillón,Comercial Lince,Storage Tank,632,192
+Hogar Miraflores,Tanque La Molina,Water Treatment Plant,319,63
+Tanque La Molina,Hogar Miraflores,Consumption Point,785,494
+Industria La Victoria,Tanque La Molina,Water Treatment Plant,475,387
+Tanque La Molina,Estación Ate,Pumping Station,519,131
+Tanque La Molina,Planta Chillón,Water Treatment Plant,904,317
+Industria La Victoria,Planta Chillón,Consumption Point,791,946
+Hogar Barranco,Tanque La Molina,Storage Tank,936,512
+Tanque San Borja,Hogar Miraflores,Pumping Station,200,285
+Hogar Miraflores,Industria La Victoria,Pumping Station,527,940
+Industria La Victoria,Comercial Lince,Consumption Point,756,898
+Tanque San Borja,Hogar Barranco,Pumping Station,268,427
+Tanque Surco,Estación Ate,Storage Tank,250,795
+Industria La Victoria,Estación Rímac,Consumption Point,377,892
+Planta Huachipa,Hogar Miraflores,Pumping Station,645,124
+Comercial Lince,Planta Huachipa,Storage Tank,202,476
+Tanque La Molina,Estación Rímac,Storage Tank,235,838
+Planta Huachipa,Comercial Lince,Consumption Point,318,51
+Hogar Barranco,Industria La Victoria,Pumping Station,363,948
+Tanque La Molina,Planta Chillón,Water Treatment Plant,952,61
+Estación Ate,Tanque La Molina,Pumping Station,530,853
+La Atarjea,Hogar Barranco,Pumping Station,459,579
+Estación Ate,Hogar Barranco,Storage Tank,526,169
+Tanque San Borja,Hogar Barranco,Pumping Station,568,123
+Tanque Surco,Estación Ate,Water Treatment Plant,484,677
+Tanque La Molina,Tanque Surco,Water Treatment Plant,899,771
+Planta Huachipa,Planta Chillón,Water Treatment Plant,456,410
+Tanque San Borja,Hogar Miraflores,Storage Tank,529,81
+Hogar Miraflores,Estación Rímac,Pumping Station,249,110
+Tanque Surco,Planta Huachipa,Consumption Point,680,220
+Estación Rímac,Hogar Barranco,Storage Tank,257,423
+Industria La Victoria,Planta Chillón,Pumping Station,726,940
+Comercial Lince,Estación Rímac,Consumption Point,181,956
+Estación Rímac,Hogar Miraflores,Water Treatment Plant,868,22
+Estación Ate,Hogar Barranco,Water Treatment Plant,754,955
+Comercial Lince,La Atarjea,Pumping Station,322,954
+Comercial Lince,Hogar Barranco,Water Treatment Plant,898,221
+Comercial Lince,Estación Rímac,Consumption Point,561,889
+Hogar Barranco,Estación Rímac,Storage Tank,197,47
+Hogar Miraflores,Tanque La Molina,Consumption Point,381,705
+Tanque Surco,Planta Chillón,Pumping Station,909,491
+Estación Rímac,Planta Chillón,Storage Tank,407,127
+Tanque La Molina,La Atarjea,Consumption Point,883,640
+La Atarjea,Hogar Barranco,Pumping Station,358,821
+La Atarjea,Estación Ate,Water Treatment Plant,475,796
+Hogar Miraflores,Tanque Surco,Consumption Point,907,306
+Estación Ate,Industria La Victoria,Consumption Point,508,195
+Planta Huachipa,Hogar Miraflores,Water Treatment Plant,840,191
+Tanque San Borja,Hogar Barranco,Storage Tank,566,700
+Hogar Miraflores,Comercial Lince,Pumping Station,180,59
+Tanque La Molina,Tanque Surco,Storage Tank,188,840
+Planta Chillón,Planta Huachipa,Water Treatment Plant,985,288
+Hogar Miraflores,Estación Ate,Consumption Point,945,479
+Tanque Surco,Estación Rímac,Consumption Point,481,745
+Hogar Miraflores,Hogar Barranco,Pumping Station,854,70
+Planta Huachipa,Hogar Miraflores,Consumption Point,775,142
+Planta Huachipa,Industria La Victoria,Storage Tank,370,137
+Tanque La Molina,Hogar Miraflores,Consumption Point,774,864
+Industria La Victoria,Estación Rímac,Water Treatment Plant,622,507
+Estación Ate,Tanque Surco,Water Treatment Plant,369,572
+Tanque La Molina,Hogar Barranco,Consumption Point,611,332
+Estación Rímac,Planta Huachipa,Water Treatment Plant,718,991
+Tanque Surco,Industria La Victoria,Storage Tank,505,105
+Planta Chillón,Hogar Miraflores,Pumping Station,769,634
+La Atarjea,Tanque La Molina,Storage Tank,990,715
+Estación Ate,La Atarjea,Pumping Station,557,291
+Hogar Miraflores,Estación Rímac,Water Treatment Plant,981,701
+Tanque Surco,Hogar Barranco,Consumption Point,112,466
+La Atarjea,Planta Chillón,Consumption Point,321,689
+La Atarjea,Hogar Barranco,Consumption Point,233,68
+Hogar Barranco,Tanque Surco,Water Treatment Plant,773,899
+Estación Rímac,La Atarjea,Consumption Point,934,674
+Planta Huachipa,Planta Chillón,Storage Tank,886,90
+Planta Huachipa,Planta Chillón,Pumping Station,960,402
+Comercial Lince,Tanque Surco,Storage Tank,724,247
+Estación Rímac,Tanque La Molina,Pumping Station,979,616
+La Atarjea,Comercial Lince,Consumption Point,485,734
+Comercial Lince,Planta Huachipa,Water Treatment Plant,663,588
+Estación Ate,Tanque La Molina,Water Treatment Plant,192,402
+Comercial Lince,Hogar Barranco,Storage Tank,599,319
+La Atarjea,Hogar Barranco,Storage Tank,855,931
+Comercial Lince,La Atarjea,Pumping Station,845,585
+La Atarjea,Estación Ate,Water Treatment Plant,701,633
+Hogar Miraflores,Tanque Surco,Water Treatment Plant,855,328
+Hogar Miraflores,Industria La Victoria,Water Treatment Plant,831,103
+Comercial Lince,La Atarjea,Storage Tank,694,789
+Hogar Barranco,Industria La Victoria,Water Treatment Plant,507,918
+Comercial Lince,Tanque La Molina,Pumping Station,595,883
+Tanque San Borja,Planta Huachipa,Water Treatment Plant,404,934
+Hogar Miraflores,Hogar Barranco,Consumption Point,206,509
+Hogar Miraflores,Estación Rímac,Water Treatment Plant,455,709
+Tanque La Molina,Planta Chillón,Water Treatment Plant,807,830
+Estación Ate,Tanque La Molina,Pumping Station,186,745
+Planta Chillón,Hogar Barranco,Consumption Point,656,94
+Industria La Victoria,Tanque La Molina,Water Treatment Plant,816,562
+Hogar Miraflores,Tanque La Molina,Consumption Point,202,803
+Tanque San Borja,Hogar Barranco,Water Treatment Plant,739,556
+Estación Ate,Tanque La Molina,Pumping Station,774,819
+Tanque San Borja,Industria La Victoria,Storage Tank,573,934
+Planta Huachipa,La Atarjea,Pumping Station,779,625
+Planta Huachipa,Tanque La Molina,Water Treatment Plant,581,233
+Hogar Miraflores,Tanque Surco,Pumping Station,862,819
+Hogar Miraflores,Tanque Surco,Pumping Station,712,299
+Planta Huachipa,Comercial Lince,Water Treatment Plant,282,438
+La Atarjea,Industria La Victoria,Storage Tank,833,380
+Comercial Lince,Planta Chillón,Pumping Station,909,480
+Industria La Victoria,Hogar Barranco,Consumption Point,827,461
+Tanque San Borja,Industria La Victoria,Consumption Point,364,355
+Estación Ate,La Atarjea,Pumping Station,500,588
+Estación Ate,Estación Rímac,Water Treatment Plant,194,171
+Estación Rímac,Hogar Barranco,Water Treatment Plant,637,575
+Industria La Victoria,Estación Ate,Consumption Point,647,367
+Estación Rímac,Hogar Barranco,Water Treatment Plant,530,118
+Comercial Lince,Planta Chillón,Consumption Point,397,768
+Planta Chillón,Industria La Victoria,Pumping Station,545,697
+Estación Ate,La Atarjea,Consumption Point,232,733
+Hogar Barranco,Estación Ate,Consumption Point,186,520
+Comercial Lince,Hogar Barranco,Water Treatment Plant,460,470
+Hogar Barranco,Industria La Victoria,Storage Tank,935,324
+Industria La Victoria,La Atarjea,Pumping Station,535,110
+Estación Ate,Planta Chillón,Water Treatment Plant,563,52
+Estación Ate,Comercial Lince,Pumping Station,451,192
+Hogar Barranco,Tanque Surco,Storage Tank,190,262
+Planta Huachipa,Comercial Lince,Consumption Point,841,323
+Comercial Lince,Hogar Miraflores,Pumping Station,574,298
+Hogar Barranco,Industria La Victoria,Water Treatment Plant,592,80
+Planta Huachipa,Tanque Surco,Storage Tank,829,204
+Comercial Lince,Planta Chillón,Water Treatment Plant,782,569
+Industria La Victoria,Estación Rímac,Pumping Station,269,831
+Hogar Barranco,Planta Huachipa,Pumping Station,307,499
+Hogar Barranco,Comercial Lince,Pumping Station,312,48
+Planta Chillón,Hogar Barranco,Consumption Point,355,764
+Estación Ate,Tanque La Molina,Storage Tank,557,395
+Tanque La Molina,Estación Rímac,Pumping Station,967,503
+Estación Rímac,Hogar Barranco,Water Treatment Plant,796,460
+Estación Ate,Tanque Surco,Consumption Point,186,852
+Planta Chillón,La Atarjea,Consumption Point,635,763
+Industria La Victoria,Comercial Lince,Consumption Point,691,596
+Hogar Miraflores,La Atarjea,Storage Tank,482,585
+Tanque San Borja,Planta Huachipa,Consumption Point,692,725
+Planta Huachipa,Tanque La Molina,Storage Tank,911,65
+Tanque San Borja,Hogar Miraflores,Storage Tank,213,92
+Comercial Lince,Industria La Victoria,Consumption Point,137,437
+Estación Ate,Planta Huachipa,Consumption Point,203,750
+Tanque La Molina,Estación Ate,Storage Tank,779,392
+La Atarjea,Hogar Barranco,Water Treatment Plant,389,81
+La Atarjea,Estación Ate,Pumping Station,622,498
+Hogar Barranco,Comercial Lince,Storage Tank,979,516
+Tanque La Molina,Industria La Victoria,Pumping Station,122,479
+Hogar Barranco,La Atarjea,Consumption Point,168,889
+Tanque La Molina,Hogar Miraflores,Consumption Point,443,274
+Planta Huachipa,La Atarjea,Pumping Station,231,166
+Tanque La Molina,Planta Huachipa,Storage Tank,750,508
+Planta Chillón,Hogar Barranco,Consumption Point,143,405
+Tanque San Borja,Tanque La Molina,Water Treatment Plant,861,325
+Tanque San Borja,Industria La Victoria,Pumping Station,981,371
+Tanque San Borja,Tanque La Molina,Storage Tank,493,45
+La Atarjea,Hogar Barranco,Water Treatment Plant,379,85
+Planta Huachipa,Estación Rímac,Storage Tank,804,503
+Planta Huachipa,Estación Rímac,Pumping Station,200,66
+Industria La Victoria,Estación Rímac,Water Treatment Plant,368,98
+Industria La Victoria,La Atarjea,Water Treatment Plant,839,818
+La Atarjea,Estación Rímac,Pumping Station,242,550
+Industria La Victoria,Planta Chillón,Water Treatment Plant,607,1000
+Tanque San Borja,Planta Chillón,Water Treatment Plant,316,633
+Industria La Victoria,Hogar Barranco,Consumption Point,650,441
+Comercial Lince,Planta Chillón,Water Treatment Plant,238,318
+Tanque Surco,Estación Ate,Consumption Point,528,923
+Hogar Miraflores,Tanque La Molina,Pumping Station,381,719
+Estación Ate,Hogar Barranco,Storage Tank,888,756
+Tanque San Borja,Estación Rímac,Storage Tank,867,400
+Hogar Barranco,Tanque Surco,Consumption Point,902,987
+Planta Huachipa,La Atarjea,Water Treatment Plant,860,80
+Hogar Miraflores,Planta Chillón,Consumption Point,621,386
+Planta Huachipa,Hogar Barranco,Pumping Station,498,77
+Tanque San Borja,La Atarjea,Storage Tank,959,370
+Hogar Barranco,Industria La Victoria,Storage Tank,300,813
+Tanque Surco,Comercial Lince,Consumption Point,458,883
+Tanque Surco,Comercial Lince,Water Treatment Plant,399,873
+Estación Ate,Industria La Victoria,Pumping Station,342,929
+Hogar Barranco,Estación Ate,Storage Tank,630,817
+Planta Huachipa,Industria La Victoria,Pumping Station,961,866
+La Atarjea,Industria La Victoria,Water Treatment Plant,222,570
+La Atarjea,Tanque Surco,Water Treatment Plant,626,534
+Planta Huachipa,Estación Rímac,Water Treatment Plant,940,672
+Estación Ate,Planta Chillón,Water Treatment Plant,560,451
+Hogar Miraflores,Comercial Lince,Storage Tank,392,935
+Industria La Victoria,Planta Huachipa,Water Treatment Plant,108,290
+Estación Ate,Planta Chillón,Storage Tank,274,120
+Tanque San Borja,Hogar Miraflores,Consumption Point,741,851
+Estación Rímac,Tanque La Molina,Consumption Point,193,930
+Tanque La Molina,Estación Rímac,Consumption Point,160,596
+Tanque San Borja,Hogar Miraflores,Storage Tank,869,957
+Planta Chillón,Industria La Victoria,Consumption Point,205,884
+Comercial Lince,Planta Chillón,Storage Tank,495,67
+Estación Ate,La Atarjea,Storage Tank,770,443
+Planta Chillón,Planta Huachipa,Pumping Station,684,203
+Estación Rímac,Tanque Surco,Water Treatment Plant,692,674
+Hogar Barranco,Estación Ate,Water Treatment Plant,422,501
+Hogar Barranco,Comercial Lince,Pumping Station,934,667
+Planta Huachipa,Estación Ate,Pumping Station,582,647
+Industria La Victoria,La Atarjea,Pumping Station,284,339
+La Atarjea,Comercial Lince,Storage Tank,482,785
+Tanque San Borja,Hogar Barranco,Consumption Point,263,517
+Planta Chillón,Comercial Lince,Storage Tank,933,283
+Industria La Victoria,Hogar Barranco,Water Treatment Plant,976,74
+Tanque Surco,Planta Chillón,Pumping Station,911,759
+La Atarjea,Estación Rímac,Pumping Station,434,398
+Estación Rímac,Hogar Miraflores,Pumping Station,967,928
+La Atarjea,Comercial Lince,Storage Tank,539,161
+Tanque San Borja,Estación Rímac,Storage Tank,437,411
+Tanque La Molina,Industria La Victoria,Consumption Point,170,110
+Estación Rímac,Planta Huachipa,Water Treatment Plant,953,552
+La Atarjea,Planta Huachipa,Storage Tank,159,223
+Estación Ate,Planta Chillón,Consumption Point,132,111
+Estación Ate,La Atarjea,Water Treatment Plant,161,240
+Tanque Surco,Hogar Barranco,Pumping Station,836,922
+Estación Rímac,Estación Ate,Consumption Point,198,96
+Planta Chillón,Hogar Miraflores,Pumping Station,538,786
+Hogar Barranco,La Atarjea,Pumping Station,849,230
+Planta Chillón,Tanque La Molina,Water Treatment Plant,644,898
+Comercial Lince,Tanque Surco,Consumption Point,804,647
+Tanque San Borja,Hogar Miraflores,Storage Tank,710,200
+Tanque Surco,Estación Rímac,Water Treatment Plant,585,735
+Comercial Lince,Hogar Miraflores,Water Treatment Plant,625,285
+Comercial Lince,Planta Chillón,Pumping Station,856,149
+Planta Chillón,Tanque Surco,Consumption Point,459,113
+Estación Ate,Planta Chillón,Water Treatment Plant,509,648
+Planta Chillón,Hogar Miraflores,Water Treatment Plant,256,423
+Comercial Lince,Estación Rímac,Water Treatment Plant,160,658
+Planta Huachipa,La Atarjea,Water Treatment Plant,351,280
+Comercial Lince,Planta Chillón,Consumption Point,871,409
+Planta Huachipa,Planta Chillón,Consumption Point,363,251
+Planta Chillón,Hogar Barranco,Storage Tank,205,929
+Tanque La Molina,Estación Rímac,Pumping Station,819,731
+Estación Ate,La Atarjea,Consumption Point,129,296
+Tanque San Borja,Industria La Victoria,Storage Tank,888,495
+Estación Rímac,Planta Chillón,Consumption Point,760,670
+Planta Chillón,Tanque Surco,Consumption Point,406,109
+Planta Huachipa,Hogar Barranco,Consumption Point,295,733
+Tanque San Borja,Tanque La Molina,Storage Tank,199,406
+Hogar Miraflores,Tanque Surco,Water Treatment Plant,625,459
+La Atarjea,Estación Rímac,Pumping Station,672,454
+Comercial Lince,Industria La Victoria,Consumption Point,967,492
+Comercial Lince,Tanque Surco,Consumption Point,191,286
+Planta Huachipa,Estación Ate,Consumption Point,540,485
+Hogar Barranco,Industria La Victoria,Storage Tank,416,570
+La Atarjea,Industria La Victoria,Storage Tank,482,966
+Comercial Lince,Planta Chillón,Pumping Station,751,966
+Hogar Miraflores,Planta Chillón,Consumption Point,670,148
+Estación Rímac,La Atarjea,Storage Tank,272,250
+Comercial Lince,Hogar Barranco,Storage Tank,205,526
+Industria La Victoria,Hogar Barranco,Water Treatment Plant,223,853
+Tanque Surco,Comercial Lince,Consumption Point,571,166
+Planta Chillón,Estación Ate,Pumping Station,274,264
+Estación Ate,Planta Huachipa,Storage Tank,818,399
+Planta Chillón,Comercial Lince,Storage Tank,838,157
+Planta Huachipa,Comercial Lince,Water Treatment Plant,533,932
+Estación Rímac,Hogar Barranco,Pumping Station,783,737
+La Atarjea,Planta Huachipa,Water Treatment Plant,725,507
+Tanque San Borja,Hogar Barranco,Consumption Point,313,166
+Planta Huachipa,Tanque Surco,Pumping Station,985,723
+Estación Ate,Estación Rímac,Water Treatment Plant,274,614
+La Atarjea,Planta Huachipa,Pumping Station,489,119
+Planta Huachipa,Hogar Miraflores,Water Treatment Plant,994,36
+Planta Chillón,Hogar Miraflores,Water Treatment Plant,137,781
+Industria La Victoria,Hogar Barranco,Water Treatment Plant,656,151
+Tanque San Borja,Hogar Miraflores,Water Treatment Plant,921,973
+Tanque Surco,Comercial Lince,Storage Tank,572,47
+Tanque Surco,Hogar Barranco,Pumping Station,669,481
+Tanque Surco,Planta Huachipa,Consumption Point,439,369
+Planta Chillón,Hogar Miraflores,Storage Tank,304,30
+Estación Ate,Hogar Miraflores,Water Treatment Plant,706,621
+Tanque Surco,Estación Ate,Storage Tank,344,1000
+Tanque San Borja,Hogar Barranco,Storage Tank,732,878
+Comercial Lince,Tanque La Molina,Storage Tank,809,938
+Hogar Barranco,Tanque La Molina,Water Treatment Plant,444,653
+Industria La Victoria,Tanque La Molina,Consumption Point,814,974
+La Atarjea,Comercial Lince,Pumping Station,159,29
+Comercial Lince,Estación Rímac,Storage Tank,495,647
+Estación Rímac,Tanque La Molina,Pumping Station,517,410
+Tanque La Molina,Planta Chillón,Consumption Point,868,469
+La Atarjea,Tanque La Molina,Water Treatment Plant,905,729
+La Atarjea,Tanque La Molina,Consumption Point,243,136
+Planta Chillón,Estación Rímac,Pumping Station,636,217
+Planta Chillón,Hogar Miraflores,Water Treatment Plant,187,337
+Estación Ate,Planta Chillón,Water Treatment Plant,827,69
+Planta Huachipa,Hogar Barranco,Water Treatment Plant,673,855
+Planta Huachipa,Hogar Barranco,Water Treatment Plant,683,456
+Estación Ate,Hogar Barranco,Pumping Station,221,575
+Estación Rímac,Hogar Barranco,Pumping Station,101,124
+Estación Rímac,Planta Chillón,Consumption Point,843,152
+Tanque Surco,Comercial Lince,Storage Tank,203,616
+Tanque San Borja,La Atarjea,Consumption Point,171,794
+Comercial Lince,La Atarjea,Consumption Point,556,932
+La Atarjea,Planta Chillón,Consumption Point,963,348
+Comercial Lince,Estación Rímac,Storage Tank,583,521
+Tanque La Molina,Industria La Victoria,Pumping Station,461,118
+Hogar Barranco,Estación Rímac,Storage Tank,146,945
+Industria La Victoria,Hogar Barranco,Water Treatment Plant,711,129
+Comercial Lince,Hogar Miraflores,Consumption Point,683,287
+Industria La Victoria,Planta Huachipa,Pumping Station,460,453
+Comercial Lince,Tanque La Molina,Pumping Station,214,918
+Industria La Victoria,La Atarjea,Consumption Point,802,151
+La Atarjea,Hogar Barranco,Storage Tank,646,705
+Tanque San Borja,Planta Huachipa,Storage Tank,163,375
+Planta Huachipa,Hogar Barranco,Consumption Point,988,828
+Estación Ate,Hogar Barranco,Storage Tank,127,581
+Tanque La Molina,Tanque Surco,Storage Tank,411,461
+Planta Huachipa,Hogar Miraflores,Water Treatment Plant,455,322
+Hogar Barranco,Estación Rímac,Water Treatment Plant,833,711
+Estación Ate,Planta Chillón,Pumping Station,639,880
+Hogar Miraflores,La Atarjea,Consumption Point,177,143
+Tanque Surco,Hogar Barranco,Water Treatment Plant,610,488
+Tanque San Borja,Estación Rímac,Consumption Point,932,50
+Planta Chillón,Hogar Barranco,Water Treatment Plant,844,513
+Tanque Surco,Estación Rímac,Storage Tank,904,680
+Planta Chillón,Hogar Miraflores,Pumping Station,330,999
+Industria La Victoria,Comercial Lince,Storage Tank,793,842
+Estación Ate,Comercial Lince,Storage Tank,817,505
+Planta Huachipa,Comercial Lince,Pumping Station,589,590
+Hogar Barranco,Estación Rímac,Consumption Point,441,308
+Estación Ate,Hogar Barranco,Consumption Point,247,326
+La Atarjea,Industria La Victoria,Consumption Point,754,855
+Tanque Surco,La Atarjea,Water Treatment Plant,134,352
+Planta Huachipa,Hogar Barranco,Consumption Point,875,537
+Planta Chillón,Estación Ate,Storage Tank,362,593
+Tanque La Molina,Estación Rímac,Consumption Point,683,452
+Estación Rímac,Estación Ate,Pumping Station,779,966
+Comercial Lince,Estación Ate,Pumping Station,413,313
+Industria La Victoria,Planta Huachipa,Storage Tank,861,82
+La Atarjea,Estación Rímac,Water Treatment Plant,412,920
+Estación Ate,Comercial Lince,Pumping Station,282,723
+Comercial Lince,Industria La Victoria,Pumping Station,162,781
+Planta Chillón,Tanque Surco,Consumption Point,708,656
+Hogar Barranco,Estación Ate,Water Treatment Plant,865,780
+Industria La Victoria,Planta Chillón,Pumping Station,115,708
+Tanque San Borja,Tanque Surco,Storage Tank,548,380
+Estación Rímac,Comercial Lince,Storage Tank,408,129
+Industria La Victoria,Hogar Barranco,Consumption Point,901,708
+Planta Huachipa,Tanque Surco,Water Treatment Plant,562,193
+Tanque Surco,Industria La Victoria,Pumping Station,899,47
+Industria La Victoria,Hogar Miraflores,Water Treatment Plant,115,296
+Industria La Victoria,Hogar Barranco,Storage Tank,727,488
+Tanque La Molina,Comercial Lince,Water Treatment Plant,993,558
+Industria La Victoria,Tanque La Molina,Storage Tank,824,732
+Tanque La Molina,Hogar Barranco,Storage Tank,428,862
+Hogar Barranco,Tanque La Molina,Consumption Point,122,548
+Estación Rímac,Planta Chillón,Storage Tank,957,62
+Estación Ate,Estación Rímac,Pumping Station,228,445
+Planta Huachipa,Tanque Surco,Pumping Station,940,939
+Planta Huachipa,Planta Chillón,Storage Tank,938,885
+Estación Rímac,Industria La Victoria,Storage Tank,367,407
+Comercial Lince,Planta Chillón,Storage Tank,765,592
+Comercial Lince,Estación Ate,Consumption Point,989,514
+Comercial Lince,Hogar Miraflores,Consumption Point,624,190
+Planta Chillón,Hogar Miraflores,Consumption Point,854,299
+Tanque Surco,Planta Huachipa,Water Treatment Plant,902,720
+Hogar Miraflores,Hogar Barranco,Storage Tank,441,96
+Tanque Surco,Planta Chillón,Storage Tank,581,409
+Tanque La Molina,La Atarjea,Consumption Point,104,791
+La Atarjea,Comercial Lince,Storage Tank,611,229
+Tanque Surco,Hogar Miraflores,Consumption Point,353,497
+Planta Chillón,Hogar Barranco,Water Treatment Plant,192,673
+Hogar Barranco,Tanque Surco,Water Treatment Plant,454,772
+Tanque San Borja,Estación Ate,Water Treatment Plant,822,137
+La Atarjea,Tanque Surco,Pumping Station,106,652
+Estación Ate,Hogar Miraflores,Water Treatment Plant,264,693
+Tanque Surco,Hogar Barranco,Pumping Station,656,135
+Hogar Barranco,La Atarjea,Consumption Point,121,518
+Estación Ate,Industria La Victoria,Pumping Station,606,766
+La Atarjea,Planta Huachipa,Storage Tank,529,232
+Comercial Lince,Estación Ate,Consumption Point,176,759
+Tanque Surco,Hogar Barranco,Storage Tank,850,807
+Industria La Victoria,La Atarjea,Consumption Point,984,25
+Industria La Victoria,Hogar Barranco,Consumption Point,609,422
+Planta Huachipa,Tanque La Molina,Water Treatment Plant,467,874
+Industria La Victoria,Comercial Lince,Water Treatment Plant,950,862
+Estación Rímac,Hogar Barranco,Storage Tank,765,70
+La Atarjea,Tanque Surco,Storage Tank,142,530
+Comercial Lince,Tanque La Molina,Consumption Point,322,273
+Tanque San Borja,Tanque Surco,Pumping Station,184,745
+Comercial Lince,Estación Ate,Storage Tank,886,635
+La Atarjea,Hogar Barranco,Consumption Point,864,358
+Estación Ate,Tanque La Molina,Water Treatment Plant,326,301
+Hogar Barranco,Estación Rímac,Storage Tank,102,413
+Tanque La Molina,Hogar Barranco,Pumping Station,753,352
+Tanque La Molina,Planta Chillón,Water Treatment Plant,706,451
+Comercial Lince,La Atarjea,Pumping Station,512,943
+Comercial Lince,Tanque Surco,Consumption Point,729,362
+Tanque San Borja,Tanque Surco,Consumption Point,330,587
+Tanque La Molina,Hogar Barranco,Pumping Station,776,267
+Planta Huachipa,Hogar Miraflores,Consumption Point,937,784
+Tanque La Molina,Estación Ate,Storage Tank,813,597
+Tanque Surco,La Atarjea,Consumption Point,119,217
+La Atarjea,Tanque La Molina,Consumption Point,778,500
+Tanque Surco,La Atarjea,Pumping Station,858,536
+La Atarjea,Estación Ate,Pumping Station,815,371
+Planta Huachipa,Hogar Barranco,Water Treatment Plant,335,931
+Comercial Lince,Estación Rímac,Storage Tank,699,665
+Tanque San Borja,Estación Ate,Storage Tank,224,861
+Planta Huachipa,Estación Rímac,Pumping Station,914,347
+Tanque La Molina,Tanque Surco,Storage Tank,941,691
+Planta Huachipa,Estación Rímac,Pumping Station,221,411
+Tanque San Borja,Estación Rímac,Water Treatment Plant,442,634
+Tanque San Borja,La Atarjea,Pumping Station,578,289
+La Atarjea,Tanque La Molina,Water Treatment Plant,958,685
+Estación Rímac,Tanque Surco,Consumption Point,382,718
+Estación Ate,Tanque Surco,Storage Tank,827,174
+Planta Huachipa,Industria La Victoria,Water Treatment Plant,989,206
+Estación Rímac,Planta Huachipa,Water Treatment Plant,146,448
+Hogar Miraflores,Tanque Surco,Pumping Station,591,318
+Tanque San Borja,Tanque La Molina,Water Treatment Plant,677,325
+Estación Ate,Industria La Victoria,Water Treatment Plant,885,655
+Planta Huachipa,Tanque Surco,Storage Tank,358,298
+Planta Chillón,Estación Rímac,Storage Tank,847,400
+Tanque La Molina,Hogar Barranco,Storage Tank,764,996
+Tanque Surco,Hogar Barranco,Pumping Station,709,306
+Estación Rímac,Planta Chillón,Water Treatment Plant,105,529
+Comercial Lince,Planta Chillón,Consumption Point,533,590
+Estación Ate,Planta Huachipa,Pumping Station,877,972
+Planta Huachipa,Tanque Surco,Water Treatment Plant,499,356
+Tanque Surco,Hogar Barranco,Consumption Point,221,469
+Tanque La Molina,Industria La Victoria,Water Treatment Plant,139,429
+Hogar Miraflores,Planta Huachipa,Pumping Station,315,94
+Estación Ate,Estación Rímac,Consumption Point,508,56
+Planta Chillón,Estación Ate,Pumping Station,752,940
+Estación Rímac,La Atarjea,Pumping Station,308,869
+Tanque Surco,Planta Huachipa,Consumption Point,945,985
+Hogar Barranco,Estación Rímac,Pumping Station,683,793
+La Atarjea,Comercial Lince,Consumption Point,692,689
+Comercial Lince,Tanque La Molina,Consumption Point,613,360
+Estación Rímac,Planta Huachipa,Consumption Point,317,428
+La Atarjea,Hogar Miraflores,Pumping Station,438,393
+Hogar Miraflores,Hogar Barranco,Water Treatment Plant,466,565
+Tanque La Molina,Hogar Barranco,Water Treatment Plant,129,587
+Planta Huachipa,Estación Ate,Storage Tank,861,465
+Planta Chillón,Hogar Barranco,Consumption Point,316,439
+Planta Huachipa,Tanque Surco,Storage Tank,202,464
+Planta Huachipa,Estación Ate,Water Treatment Plant,166,265
+Industria La Victoria,Hogar Barranco,Consumption Point,934,437
+Hogar Barranco,Estación Ate,Storage Tank,680,758
+Estación Ate,Hogar Miraflores,Pumping Station,766,442
+Tanque La Molina,Estación Rímac,Pumping Station,799,931
+Estación Ate,Tanque La Molina,Consumption Point,850,73
+Estación Ate,La Atarjea,Water Treatment Plant,995,544
+Hogar Miraflores,Planta Chillón,Storage Tank,293,766
+Industria La Victoria,Hogar Barranco,Storage Tank,567,224
+La Atarjea,Planta Huachipa,Consumption Point,739,744
+Planta Chillón,Hogar Miraflores,Pumping Station,450,845
+Estación Ate,Tanque La Molina,Storage Tank,166,360
+Planta Huachipa,Tanque La Molina,Pumping Station,539,632
+Tanque Surco,Hogar Barranco,Water Treatment Plant,681,674
+La Atarjea,Tanque Surco,Consumption Point,709,632
+Hogar Barranco,Industria La Victoria,Storage Tank,952,580
+Tanque San Borja,Hogar Miraflores,Pumping Station,190,474
+Industria La Victoria,Hogar Miraflores,Pumping Station,337,944
+La Atarjea,Tanque Surco,Pumping Station,633,739
+Comercial Lince,Hogar Miraflores,Pumping Station,373,35
+Hogar Barranco,Tanque La Molina,Pumping Station,283,124
+Estación Ate,Tanque Surco,Water Treatment Plant,709,861
+Comercial Lince,Planta Chillón,Consumption Point,734,868
+Comercial Lince,Estación Ate,Water Treatment Plant,701,818
+Estación Rímac,Estación Ate,Storage Tank,412,12
+Estación Ate,Planta Chillón,Consumption Point,134,512
+Hogar Barranco,Tanque La Molina,Water Treatment Plant,644,820
+Hogar Barranco,Tanque La Molina,Pumping Station,238,350
+Tanque Surco,Planta Huachipa,Pumping Station,358,79
+Tanque San Borja,Estación Rímac,Water Treatment Plant,907,53
+Industria La Victoria,Planta Chillón,Pumping Station,623,945
+Hogar Miraflores,La Atarjea,Consumption Point,517,646
+Planta Huachipa,Estación Ate,Pumping Station,416,342
+Planta Chillón,Comercial Lince,Storage Tank,599,780
+Hogar Barranco,Industria La Victoria,Pumping Station,690,919
+Tanque Surco,Tanque La Molina,Water Treatment Plant,318,392
+Hogar Barranco,Tanque Surco,Water Treatment Plant,654,422
+Tanque San Borja,Planta Huachipa,Storage Tank,788,218
+Hogar Miraflores,Comercial Lince,Consumption Point,882,320
+Tanque San Borja,Hogar Barranco,Pumping Station,566,429
+Planta Huachipa,La Atarjea,Pumping Station,349,339
+Planta Huachipa,Hogar Miraflores,Water Treatment Plant,395,881
+Estación Ate,Comercial Lince,Water Treatment Plant,575,935
+Industria La Victoria,Estación Rímac,Storage Tank,550,113
+Planta Huachipa,Comercial Lince,Storage Tank,412,615
+Industria La Victoria,Tanque La Molina,Pumping Station,823,221
+Estación Ate,Tanque La Molina,Storage Tank,251,342
+Planta Chillón,Planta Huachipa,Water Treatment Plant,971,232
+Comercial Lince,Estación Ate,Water Treatment Plant,944,404
+Hogar Miraflores,Planta Chillón,Pumping Station,618,878
+Hogar Miraflores,Estación Ate,Water Treatment Plant,430,223
+Hogar Barranco,La Atarjea,Storage Tank,203,967
+Hogar Barranco,Tanque Surco,Water Treatment Plant,657,770
+Hogar Miraflores,Hogar Barranco,Water Treatment Plant,570,987
+Tanque Surco,La Atarjea,Pumping Station,491,299
+Tanque San Borja,Industria La Victoria,Consumption Point,818,755
+Tanque La Molina,La Atarjea,Consumption Point,967,185
+Planta Chillón,Tanque La Molina,Consumption Point,935,191
+Hogar Barranco,Estación Ate,Storage Tank,496,264
+Industria La Victoria,Planta Chillón,Consumption Point,670,70
+Tanque Surco,Hogar Barranco,Pumping Station,853,703
+Estación Ate,Tanque La Molina,Consumption Point,575,984
+Planta Huachipa,La Atarjea,Consumption Point,719,700
+Planta Chillón,Estación Rímac,Consumption Point,226,325
+Comercial Lince,Industria La Victoria,Storage Tank,906,334
+Tanque Surco,Comercial Lince,Storage Tank,863,398
+Estación Rímac,Planta Chillón,Consumption Point,955,661
+La Atarjea,Hogar Barranco,Storage Tank,771,110
+Hogar Barranco,Tanque Surco,Consumption Point,119,288
+Comercial Lince,Tanque La Molina,Water Treatment Plant,989,606
+Hogar Miraflores,Hogar Barranco,Consumption Point,127,267
+Industria La Victoria,Estación Rímac,Water Treatment Plant,154,735
+Hogar Miraflores,Hogar Barranco,Storage Tank,411,383
+Tanque Surco,Tanque La Molina,Storage Tank,509,401
+Hogar Miraflores,Tanque Surco,Water Treatment Plant,714,464
+Tanque La Molina,Comercial Lince,Water Treatment Plant,167,378
+Hogar Miraflores,Hogar Barranco,Pumping Station,531,479
+Estación Rímac,Planta Chillón,Consumption Point,471,133
+Tanque La Molina,La Atarjea,Pumping Station,455,309
+Estación Rímac,Hogar Barranco,Storage Tank,941,38
+Tanque Surco,Hogar Miraflores,Consumption Point,749,729
+Estación Rímac,Planta Chillón,Pumping Station,496,176
+Planta Huachipa,Hogar Barranco,Water Treatment Plant,581,186
+Tanque La Molina,Hogar Barranco,Water Treatment Plant,688,90
+Estación Ate,La Atarjea,Storage Tank,197,97
+Tanque Surco,Hogar Barranco,Water Treatment Plant,879,511
+Estación Rímac,Comercial Lince,Water Treatment Plant,112,730
+Planta Chillón,Hogar Barranco,Pumping Station,347,888
+Planta Huachipa,Tanque La Molina,Consumption Point,613,498
+Comercial Lince,Estación Ate,Pumping Station,928,687
+Tanque San Borja,Hogar Barranco,Consumption Point,878,449
+Tanque La Molina,Estación Rímac,Pumping Station,951,454
+Comercial Lince,Planta Huachipa,Storage Tank,841,75
+Planta Chillón,La Atarjea,Water Treatment Plant,544,858
+Hogar Barranco,Comercial Lince,Water Treatment Plant,697,845
+Estación Rímac,Planta Chillón,Pumping Station,430,591
+Estación Ate,Planta Huachipa,Storage Tank,711,625
+Estación Ate,Hogar Barranco,Storage Tank,759,946
+Planta Huachipa,Planta Chillón,Pumping Station,280,988
+Comercial Lince,Industria La Victoria,Storage Tank,296,541
+Planta Chillón,Estación Rímac,Storage Tank,597,134
+Hogar Barranco,Hogar Miraflores,Water Treatment Plant,955,391
+Hogar Miraflores,Tanque Surco,Water Treatment Plant,163,596
+Tanque Surco,Estación Ate,Consumption Point,535,712
+La Atarjea,Comercial Lince,Pumping Station,298,719
+La Atarjea,Planta Chillón,Storage Tank,725,295
+Comercial Lince,Tanque La Molina,Pumping Station,398,231
+Planta Huachipa,Estación Ate,Pumping Station,181,124
+Planta Huachipa,Hogar Barranco,Water Treatment Plant,586,515
+Tanque Surco,Tanque La Molina,Water Treatment Plant,939,812
+Industria La Victoria,Tanque La Molina,Storage Tank,340,54
+Estación Rímac,Industria La Victoria,Pumping Station,371,854
+Tanque Surco,Estación Ate,Consumption Point,206,599
+Planta Chillón,Estación Ate,Consumption Point,395,952
+Planta Chillón,Estación Ate,Water Treatment Plant,756,837
+Tanque La Molina,La Atarjea,Pumping Station,498,987
+Estación Rímac,Tanque La Molina,Consumption Point,747,515
+Tanque San Borja,Hogar Barranco,Pumping Station,903,981
+Planta Chillón,Planta Huachipa,Water Treatment Plant,363,790
+Tanque Surco,Planta Huachipa,Consumption Point,487,599
+Planta Huachipa,Estación Rímac,Water Treatment Plant,834,546
+Hogar Barranco,Planta Chillón,Consumption Point,171,883
+Planta Huachipa,Tanque Surco,Pumping Station,177,446
+Estación Rímac,Planta Huachipa,Consumption Point,124,711
+Hogar Miraflores,Comercial Lince,Consumption Point,803,496
+Industria La Victoria,Hogar Miraflores,Pumping Station,757,41
+Tanque Surco,Comercial Lince,Pumping Station,730,582
+Estación Ate,Hogar Barranco,Water Treatment Plant,769,534
+Tanque La Molina,Planta Chillón,Pumping Station,461,543
+Tanque Surco,Industria La Victoria,Pumping Station,570,374
+Planta Chillón,La Atarjea,Storage Tank,707,779
+Comercial Lince,Hogar Barranco,Consumption Point,844,142
+Hogar Barranco,La Atarjea,Water Treatment Plant,641,826
+La Atarjea,Comercial Lince,Consumption Point,344,350
+Planta Huachipa,Tanque La Molina,Storage Tank,922,402
+Industria La Victoria,Tanque Surco,Consumption Point,283,28
+Comercial Lince,Hogar Barranco,Consumption Point,723,162
+Hogar Miraflores,Industria La Victoria,Pumping Station,464,45
+Planta Chillón,Planta Huachipa,Pumping Station,554,17
+Hogar Miraflores,Tanque La Molina,Consumption Point,888,887
+Tanque Surco,La Atarjea,Consumption Point,723,287
+Tanque Surco,Hogar Barranco,Storage Tank,913,373
+Industria La Victoria,Hogar Miraflores,Consumption Point,781,507
+Planta Chillón,Tanque La Molina,Water Treatment Plant,533,659
+Estación Ate,Hogar Barranco,Water Treatment Plant,594,746
+Planta Huachipa,Estación Ate,Consumption Point,955,604
+Comercial Lince,Planta Huachipa,Storage Tank,537,286
+Hogar Barranco,Estación Rímac,Pumping Station,992,697
+Estación Ate,Industria La Victoria,Water Treatment Plant,878,535
+Estación Rímac,Comercial Lince,Pumping Station,392,660
+Hogar Barranco,Planta Huachipa,Storage Tank,198,603
+Comercial Lince,Hogar Miraflores,Water Treatment Plant,319,409
+Hogar Barranco,Comercial Lince,Pumping Station,772,219
+Planta Huachipa,Comercial Lince,Pumping Station,814,584
+Hogar Barranco,Hogar Miraflores,Storage Tank,756,88
+Tanque Surco,Tanque La Molina,Pumping Station,999,857
+Comercial Lince,Estación Rímac,Pumping Station,119,162
+La Atarjea,Planta Huachipa,Water Treatment Plant,345,968
+Tanque Surco,La Atarjea,Pumping Station,909,816
+Tanque La Molina,Comercial Lince,Water Treatment Plant,734,447
+Tanque La Molina,Comercial Lince,Pumping Station,660,973
+Hogar Barranco,Hogar Miraflores,Water Treatment Plant,491,135
+Planta Huachipa,Hogar Barranco,Consumption Point,644,559
+Tanque Surco,Hogar Barranco,Pumping Station,335,891
+La Atarjea,Estación Rímac,Storage Tank,241,827
+La Atarjea,Tanque Surco,Water Treatment Plant,177,247
+Tanque La Molina,Planta Huachipa,Water Treatment Plant,822,807
+Planta Chillón,Estación Rímac,Consumption Point,250,509
+Estación Ate,Tanque La Molina,Consumption Point,554,358
+Comercial Lince,Hogar Barranco,Storage Tank,709,229
+Hogar Miraflores,Tanque Surco,Water Treatment Plant,332,748
+Tanque La Molina,Estación Ate,Water Treatment Plant,725,858
+La Atarjea,Hogar Miraflores,Consumption Point,204,647
+Estación Rímac,Hogar Miraflores,Water Treatment Plant,403,328
+Tanque Surco,Hogar Barranco,Pumping Station,229,457
+Tanque Surco,Comercial Lince,Water Treatment Plant,772,692
+Industria La Victoria,La Atarjea,Pumping Station,629,522
+Tanque La Molina,Tanque Surco,Water Treatment Plant,832,192
+La Atarjea,Planta Chillón,Water Treatment Plant,832,588
+Estación Rímac,Estación Ate,Pumping Station,419,678
+Hogar Barranco,Estación Rímac,Consumption Point,647,80
+Planta Chillón,Industria La Victoria,Pumping Station,832,453
+Tanque La Molina,La Atarjea,Storage Tank,450,369
+Hogar Miraflores,Planta Chillón,Storage Tank,784,265
+Hogar Barranco,Tanque Surco,Consumption Point,855,297
+Tanque La Molina,Industria La Victoria,Pumping Station,593,259
+Tanque Surco,Comercial Lince,Pumping Station,295,277
+Hogar Miraflores,Tanque Surco,Water Treatment Plant,585,383
+La Atarjea,Planta Huachipa,Consumption Point,172,242
+Hogar Barranco,Estación Rímac,Storage Tank,883,233
+Tanque Surco,Tanque La Molina,Storage Tank,825,495
+Estación Ate,La Atarjea,Consumption Point,798,15
+Planta Chillón,Hogar Barranco,Consumption Point,495,395
+Estación Ate,Tanque Surco,Storage Tank,205,347
+Tanque La Molina,Tanque Surco,Consumption Point,918,906
+Hogar Miraflores,La Atarjea,Pumping Station,992,164
+Industria La Victoria,La Atarjea,Pumping Station,921,982
+Industria La Victoria,Estación Rímac,Water Treatment Plant,663,464
+Planta Chillón,Industria La Victoria,Pumping Station,600,454
+Estación Ate,Hogar Miraflores,Consumption Point,815,51
+Comercial Lince,Tanque La Molina,Pumping Station,855,745
+Planta Chillón,Estación Rímac,Storage Tank,312,119
+Comercial Lince,Planta Huachipa,Storage Tank,753,377
+Tanque San Borja,Planta Huachipa,Water Treatment Plant,199,223
+Industria La Victoria,Hogar Miraflores,Pumping Station,648,215
+Tanque San Borja,Hogar Barranco,Pumping Station,879,313
+Industria La Victoria,Tanque La Molina,Consumption Point,192,670
+Tanque Surco,Estación Ate,Pumping Station,877,846
+Industria La Victoria,Hogar Barranco,Consumption Point,191,692
+Tanque La Molina,Hogar Barranco,Water Treatment Plant,864,790
+Comercial Lince,La Atarjea,Water Treatment Plant,675,661
+Planta Chillón,Tanque La Molina,Consumption Point,370,253
+Tanque Surco,Planta Huachipa,Storage Tank,783,402
+Planta Chillón,Planta Huachipa,Consumption Point,258,888
+Planta Huachipa,Industria La Victoria,Consumption Point,611,217
+Estación Rímac,Industria La Victoria,Storage Tank,202,346
+Tanque Surco,Hogar Barranco,Water Treatment Plant,251,413
+Planta Chillón,Industria La Victoria,Pumping Station,867,576
+Planta Chillón,Hogar Barranco,Water Treatment Plant,703,672
+Comercial Lince,Planta Chillón,Pumping Station,959,740
+Estación Rímac,Estación Ate,Consumption Point,840,705
+Hogar Miraflores,Industria La Victoria,Consumption Point,352,426
+Hogar Miraflores,Hogar Barranco,Storage Tank,874,97
+Estación Rímac,Planta Huachipa,Storage Tank,267,599
+Industria La Victoria,Estación Rímac,Consumption Point,363,927
+Hogar Barranco,Tanque La Molina,Storage Tank,115,96
+Industria La Victoria,Estación Rímac,Storage Tank,855,572
+Industria La Victoria,Planta Chillón,Water Treatment Plant,703,711
+La Atarjea,Hogar Barranco,Pumping Station,210,681
+Tanque Surco,La Atarjea,Consumption Point,506,573
+La Atarjea,Hogar Barranco,Consumption Point,958,482
+Hogar Barranco,Hogar Miraflores,Consumption Point,869,193
+Hogar Miraflores,Tanque La Molina,Pumping Station,513,72
+Tanque Surco,Hogar Barranco,Pumping Station,441,945
+Estación Rímac,La Atarjea,Water Treatment Plant,900,120
+Hogar Barranco,Hogar Miraflores,Consumption Point,429,789
+Tanque Surco,Tanque La Molina,Water Treatment Plant,539,193
+Industria La Victoria,Tanque La Molina,Consumption Point,505,298
+Tanque La Molina,Planta Chillón,Consumption Point,109,993
+Industria La Victoria,Comercial Lince,Water Treatment Plant,683,840
+Comercial Lince,Estación Rímac,Pumping Station,808,398
+Planta Chillón,Estación Ate,Pumping Station,799,266
+Tanque Surco,Estación Ate,Water Treatment Plant,876,30
+Estación Rímac,Planta Huachipa,Storage Tank,381,360
+Planta Chillón,Planta Huachipa,Pumping Station,840,459
+Industria La Victoria,Hogar Barranco,Consumption Point,873,482
+Estación Ate,Comercial Lince,Water Treatment Plant,311,217
+Estación Rímac,Hogar Barranco,Water Treatment Plant,269,288
+Tanque La Molina,Hogar Barranco,Pumping Station,781,443
+La Atarjea,Tanque Surco,Storage Tank,188,448
+Tanque La Molina,Comercial Lince,Water Treatment Plant,889,348
+Tanque La Molina,Estación Ate,Pumping Station,899,130
+Tanque La Molina,Planta Chillón,Water Treatment Plant,281,731
+Industria La Victoria,Estación Ate,Storage Tank,226,577
+Hogar Barranco,La Atarjea,Consumption Point,140,25
+Tanque San Borja,Tanque Surco,Pumping Station,199,412
+Industria La Victoria,Estación Ate,Storage Tank,622,151
+Tanque La Molina,Hogar Barranco,Consumption Point,740,365
+Planta Chillón,Hogar Barranco,Consumption Point,448,502
+Hogar Miraflores,Hogar Barranco,Pumping Station,535,68
+La Atarjea,Hogar Miraflores,Water Treatment Plant,483,724
+Estación Rímac,Comercial Lince,Pumping Station,455,136
+Estación Rímac,Hogar Miraflores,Pumping Station,168,488
+Comercial Lince,Planta Huachipa,Pumping Station,826,679
+Estación Ate,Tanque Surco,Water Treatment Plant,290,915
+Hogar Miraflores,La Atarjea,Consumption Point,826,259
+Industria La Victoria,Hogar Barranco,Water Treatment Plant,840,395
+Tanque La Molina,Comercial Lince,Water Treatment Plant,565,354
+Estación Ate,Estación Rímac,Consumption Point,473,391
+Comercial Lince,Hogar Barranco,Storage Tank,114,277
+Tanque Surco,Hogar Miraflores,Storage Tank,661,188
+Planta Huachipa,Tanque La Molina,Consumption Point,523,881
+Estación Rímac,Tanque Surco,Storage Tank,207,378
+Tanque San Borja,Comercial Lince,Consumption Point,418,696
+Tanque La Molina,Hogar Barranco,Storage Tank,966,450
+Tanque San Borja,Hogar Miraflores,Consumption Point,231,12
+La Atarjea,Comercial Lince,Consumption Point,125,895
+Tanque Surco,La Atarjea,Consumption Point,758,500
+Planta Huachipa,Planta Chillón,Pumping Station,975,30
+Planta Huachipa,La Atarjea,Consumption Point,906,925
+Tanque La Molina,Planta Huachipa,Water Treatment Plant,560,795
+Comercial Lince,Hogar Barranco,Storage Tank,716,52
+Comercial Lince,Tanque La Molina,Pumping Station,168,364
+Comercial Lince,Hogar Miraflores,Water Treatment Plant,219,752
+Hogar Barranco,Planta Chillón,Water Treatment Plant,987,408
+Estación Rímac,Comercial Lince,Storage Tank,885,549
+Tanque La Molina,Planta Huachipa,Water Treatment Plant,127,27
+Estación Ate,Planta Huachipa,Consumption Point,894,777
+Estación Ate,Comercial Lince,Water Treatment Plant,330,154
+Planta Chillón,Hogar Barranco,Pumping Station,978,871
+Planta Huachipa,Hogar Barranco,Consumption Point,219,834
+Hogar Miraflores,Comercial Lince,Storage Tank,312,455
+Planta Chillón,Planta Huachipa,Water Treatment Plant,963,581
+Planta Huachipa,Hogar Barranco,Storage Tank,233,15
+Estación Ate,Hogar Barranco,Pumping Station,157,58
+La Atarjea,Estación Rímac,Consumption Point,365,254
+Tanque San Borja,Industria La Victoria,Water Treatment Plant,456,302
+Tanque Surco,Planta Huachipa,Water Treatment Plant,404,122
+Tanque La Molina,Hogar Barranco,Storage Tank,302,942
+Comercial Lince,Tanque La Molina,Storage Tank,603,247
+Estación Rímac,Tanque Surco,Consumption Point,724,748
+Estación Rímac,Tanque La Molina,Consumption Point,696,581
+Hogar Miraflores,Planta Chillón,Water Treatment Plant,895,655
+Hogar Miraflores,Planta Huachipa,Water Treatment Plant,209,586
+Comercial Lince,Tanque La Molina,Water Treatment Plant,136,361
+Tanque La Molina,Hogar Barranco,Pumping Station,271,310
+Tanque La Molina,Industria La Victoria,Storage Tank,756,441
+Planta Chillón,Estación Rímac,Storage Tank,642,73
+Estación Rímac,Tanque La Molina,Storage Tank,988,895
+Industria La Victoria,Planta Huachipa,Pumping Station,728,769
+Tanque La Molina,Hogar Barranco,Water Treatment Plant,888,240
+Comercial Lince,Planta Huachipa,Consumption Point,987,829
+Tanque San Borja,Planta Huachipa,Water Treatment Plant,746,967
+Planta Huachipa,Tanque La Molina,Water Treatment Plant,742,974
+Planta Huachipa,Hogar Barranco,Water Treatment Plant,131,683
+Estación Rímac,Estación Ate,Storage Tank,940,721
+Estación Ate,Planta Huachipa,Consumption Point,156,217
+Estación Ate,Planta Huachipa,Storage Tank,996,718
+Hogar Barranco,Planta Chillón,Storage Tank,938,29
+Tanque Surco,Hogar Barranco,Storage Tank,568,767
+Comercial Lince,Hogar Barranco,Consumption Point,330,268
+Tanque Surco,Hogar Barranco,Pumping Station,901,696
+Tanque Surco,Planta Chillón,Water Treatment Plant,833,730
+Tanque San Borja,La Atarjea,Water Treatment Plant,101,290
+Hogar Barranco,Estación Rímac,Storage Tank,256,457
+Hogar Miraflores,Comercial Lince,Consumption Point,442,53
+Tanque San Borja,Comercial Lince,Storage Tank,195,392
+Estación Ate,Comercial Lince,Consumption Point,268,622
+Tanque La Molina,Planta Chillón,Consumption Point,304,392
+Hogar Barranco,Hogar Miraflores,Consumption Point,195,112
+La Atarjea,Planta Chillón,Storage Tank,420,609
+Industria La Victoria,Estación Ate,Pumping Station,603,108
+Hogar Barranco,Hogar Miraflores,Storage Tank,395,722
+Tanque San Borja,Estación Ate,Water Treatment Plant,936,825
+Estación Ate,Hogar Miraflores,Pumping Station,856,846
+Planta Huachipa,Estación Rímac,Storage Tank,647,242
+Planta Chillón,Industria La Victoria,Storage Tank,220,748
+Planta Huachipa,Planta Chillón,Consumption Point,421,574
+Estación Rímac,La Atarjea,Storage Tank,649,640
+Comercial Lince,Planta Chillón,Pumping Station,361,204
+Tanque San Borja,Comercial Lince,Storage Tank,315,613
+Hogar Barranco,Planta Chillón,Consumption Point,624,991
+Tanque Surco,Hogar Barranco,Storage Tank,209,529
+Comercial Lince,La Atarjea,Pumping Station,537,580
+Planta Huachipa,Estación Rímac,Storage Tank,539,651
+Hogar Miraflores,Industria La Victoria,Pumping Station,912,665
+Hogar Barranco,Comercial Lince,Storage Tank,232,83
+Planta Huachipa,Tanque Surco,Pumping Station,184,267
+Planta Chillón,Tanque Surco,Consumption Point,986,879
+Industria La Victoria,Planta Chillón,Water Treatment Plant,107,880
+Tanque La Molina,Hogar Barranco,Pumping Station,654,121
+Tanque Surco,Hogar Barranco,Pumping Station,950,634
+Planta Huachipa,Tanque La Molina,Water Treatment Plant,830,325
+Planta Chillón,La Atarjea,Consumption Point,769,990
+Hogar Miraflores,Hogar Barranco,Pumping Station,584,828
+Tanque Surco,Hogar Barranco,Storage Tank,777,224
+Hogar Barranco,Estación Ate,Water Treatment Plant,237,888
+Comercial Lince,Industria La Victoria,Storage Tank,470,762
+Industria La Victoria,Hogar Barranco,Pumping Station,385,110
+La Atarjea,Hogar Barranco,Storage Tank,551,531
+La Atarjea,Planta Chillón,Storage Tank,716,811
+Planta Chillón,Hogar Miraflores,Water Treatment Plant,329,826
+Estación Ate,Planta Huachipa,Consumption Point,686,450
+La Atarjea,Comercial Lince,Consumption Point,303,877
+La Atarjea,Hogar Miraflores,Consumption Point,349,138
+La Atarjea,Hogar Miraflores,Pumping Station,971,984
+Hogar Barranco,Estación Ate,Consumption Point,794,916
+Industria La Victoria,Hogar Miraflores,Water Treatment Plant,788,321
+La Atarjea,Estación Ate,Water Treatment Plant,762,332
+Planta Huachipa,La Atarjea,Water Treatment Plant,968,942
+Estación Ate,Tanque La Molina,Storage Tank,948,673
+Comercial Lince,Industria La Victoria,Pumping Station,694,325
+La Atarjea,Tanque La Molina,Consumption Point,180,676
+Industria La Victoria,Planta Huachipa,Consumption Point,816,483
+Estación Ate,Comercial Lince,Pumping Station,522,140
+Hogar Miraflores,Planta Chillón,Consumption Point,636,852
+Hogar Miraflores,Tanque La Molina,Consumption Point,420,848
+Estación Ate,Planta Chillón,Storage Tank,283,806
+Planta Chillón,Hogar Miraflores,Pumping Station,670,586
+Hogar Miraflores,Comercial Lince,Storage Tank,763,522
+Industria La Victoria,Hogar Miraflores,Water Treatment Plant,125,740
+Comercial Lince,Estación Rímac,Storage Tank,293,621
+Estación Rímac,Industria La Victoria,Consumption Point,588,951
+Tanque La Molina,Planta Huachipa,Consumption Point,875,226
+Planta Huachipa,Hogar Barranco,Consumption Point,358,736
+Industria La Victoria,Planta Huachipa,Water Treatment Plant,577,610
+Tanque La Molina,Hogar Barranco,Water Treatment Plant,429,717
+Estación Rímac,Tanque La Molina,Pumping Station,156,766
+Tanque La Molina,Estación Ate,Consumption Point,579,857
+Industria La Victoria,Planta Chillón,Pumping Station,336,958
+Tanque La Molina,Planta Chillón,Pumping Station,707,859
+Hogar Miraflores,Comercial Lince,Water Treatment Plant,312,768
+Planta Huachipa,Tanque La Molina,Consumption Point,328,834
+Estación Ate,Tanque Surco,Consumption Point,572,607
+Planta Chillón,Tanque Surco,Pumping Station,265,490
+La Atarjea,Planta Chillón,Water Treatment Plant,813,804
+Tanque La Molina,Hogar Miraflores,Consumption Point,387,385
+Hogar Miraflores,La Atarjea,Storage Tank,352,440
+Hogar Miraflores,La Atarjea,Consumption Point,214,259
+Tanque Surco,Estación Ate,Consumption Point,957,680
+Tanque Surco,Planta Huachipa,Water Treatment Plant,664,333
+Tanque Surco,Comercial Lince,Water Treatment Plant,231,686
+Hogar Miraflores,Comercial Lince,Consumption Point,920,927
+Tanque La Molina,Estación Rímac,Consumption Point,978,418
+Tanque Surco,Estación Ate,Water Treatment Plant,818,325
+Tanque San Borja,Planta Chillón,Water Treatment Plant,264,773
+La Atarjea,Industria La Victoria,Storage Tank,198,825
+Industria La Victoria,Hogar Miraflores,Water Treatment Plant,101,173
+Estación Ate,Planta Chillón,Pumping Station,388,954
+Estación Ate,Hogar Barranco,Storage Tank,495,206
+La Atarjea,Industria La Victoria,Consumption Point,739,553
+Tanque San Borja,Planta Chillón,Pumping Station,632,829
+Tanque La Molina,La Atarjea,Water Treatment Plant,943,254
+Tanque Surco,Planta Huachipa,Water Treatment Plant,108,294
+Industria La Victoria,Planta Huachipa,Water Treatment Plant,598,672
+Tanque Surco,Hogar Miraflores,Water Treatment Plant,863,880
+Estación Ate,Planta Huachipa,Pumping Station,347,61
+Planta Chillón,La Atarjea,Pumping Station,333,17
+Hogar Miraflores,Comercial Lince,Water Treatment Plant,764,522
+Estación Ate,Hogar Miraflores,Consumption Point,492,535
+Tanque San Borja,Industria La Victoria,Water Treatment Plant,819,379
+Planta Chillón,La Atarjea,Water Treatment Plant,664,164
+Tanque La Molina,Estación Ate,Storage Tank,616,353
+Tanque Surco,Estación Ate,Consumption Point,739,268
+Tanque Surco,Estación Rímac,Storage Tank,394,189
+Industria La Victoria,Tanque La Molina,Consumption Point,650,351
+Industria La Victoria,Planta Chillón,Water Treatment Plant,851,869
+Hogar Miraflores,Estación Ate,Consumption Point,431,663
+Estación Ate,La Atarjea,Storage Tank,419,528
+Tanque San Borja,Industria La Victoria,Water Treatment Plant,414,628
+Planta Huachipa,Hogar Barranco,Storage Tank,951,556
+Tanque San Borja,Industria La Victoria,Water Treatment Plant,105,63
+Estación Ate,Tanque La Molina,Pumping Station,184,784
+Hogar Barranco,Hogar Miraflores,Consumption Point,139,95
+Tanque La Molina,Estación Ate,Water Treatment Plant,567,301
+Tanque Surco,Comercial Lince,Water Treatment Plant,689,430
+Industria La Victoria,Tanque La Molina,Pumping Station,102,546
+Estación Rímac,Tanque La Molina,Storage Tank,599,713
+Planta Chillón,Hogar Barranco,Storage Tank,653,835
+Hogar Barranco,Hogar Miraflores,Storage Tank,822,720
+Industria La Victoria,Estación Ate,Water Treatment Plant,657,91
+La Atarjea,Industria La Victoria,Pumping Station,958,804
+Tanque San Borja,Planta Chillón,Storage Tank,461,675
+Tanque San Borja,Estación Rímac,Pumping Station,534,892
+Tanque La Molina,Planta Huachipa,Storage Tank,351,860
+Tanque San Borja,La Atarjea,Pumping Station,992,465
+Comercial Lince,Hogar Miraflores,Water Treatment Plant,865,259
+Comercial Lince,Planta Huachipa,Pumping Station,724,891
+Tanque Surco,Planta Chillón,Storage Tank,227,387
+Tanque Surco,Hogar Barranco,Pumping Station,143,159
+Tanque La Molina,Industria La Victoria,Pumping Station,532,94
+Tanque Surco,Estación Ate,Storage Tank,324,946
+Estación Ate,Estación Rímac,Water Treatment Plant,914,710
+Planta Huachipa,Estación Ate,Pumping Station,254,217
+Hogar Miraflores,Estación Rímac,Storage Tank,184,247
+Planta Chillón,Tanque Surco,Pumping Station,641,11
+Hogar Miraflores,Estación Ate,Pumping Station,620,505
+Estación Rímac,Tanque Surco,Storage Tank,530,314
+Estación Rímac,Planta Chillón,Consumption Point,226,229
+Industria La Victoria,Estación Rímac,Consumption Point,427,212
+Estación Rímac,La Atarjea,Pumping Station,528,68
+Estación Rímac,Hogar Barranco,Consumption Point,774,468
+Industria La Victoria,Tanque La Molina,Consumption Point,613,172
+Tanque La Molina,Hogar Barranco,Water Treatment Plant,375,320
+Planta Huachipa,Comercial Lince,Storage Tank,704,344
+Tanque San Borja,Hogar Barranco,Consumption Point,381,717
+Tanque San Borja,Planta Huachipa,Consumption Point,867,204
+Hogar Miraflores,Tanque Surco,Storage Tank,597,851
+Hogar Miraflores,La Atarjea,Water Treatment Plant,246,781
+Planta Chillón,Estación Ate,Water Treatment Plant,635,348
+Estación Rímac,Hogar Barranco,Storage Tank,205,35
+Comercial Lince,Estación Rímac,Pumping Station,372,611
+Estación Ate,Planta Chillón,Storage Tank,695,533
+Tanque San Borja,Planta Chillón,Consumption Point,720,40
+Estación Rímac,La Atarjea,Storage Tank,764,913
+Estación Rímac,La Atarjea,Pumping Station,299,207
+Tanque La Molina,Comercial Lince,Storage Tank,113,531
+Industria La Victoria,Tanque Surco,Consumption Point,484,772
+Hogar Miraflores,Tanque La Molina,Storage Tank,761,247
+Hogar Barranco,Industria La Victoria,Consumption Point,757,299
+Hogar Barranco,Estación Rímac,Pumping Station,983,133
+Tanque San Borja,Estación Rímac,Pumping Station,447,957
+Estación Ate,Planta Chillón,Storage Tank,453,351
+Planta Chillón,Estación Rímac,Storage Tank,294,805
+Tanque San Borja,Planta Huachipa,Pumping Station,849,165
+Estación Rímac,Tanque Surco,Water Treatment Plant,175,930
+Industria La Victoria,Estación Ate,Water Treatment Plant,761,259
+Hogar Miraflores,Estación Ate,Storage Tank,815,432
+Planta Huachipa,Hogar Barranco,Storage Tank,773,541
+Industria La Victoria,Tanque Surco,Pumping Station,322,757
+Estación Ate,Tanque Surco,Pumping Station,560,473
+Hogar Barranco,Hogar Miraflores,Consumption Point,623,408
+Tanque La Molina,Hogar Barranco,Storage Tank,975,19
+Estación Rímac,Planta Chillón,Pumping Station,913,821
+Estación Rímac,Tanque Surco,Storage Tank,233,758
+La Atarjea,Estación Ate,Water Treatment Plant,695,707
+Estación Rímac,Tanque La Molina,Storage Tank,672,138
+Tanque La Molina,Industria La Victoria,Water Treatment Plant,493,645
+Planta Chillón,Hogar Barranco,Consumption Point,631,620
+Estación Rímac,Planta Huachipa,Storage Tank,965,843
+Hogar Barranco,Hogar Miraflores,Pumping Station,118,252
+Planta Huachipa,Tanque Surco,Storage Tank,384,755
+Tanque Surco,Estación Rímac,Pumping Station,983,203
+Comercial Lince,Tanque Surco,Consumption Point,670,266
+Tanque La Molina,La Atarjea,Consumption Point,750,794
+Estación Rímac,Tanque La Molina,Consumption Point,419,993
+Tanque La Molina,Estación Ate,Pumping Station,833,836
+Tanque San Borja,Hogar Barranco,Storage Tank,492,414
+Hogar Miraflores,Tanque Surco,Storage Tank,143,781
+Hogar Miraflores,Hogar Barranco,Water Treatment Plant,479,702
+Estación Rímac,Tanque Surco,Consumption Point,935,536
+Planta Huachipa,Estación Rímac,Storage Tank,309,550
+La Atarjea,Planta Chillón,Consumption Point,225,468
+Industria La Victoria,Hogar Barranco,Water Treatment Plant,982,207
+Estación Rímac,Planta Huachipa,Storage Tank,952,302
+Planta Huachipa,Comercial Lince,Pumping Station,301,556
+Estación Rímac,La Atarjea,Pumping Station,367,190
+Estación Ate,Hogar Barranco,Consumption Point,282,54
+Estación Ate,Planta Chillón,Storage Tank,416,168
+Comercial Lince,Hogar Barranco,Consumption Point,239,494
+Tanque San Borja,Industria La Victoria,Water Treatment Plant,946,771
+Hogar Miraflores,Estación Rímac,Pumping Station,670,800
+Hogar Barranco,Comercial Lince,Water Treatment Plant,261,813
+Planta Chillón,Tanque La Molina,Water Treatment Plant,172,870
+Tanque Surco,Planta Chillón,Water Treatment Plant,909,98
+Hogar Miraflores,Planta Chillón,Water Treatment Plant,316,693
+Comercial Lince,Planta Chillón,Storage Tank,799,439
+Planta Chillón,Comercial Lince,Storage Tank,819,821
+Tanque San Borja,La Atarjea,Storage Tank,142,511
+Planta Chillón,Industria La Victoria,Pumping Station,584,885
+Tanque Surco,Industria La Victoria,Storage Tank,664,743
+Industria La Victoria,Hogar Barranco,Consumption Point,875,840
+Estación Ate,Hogar Barranco,Consumption Point,807,847
+Planta Huachipa,Industria La Victoria,Consumption Point,100,407
+Estación Rímac,Hogar Miraflores,Water Treatment Plant,280,190
+Hogar Miraflores,Tanque Surco,Water Treatment Plant,831,268
+Estación Rímac,Hogar Barranco,Consumption Point,212,189
+Hogar Miraflores,Hogar Barranco,Storage Tank,439,667
+Planta Huachipa,Tanque Surco,Pumping Station,781,51
+Tanque San Borja,Tanque La Molina,Storage Tank,368,579
+Tanque San Borja,Hogar Miraflores,Pumping Station,390,443
+Estación Rímac,Planta Huachipa,Storage Tank,153,261
+Estación Rímac,Tanque Surco,Pumping Station,300,803
+Tanque Surco,Hogar Barranco,Pumping Station,170,214
+La Atarjea,Tanque La Molina,Consumption Point,228,820
+Estación Ate,Comercial Lince,Storage Tank,309,668
+La Atarjea,Hogar Miraflores,Storage Tank,749,387
+Industria La Victoria,Hogar Barranco,Pumping Station,308,403
+La Atarjea,Estación Ate,Consumption Point,757,979
+Estación Ate,Tanque La Molina,Consumption Point,472,464
+Industria La Victoria,Hogar Miraflores,Consumption Point,400,181
+Planta Huachipa,Hogar Barranco,Pumping Station,448,550
+Hogar Barranco,Estación Ate,Consumption Point,370,685
+Hogar Barranco,Tanque Surco,Water Treatment Plant,173,491
+Industria La Victoria,Planta Huachipa,Pumping Station,101,932
+Estación Rímac,Hogar Miraflores,Pumping Station,111,948
+Planta Chillón,Hogar Barranco,Water Treatment Plant,402,580
+Tanque Surco,Comercial Lince,Storage Tank,503,186
+Tanque Surco,Planta Huachipa,Pumping Station,702,190
+La Atarjea,Hogar Barranco,Storage Tank,902,163
+Tanque La Molina,Estación Ate,Pumping Station,765,759
+Planta Huachipa,Tanque La Molina,Consumption Point,843,190
+Industria La Victoria,Planta Huachipa,Water Treatment Plant,593,268
+La Atarjea,Comercial Lince,Water Treatment Plant,290,210
+Planta Huachipa,Comercial Lince,Consumption Point,508,680
+Comercial Lince,Estación Rímac,Storage Tank,866,471
+Tanque Surco,Planta Chillón,Storage Tank,179,651
+Estación Rímac,Hogar Barranco,Storage Tank,699,36
+La Atarjea,Comercial Lince,Pumping Station,414,486
+Planta Chillón,Estación Rímac,Consumption Point,576,276
+Hogar Barranco,Planta Chillón,Storage Tank,632,702
+Planta Huachipa,Estación Rímac,Consumption Point,778,33
+Tanque La Molina,La Atarjea,Pumping Station,491,329
+Industria La Victoria,Planta Chillón,Pumping Station,234,239
+Planta Chillón,Estación Rímac,Pumping Station,559,764
+Tanque Surco,Comercial Lince,Water Treatment Plant,687,128
+Planta Huachipa,Tanque La Molina,Consumption Point,662,697
+Estación Ate,Estación Rímac,Consumption Point,106,999
+Tanque La Molina,Hogar Miraflores,Consumption Point,617,841
+Hogar Miraflores,Tanque La Molina,Water Treatment Plant,742,190
+La Atarjea,Planta Chillón,Storage Tank,911,939
+Hogar Miraflores,Hogar Barranco,Consumption Point,755,416
+Estación Ate,Hogar Miraflores,Storage Tank,834,465
+Planta Huachipa,Hogar Miraflores,Storage Tank,470,593
+Planta Chillón,La Atarjea,Water Treatment Plant,829,675
+Comercial Lince,Planta Chillón,Storage Tank,352,542
+Tanque Surco,Planta Chillón,Consumption Point,431,312
+Industria La Victoria,La Atarjea,Storage Tank,565,887
+Planta Huachipa,Hogar Barranco,Pumping Station,725,125
+Planta Huachipa,Estación Ate,Consumption Point,931,829
+Planta Huachipa,Estación Ate,Consumption Point,683,150
+Hogar Miraflores,Hogar Barranco,Water Treatment Plant,637,461
+Tanque Surco,Industria La Victoria,Storage Tank,576,819
+La Atarjea,Hogar Miraflores,Pumping Station,770,313
+Industria La Victoria,La Atarjea,Water Treatment Plant,907,680
+La Atarjea,Comercial Lince,Water Treatment Plant,101,69
+Tanque San Borja,Planta Chillón,Pumping Station,189,70
+Industria La Victoria,Comercial Lince,Water Treatment Plant,860,769
+Estación Rímac,Industria La Victoria,Water Treatment Plant,379,644
+Hogar Miraflores,Planta Huachipa,Storage Tank,241,863
+Tanque La Molina,Comercial Lince,Consumption Point,681,112
+La Atarjea,Industria La Victoria,Storage Tank,207,355
+Planta Chillón,Hogar Barranco,Water Treatment Plant,649,912
+Hogar Barranco,Comercial Lince,Consumption Point,265,965
+Tanque San Borja,Industria La Victoria,Consumption Point,565,196
+Hogar Barranco,Hogar Miraflores,Storage Tank,851,394
+Hogar Barranco,Tanque Surco,Consumption Point,797,486
+Tanque Surco,Hogar Miraflores,Storage Tank,147,786
+La Atarjea,Estación Ate,Consumption Point,111,514
+Tanque Surco,Planta Chillón,Pumping Station,935,413
+La Atarjea,Estación Ate,Pumping Station,561,796
+La Atarjea,Tanque Surco,Water Treatment Plant,907,800
+La Atarjea,Hogar Barranco,Water Treatment Plant,458,68
+Hogar Miraflores,Industria La Victoria,Water Treatment Plant,887,524
+La Atarjea,Estación Ate,Water Treatment Plant,100,856
+Comercial Lince,Estación Rímac,Storage Tank,807,946
+Industria La Victoria,Tanque La Molina,Storage Tank,183,165
+Hogar Miraflores,Hogar Barranco,Consumption Point,659,644
+Planta Chillón,La Atarjea,Storage Tank,781,222
+La Atarjea,Estación Rímac,Pumping Station,569,214
+Estación Rímac,Planta Huachipa,Pumping Station,368,488
+Industria La Victoria,Hogar Miraflores,Water Treatment Plant,839,83
+Estación Rímac,Hogar Miraflores,Water Treatment Plant,761,678
+Tanque San Borja,Estación Ate,Water Treatment Plant,132,990
+Hogar Barranco,Estación Rímac,Pumping Station,225,959
+Estación Rímac,Tanque La Molina,Storage Tank,824,322
+Estación Rímac,Hogar Miraflores,Pumping Station,388,578
+Planta Huachipa,Hogar Barranco,Pumping Station,686,686
+Hogar Barranco,Industria La Victoria,Consumption Point,267,520
+Tanque San Borja,Comercial Lince,Water Treatment Plant,375,660
+La Atarjea,Planta Huachipa,Pumping Station,734,945
+Planta Huachipa,Hogar Barranco,Pumping Station,698,911
+Planta Chillón,Tanque Surco,Consumption Point,866,115
+Tanque Surco,Hogar Miraflores,Pumping Station,648,474
+Planta Chillón,Planta Huachipa,Consumption Point,824,719
+Comercial Lince,Planta Huachipa,Pumping Station,104,56
+Planta Chillón,La Atarjea,Storage Tank,830,772
+Estación Ate,La Atarjea,Pumping Station,388,385
+Hogar Barranco,Estación Ate,Pumping Station,156,98
+Estación Rímac,Tanque Surco,Pumping Station,107,25
+Industria La Victoria,Comercial Lince,Consumption Point,113,867
+Planta Huachipa,Comercial Lince,Water Treatment Plant,490,10
+Industria La Victoria,Estación Rímac,Storage Tank,593,376
+Planta Huachipa,Hogar Barranco,Consumption Point,673,148
+Hogar Barranco,Estación Rímac,Consumption Point,854,159
+La Atarjea,Planta Huachipa,Pumping Station,754,290
+Planta Huachipa,Industria La Victoria,Pumping Station,771,773
+Tanque San Borja,Estación Ate,Pumping Station,836,444
+Hogar Barranco,Tanque Surco,Consumption Point,454,318
+Estación Rímac,Tanque Surco,Consumption Point,892,979
+Hogar Barranco,Planta Chillón,Storage Tank,660,93
+Tanque Surco,Industria La Victoria,Storage Tank,251,755
+Estación Ate,Hogar Miraflores,Consumption Point,326,393
+Comercial Lince,Hogar Barranco,Consumption Point,929,940
+La Atarjea,Industria La Victoria,Pumping Station,500,466
+Planta Huachipa,Estación Rímac,Pumping Station,701,57
+Tanque La Molina,Comercial Lince,Water Treatment Plant,557,433
+Comercial Lince,Planta Chillón,Consumption Point,746,505
+Tanque La Molina,Tanque Surco,Storage Tank,821,979
+Hogar Barranco,Estación Ate,Storage Tank,844,235
+Planta Huachipa,Hogar Barranco,Water Treatment Plant,272,80
+Planta Chillón,Comercial Lince,Water Treatment Plant,717,550
+La Atarjea,Tanque Surco,Consumption Point,333,104
+Planta Chillón,Comercial Lince,Storage Tank,271,744
+La Atarjea,Estación Ate,Water Treatment Plant,302,157
+Comercial Lince,Industria La Victoria,Consumption Point,364,378
+Estación Rímac,Planta Chillón,Consumption Point,163,184
+Tanque Surco,La Atarjea,Water Treatment Plant,752,947
+Comercial Lince,La Atarjea,Storage Tank,570,387
+Hogar Barranco,Industria La Victoria,Water Treatment Plant,685,68
+Planta Huachipa,Estación Ate,Consumption Point,732,839
+Tanque Surco,Industria La Victoria,Consumption Point,911,149
+Planta Chillón,Hogar Barranco,Storage Tank,188,601
+Tanque Surco,Hogar Barranco,Pumping Station,556,812
+Estación Ate,Planta Huachipa,Pumping Station,572,652
+Industria La Victoria,Tanque Surco,Pumping Station,392,50
+Hogar Miraflores,Planta Chillón,Water Treatment Plant,438,708
+Hogar Miraflores,Hogar Barranco,Consumption Point,559,650
+Planta Chillón,Estación Ate,Pumping Station,662,814
