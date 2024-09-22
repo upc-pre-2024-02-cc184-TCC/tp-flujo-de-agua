@@ -39,7 +39,8 @@ app.layout = html.Div(style={'font-family': 'Arial, sans-serif', 'backgroundColo
             id='algorithm-selector',
             options=[
                 {'label': 'Seleccionar', 'value': 'none'},
-                {'label': 'Ruta Óptima - Bellman-Ford', 'value': 'bellman-ford'}
+                {'label': 'Ruta Óptima - Bellman-Ford', 'value': 'bellman-ford'},
+                {'label': 'Flujo Máximo - Ford-Fulkerson', 'value': 'ford-fulkerson'}
             ],
             value='none',
             clearable=False,
@@ -85,7 +86,6 @@ app.layout = html.Div(style={'font-family': 'Arial, sans-serif', 'backgroundColo
 
 # Función de Bellman-Ford para rutas óptimas
 
-
 def apply_bellman_ford(source, target):
     try:
         length, path = nx.single_source_bellman_ford(
@@ -94,10 +94,19 @@ def apply_bellman_ford(source, target):
     except nx.NetworkXNoPath:
         return float('inf'), []
 
+
+#Funcion de Ford-Fulkerson para flujo maximo
+def apply_ford_fulkerson(source, target):
+    try:
+        flow_value, flow_dict = nx.maximum_flow(G, source, target, capacity='flow_capacity')
+        return flow_value, flow_dict
+    except nx.NetworkXError as e:
+        return 0, {}
+
 # Función para crear la visualización del grafo
 
 
-def create_graph(selected_node, path_edges=None):
+def create_graph(selected_node, path_edges=None, flow_dict=None):
     pos = nx.spring_layout(G, seed=42)
     edge_x = []
     edge_y = []
@@ -151,6 +160,30 @@ def create_graph(selected_node, path_edges=None):
     else:
         path_trace = go.Scatter()
 
+    # Dibujar el flujo máximo en azul
+    if flow_dict:
+        flow_edge_x = []
+        flow_edge_y = []
+        for src, flows in flow_dict.items():
+            for dst, flow in flows.items():
+                if flow > 0:
+                    x0, y0 = pos[src]
+                    x1, y1 = pos[dst]
+                    flow_edge_x.append(x0)
+                    flow_edge_x.append(x1)
+                    flow_edge_x.append(None)
+                    flow_edge_y.append(y0)
+                    flow_edge_y.append(y1)
+                    flow_edge_y.append(None)
+
+        flow_trace = go.Scatter(
+            x=flow_edge_x, y=flow_edge_y,
+            line=dict(width=3, color='blue'),
+            mode='lines'
+        )
+    else:
+        flow_trace = go.Scatter()
+
     # Agregar nodos al grafo
     for node in G.nodes():
         x, y = pos[node]
@@ -168,7 +201,7 @@ def create_graph(selected_node, path_edges=None):
         textposition="top center"
     )
 
-    fig = go.Figure(data=[edge_trace, path_trace, node_trace])
+    fig = go.Figure(data=[edge_trace, path_trace, flow_trace, node_trace])
     fig.update_layout(
         showlegend=False,
         hovermode='closest',
@@ -188,39 +221,36 @@ def create_graph(selected_node, path_edges=None):
      Input('node-selector-destination', 'value')]
 )
 def update_graph_and_optimization(selected_algorithm, selected_origin, selected_destination):
-    # Validar si los nodos de origen y destino son iguales
     if selected_origin == selected_destination:
         return create_graph(None), "No se puede seleccionar el mismo nodo como origen y destino."
 
-    # Evitar la ejecución si no se seleccionan nodos
     if selected_origin == 'none' or selected_destination == 'none':
         return create_graph(None), "Selecciona nodos de origen y destino."
 
-    # Si no existe un camino posible
     if not nx.has_path(G, selected_origin, selected_destination):
         possible_targets = [
             node for node in nodes if nx.has_path(G, selected_origin, node)]
         return create_graph(None), f"No hay caminos disponibles hacia {selected_destination}. Nodos posibles: {possible_targets}"
 
-    # Crear el grafo inicial
     graph_figure = create_graph(selected_origin)
 
     if selected_algorithm == 'bellman-ford':
-        length, path = apply_bellman_ford(
-            selected_origin, selected_destination)
+        length, path = apply_bellman_ford(selected_origin, selected_destination)
         path_edges = [(path[i], path[i+1]) for i in range(len(path)-1)]
         graph_figure = create_graph(selected_origin, path_edges)
-
-        # Aquí verificamos el camino y sumamos la distancia real
-        total_distance = sum(G[path[i]][path[i+1]]['distance']
-                             for i in range(len(path) - 1))
-
+        total_distance = sum(G[path[i]][path[i+1]]['distance'] for i in range(len(path) - 1))
         optimization_text = (f"Ruta óptima calculada con Bellman-Ford desde {selected_origin} a {selected_destination}: "
                              f"{path}. Distancia total: {total_distance} km.")
         return graph_figure, optimization_text
 
-    return graph_figure, "Selecciona un algoritmo para calcular la ruta óptima."
+    elif selected_algorithm == 'ford-fulkerson':
+        flow_value, flow_dict = apply_ford_fulkerson(selected_origin, selected_destination)
+        graph_figure = create_graph(selected_origin, flow_dict=flow_dict)
+        optimization_text = (f"Flujo máximo calculado con Ford-Fulkerson desde {selected_origin} a {selected_destination}: "
+                             f"{flow_value} L/s.")
+        return graph_figure, optimization_text
 
+    return graph_figure, "Selecciona un algoritmo para calcular la ruta óptima."
 
 if __name__ == '__main__':
     app.run_server(debug=True)
