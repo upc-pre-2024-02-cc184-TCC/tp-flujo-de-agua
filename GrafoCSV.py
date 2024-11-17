@@ -23,8 +23,8 @@ def style_water_network_graph():
     """
     Genera un gráfico estilizado del grafo como red de agua potable con nodos y aristas en colores verde y azul pastel.
     """
-    # Usamos un layout de distribución orgánica
-    pos = nx.kamada_kawai_layout(G)  # Distribución más natural
+    # Usamos un layout de distribución eficiente para grafos grandes
+    pos = nx.fruchterman_reingold_layout(G)  # Distribución eficiente para grafos grandes
 
     # Aristas
     edge_traces = []
@@ -39,7 +39,7 @@ def style_water_network_graph():
         edge_trace = go.Scatter(
             x=[x0, x1, None],
             y=[y0, y1, None],
-            line=dict(width=2, color=edge_color),
+            line=dict(width=1, color=edge_color),  # Ancho de línea reducido
             hoverinfo='text',
             text=f"De {src} a {dst}<br>Capacidad: {data['flow_capacity']} L/s<br>Distancia: {data['distance']} km",
             mode='lines'
@@ -75,15 +75,14 @@ def style_water_network_graph():
     node_trace = go.Scatter(
         x=node_x,
         y=node_y,
-        mode='markers+text',
+        mode='markers',
         text=node_text,
         hoverinfo='text',  # Información detallada sobre el nodo
         marker=dict(
-            size=20,  # Tamaño fijo para todos los nodos
+            size=5,  # Tamaño reducido para todos los nodos
             color=node_colors,
-            line=dict(width=2, color='rgba(80, 80, 80, 0.6)')
-        ),
-        textposition="top center"
+            line=dict(width=1, color='rgba(80, 80, 80, 0.6)')
+        )
     )
 
     # Crear figura
