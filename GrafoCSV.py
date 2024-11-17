@@ -1,70 +1,104 @@
 import csv
 import networkx as nx
-import matplotlib.pyplot as plt
+import plotly.graph_objects as go
 
-# Crear un grafo vacío
+# Crear el grafo
 G = nx.DiGraph()
 
-# Leer el archivo CSV
-with open('nodos_conectividad.csv', 'r') as file:
-    reader = csv.DictReader(file)
-    # Print column names to verify
-    print("Column names:", reader.fieldnames)
-    for row in reader:
-        source = row['Source Node'].strip()
-        destination = row['Destination Node'].strip()
-        flow_capacity = float(row['Flow Capacity (L/s)']) if 'Flow Capacity (L/s)' in row and row['Flow Capacity (L/s)'] else 0
-        distance = float(row['Distance Between Nodes (km)']) if 'Distance Between Nodes (km)' in row and row['Distance Between Nodes (km)'] else 0
-        G.add_edge(source, destination, flow_capacity=flow_capacity, distance=distance)
+def load_graph_from_csv(file_path):
+    global G
+    with open(file_path, 'r') as file:
+        reader = csv.DictReader(file)
+        for row in reader:
+            source = row['Source Node'].strip()
+            destination = row['Destination Node'].strip()
+            flow_capacity = float(row['Flow Capacity']) if row['Flow Capacity'] else 0
+            distance = float(row['Distance Between Nodes']) if row['Distance Between Nodes'] else 0
+            G.add_edge(source, destination, flow_capacity=flow_capacity, distance=distance)
 
-# Ajustar la visualización
-plt.figure(figsize=(12, 10))
-pos = nx.spring_layout(G, seed=42)  # Posicionamiento estable
+    return G
 
-# Categorizar nodos según el nombre
-node_colors = []
-node_sizes = []
-for node in G.nodes():
-    if "PTAP" in node:  # Plantas de Tratamiento
-        node_colors.append('skyblue')
-        node_sizes.append(1000)
-    elif "Reservorio" in node:
-        node_colors.append('green')
-        node_sizes.append(800)
-    elif "Estación" in node:
-        node_colors.append('orange')
-        node_sizes.append(700)
-    else:  # Hogares u otros
-        node_colors.append('lightgray')
-        node_sizes.append(500)
+def style_water_network_graph():
+    """
+    Genera un gráfico estilizado del grafo como red de agua potable.
+    """
+    pos = nx.spring_layout(G, seed=42)  # Posiciones de los nodos
 
-# Colores para las aristas según el flujo de capacidad
-edge_colors = []
-for u, v, d in G.edges(data=True):
-    if d['flow_capacity'] > 50:
-        edge_colors.append('darkblue')
-    elif d['flow_capacity'] > 20:
-        edge_colors.append('blue')
-    else:
-        edge_colors.append('lightblue')
+    # Aristas
+    edge_x = []
+    edge_y = []
+    edge_text = []
 
-# Dibujar los nodos
-nx.draw_networkx_nodes(G, pos, node_size=node_sizes, node_color=node_colors, edgecolors='black')
+    for edge in G.edges(data=True):
+        src, dst, data = edge
+        x0, y0 = pos[src]
+        x1, y1 = pos[dst]
+        edge_x.append(x0)
+        edge_x.append(x1)
+        edge_x.append(None)
+        edge_y.append(y0)
+        edge_y.append(y1)
+        edge_y.append(None)
 
-# Dibujar las aristas con colores según el flujo
-nx.draw_networkx_edges(G, pos, arrowstyle='->', arrowsize=15, edge_color=edge_colors, width=2)
+        # Información sobre la arista (capacidad y distancia)
+        edge_text.append(f"De {src} a {dst}<br>Capacidad: {data['flow_capacity']} L/s<br>Distancia: {data['distance']} km")
 
-# Dibujar las etiquetas de los nodos
-nx.draw_networkx_labels(G, pos, font_size=10, font_family='sans-serif', font_weight='bold')
+    edge_trace = go.Scatter(
+        x=edge_x,
+        y=edge_y,
+        line=dict(width=2, color='#0066cc'),
+        hoverinfo='text',
+        text=edge_text,
+        mode='lines'
+    )
 
-# Dibujar las etiquetas de las aristas (flujo de capacidad y distancia)
-edge_labels = {(u, v): f"{d['flow_capacity']} L/s\n{d['distance']} km" for u, v, d in G.edges(data=True)}
-nx.draw_networkx_edge_labels(G, pos, edge_labels=edge_labels, font_size=9, font_color='darkred')
+    # Nodos
+    node_x = []
+    node_y = []
+    node_text = []
 
-# Personalizar la visualización
-plt.title("Red de Agua Potable", fontsize=16, fontweight='bold', color='navy')
-plt.gca().set_facecolor('whitesmoke')
-plt.axis('off')
+    for node in G.nodes():
+        x, y = pos[node]
+        node_x.append(x)
+        node_y.append(y)
 
-# Mostrar el grafo
-plt.show()
+        # Información sobre el nodo
+        connected_edges = list(G.edges(node, data=True))
+        if connected_edges:
+            capacities = [edge[2]['flow_capacity'] for edge in connected_edges]
+            max_capacity = max(capacities)
+            node_text.append(f"Estación: {node}<br>Capacidad máxima: {max_capacity} L/s")
+        else:
+            node_text.append(f"Estación: {node}<br>Sin conexiones")
+
+    node_trace = go.Scatter(
+        x=node_x,
+        y=node_y,
+        mode='markers+text',
+        text=node_text,
+        hoverinfo='text',
+        marker=dict(
+            size=20,
+            color='#00cc99',
+            line_width=2
+        ),
+        textposition="top center"
+    )
+
+    # Crear figura
+    fig = go.Figure(data=[edge_trace, node_trace])
+    fig.update_layout(
+        title="Red de Agua Potable",
+        showlegend=False,
+        hovermode='closest',
+        margin=dict(b=0, l=0, r=0, t=40),
+        plot_bgcolor='white'
+    )
+    return fig
+
+# Código principal para pruebas
+if __name__ == "__main__":
+    load_graph_from_csv('Grafo.csv')
+    print(f"El grafo tiene {G.number_of_nodes()} nodos y {G.number_of_edges()} aristas.")
+    fig = style_water_network_graph()
+    fig.show()
