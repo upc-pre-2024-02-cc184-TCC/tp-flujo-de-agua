@@ -6,7 +6,7 @@ from bellman_ford import apply_bellman_ford
 from ford_fulkerson import apply_ford_fulkerson
 
 # Cargar el grafo desde el archivo CSV
-G = load_graph_from_csv('Grafo.csv')
+G = load_graph_from_csv('nodos_conectividad_3.csv')
 nodes = list(G.nodes())
 
 # Crear la app de Dash
@@ -20,32 +20,39 @@ app.layout = html.Div(style={'font-family': 'Arial, sans-serif', 'backgroundColo
 
                           # Primera sección: Opciones iniciales
                           html.Div(
-                              style={'display': 'flex', 'justify-content': 'space-around', 'margin-bottom': '30px'},
+                              style={
+                                  'display': 'flex', 'justify-content': 'space-around', 'margin-bottom': '30px'},
                               children=[
                                   html.Div(style={'width': '30%', 'backgroundColor': '#d7eaf8', 'padding': '15px',
                                                   'borderRadius': '10px'}, children=[
-                                      html.H3("Seleccione nodos:", style={'color': '#0056b3'}),
+                                      html.H3("Seleccione nodos:", style={
+                                              'color': '#0056b3'}),
                                       dcc.Dropdown(
                                           id='node-selector-origin',
-                                          options=[{'label': node, 'value': node} for node in nodes],
+                                          options=[{'label': node, 'value': node}
+                                                   for node in nodes],
                                           placeholder='Selecciona nodo de origen',
                                           style={'margin-bottom': '20px'}
                                       ),
                                       dcc.Dropdown(
                                           id='node-selector-destination',
-                                          options=[{'label': node, 'value': node} for node in nodes],
+                                          options=[{'label': node, 'value': node}
+                                                   for node in nodes],
                                           placeholder='Selecciona nodo de destino',
                                           style={'margin-bottom': '20px'}
                                       )
                                   ]),
                                   html.Div(style={'width': '30%', 'backgroundColor': '#d7eaf8', 'padding': '15px',
                                                   'borderRadius': '10px'}, children=[
-                                      html.H3("Seleccione algoritmo:", style={'color': '#0056b3'}),
+                                      html.H3("Seleccione algoritmo:",
+                                              style={'color': '#0056b3'}),
                                       dcc.Dropdown(
                                           id='algorithm-selector',
                                           options=[
-                                              {'label': 'Ruta Óptima - Bellman-Ford', 'value': 'bellman-ford'},
-                                              {'label': 'Flujo Máximo - Ford-Fulkerson', 'value': 'ford-fulkerson'}
+                                              {'label': 'Ruta Óptima - Bellman-Ford',
+                                                  'value': 'bellman-ford'},
+                                              {'label': 'Flujo Máximo - Ford-Fulkerson',
+                                                  'value': 'ford-fulkerson'}
                                           ],
                                           placeholder='Selecciona un algoritmo',
                                           style={'margin-bottom': '20px'}
@@ -56,8 +63,10 @@ app.layout = html.Div(style={'font-family': 'Arial, sans-serif', 'backgroundColo
                           # Segunda sección: Resultado
                           html.Div(style={'backgroundColor': '#cce5ff', 'padding': '20px', 'borderRadius': '10px',
                                           'margin-bottom': '30px'}, children=[
-                              html.H3("Resultado:", style={'color': '#0056b3', 'margin-bottom': '10px'}),
-                              html.Div(id='optimization-info', style={'color': '#003366', 'fontSize': '16px'})
+                              html.H3("Resultado:", style={
+                                      'color': '#0056b3', 'margin-bottom': '10px'}),
+                              html.Div(
+                                  id='optimization-info', style={'color': '#003366', 'fontSize': '16px'})
                           ]),
 
                           # Tercera sección: Gráfico interactivo
@@ -67,8 +76,8 @@ app.layout = html.Div(style={'font-family': 'Arial, sans-serif', 'backgroundColo
                                            id='network-graph',
                                            figure=style_water_network_graph()  # Grafo estilizado
                                        )
-                                   ])
-                      ])
+                          ])
+])
 
 
 # Callback para manejar la interacción con los algoritmos

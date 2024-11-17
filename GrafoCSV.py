@@ -5,6 +5,7 @@ import plotly.graph_objects as go
 # Crear el grafo
 G = nx.DiGraph()
 
+
 def load_graph_from_csv(file_path):
     global G
     with open(file_path, 'r') as file:
@@ -12,11 +13,15 @@ def load_graph_from_csv(file_path):
         for row in reader:
             source = row['Source Node'].strip()
             destination = row['Destination Node'].strip()
-            flow_capacity = float(row['Flow Capacity']) if row['Flow Capacity'] else 0
-            distance = float(row['Distance Between Nodes']) if row['Distance Between Nodes'] else 0
-            G.add_edge(source, destination, flow_capacity=flow_capacity, distance=distance)
+            flow_capacity = float(
+                row['Flow Capacity']) if row['Flow Capacity'] else 0
+            distance = float(row['Distance Between Nodes']
+                             ) if row['Distance Between Nodes'] else 0
+            G.add_edge(source, destination,
+                       flow_capacity=flow_capacity, distance=distance)
 
     return G
+
 
 def style_water_network_graph():
     """
@@ -41,7 +46,8 @@ def style_water_network_graph():
         edge_y.append(None)
 
         # Información sobre la arista (capacidad y distancia)
-        edge_text.append(f"De {src} a {dst}<br>Capacidad: {data['flow_capacity']} L/s<br>Distancia: {data['distance']} km")
+        edge_text.append(
+            f"De {src} a {dst}<br>Capacidad: {data['flow_capacity']} L/s<br>Distancia: {data['distance']} km")
 
     edge_trace = go.Scatter(
         x=edge_x,
@@ -67,7 +73,8 @@ def style_water_network_graph():
         if connected_edges:
             capacities = [edge[2]['flow_capacity'] for edge in connected_edges]
             max_capacity = max(capacities)
-            node_text.append(f"Estación: {node}<br>Capacidad máxima: {max_capacity} L/s")
+            node_text.append(
+                f"Estación: {node}<br>Capacidad máxima: {max_capacity} L/s")
         else:
             node_text.append(f"Estación: {node}<br>Sin conexiones")
 
@@ -96,9 +103,11 @@ def style_water_network_graph():
     )
     return fig
 
+
 # Código principal para pruebas
 if __name__ == "__main__":
-    load_graph_from_csv('Grafo.csv')
-    print(f"El grafo tiene {G.number_of_nodes()} nodos y {G.number_of_edges()} aristas.")
+    load_graph_from_csv('nodos_conectividad_3.csv')
+    print(
+        f"El grafo tiene {G.number_of_nodes()} nodos y {G.number_of_edges()} aristas.")
     fig = style_water_network_graph()
     fig.show()
