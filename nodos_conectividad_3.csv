@@ -1,0 +1,1588 @@
+Source Node,Destination Node,Node Type,Flow Capacity,Distance Between Nodes
+Río Rímac,PTAP La Atarjea,Water Treatment Plant,800000,1107
+Río Rímac,PTAP Huachipa,Water Treatment Plant,800000,3100
+Río Rímac,PTAP Chillón,Water Treatment Plant,600000,3955
+Río Rímac,PTAP Surco,Water Treatment Plant,300000,2799
+Río Rímac,PTAP Puente Piedra,Water Treatment Plant,90000,2055
+Río Chillón,PTAP La Atarjea,Water Treatment Plant,500000,2946
+Río Chillón,PTAP Chillón,Water Treatment Plant,500000,972
+Río Chillón,PTAP Puente Piedra,Water Treatment Plant,90000,1926
+Río Lurín,PTAP Huachipa,Water Treatment Plant,300000,4374
+Río Lurín,PTAP Surco,Water Treatment Plant,300000,2974
+Río Lurín,PTAP Pachacámac,Water Treatment Plant,200000,2486
+Río Lurín,PTAP Villa El Salvador,Water Treatment Plant,150000,672
+Río Lurín,PTAP San Bartolo,Water Treatment Plant,100000,2414
+PTAP La Atarjea,Reservorio de La Atarjea,Storage Tank,500000,1838
+PTAP Huachipa,Reservorio de Huachipa,Storage Tank,400000,1751
+PTAP Chillón,Reservorio Puente Piedra,Storage Tank,300000,1747
+PTAP Surco,Reservorio de Huachipa,Storage Tank,300000,1975
+PTAP Pachacámac,Reservorio Villa El Salvador,Storage Tank,200000,1714
+PTAP Villa El Salvador,Reservorio Villa El Salvador,Storage Tank,150000,1615
+PTAP San Bartolo,Reservorio Villa El Salvador,Storage Tank,100000,1961
+PTAP Puente Piedra,Reservorio Puente Piedra,Storage Tank,90000,1642
+PTAP Puente Piedra,Reservorios en Ventanilla,Storage Tank,50000,1585
+Reservorio de La Atarjea,Estación de Bombeo de Atarjea,Pumping Station,3500,365
+Reservorio Puente Piedra,Estación de Bombeo de Puente Piedra,Pumping Station,1500,610
+Reservorio Villa El Salvador,Estación de Bombeo de Villa María,Pumping Station,1200,627
+Reservorio de Huachipa,Estación de Bombeo de Huachipa,Pumping Station,2000,451
+Reservorios en Ventanilla,Estaciones en Ventanilla,Pumping Station,800,710
+Estación de Bombeo de Atarjea,Hogar Miraflores 1,Consumption Point,30503,408
+Estación de Bombeo de Atarjea,Hogar Miraflores 2,Consumption Point,58309,339
+Estación de Bombeo de Atarjea,Hogar Miraflores 3,Consumption Point,51981,438
+Estación de Bombeo de Atarjea,Hogar Miraflores 4,Consumption Point,41572,191
+Estación de Bombeo de Atarjea,Hogar Miraflores 5,Consumption Point,37087,241
+Estación de Bombeo de Atarjea,Hogar Miraflores 6,Consumption Point,41872,186
+Estación de Bombeo de Atarjea,Hogar Miraflores 7,Consumption Point,31138,157
+Estación de Bombeo de Atarjea,Hogar Miraflores 8,Consumption Point,49399,155
+Estación de Bombeo de Atarjea,Hogar Miraflores 9,Consumption Point,56054,348
+Estación de Bombeo de Atarjea,Hogar Miraflores 10,Consumption Point,38174,290
+Estación de Bombeo de Atarjea,Hogar Miraflores 11,Consumption Point,46160,413
+Estación de Bombeo de Atarjea,Hogar Miraflores 12,Consumption Point,23374,221
+Estación de Bombeo de Atarjea,Hogar Miraflores 13,Consumption Point,40463,249
+Estación de Bombeo de Atarjea,Hogar Miraflores 14,Consumption Point,41290,236
+Estación de Bombeo de Atarjea,Hogar Miraflores 15,Consumption Point,46175,188
+Estación de Bombeo de Atarjea,Hogar Miraflores 16,Consumption Point,48435,284
+Estación de Bombeo de Atarjea,Hogar Miraflores 17,Consumption Point,24289,211
+Estación de Bombeo de Atarjea,Hogar Miraflores 18,Consumption Point,52355,169
+Estación de Bombeo de Atarjea,Hogar Miraflores 19,Consumption Point,29853,156
+Estación de Bombeo de Atarjea,Hogar Miraflores 20,Consumption Point,31333,313
+Estación de Bombeo de Atarjea,Hogar Miraflores 21,Consumption Point,40468,373
+Estación de Bombeo de Atarjea,Hogar Miraflores 22,Consumption Point,40580,100
+Estación de Bombeo de Atarjea,Hogar Miraflores 23,Consumption Point,40708,199
+Estación de Bombeo de Atarjea,Hogar Miraflores 24,Consumption Point,29941,384
+Estación de Bombeo de Atarjea,Hogar Miraflores 25,Consumption Point,51444,137
+Estación de Bombeo de Atarjea,Hogar Miraflores 26,Consumption Point,33965,215
+Estación de Bombeo de Atarjea,Hogar Miraflores 27,Consumption Point,56013,416
+Estación de Bombeo de Atarjea,Hogar Miraflores 28,Consumption Point,26455,153
+Estación de Bombeo de Atarjea,Hogar Miraflores 29,Consumption Point,57428,176
+Estación de Bombeo de Atarjea,Hogar Miraflores 30,Consumption Point,26948,175
+Estación de Bombeo de Atarjea,Hogar Miraflores 31,Consumption Point,28677,167
+Estación de Bombeo de Atarjea,Hogar Miraflores 32,Consumption Point,45948,223
+Estación de Bombeo de Atarjea,Hogar Miraflores 33,Consumption Point,46577,299
+Estación de Bombeo de Atarjea,Hogar Miraflores 34,Consumption Point,21542,152
+Estación de Bombeo de Atarjea,Hogar Miraflores 35,Consumption Point,55045,106
+Estación de Bombeo de Atarjea,Hogar Miraflores 36,Consumption Point,36110,195
+Estación de Bombeo de Atarjea,Hogar Miraflores 37,Consumption Point,50051,479
+Estación de Bombeo de Atarjea,Hogar Miraflores 38,Consumption Point,25780,216
+Estación de Bombeo de Atarjea,Hogar Miraflores 39,Consumption Point,23174,304
+Estación de Bombeo de Atarjea,Hogar Miraflores 40,Consumption Point,41246,141
+Estación de Bombeo de Atarjea,Hogar San Isidro 1,Consumption Point,32372,345
+Estación de Bombeo de Atarjea,Hogar San Isidro 2,Consumption Point,36950,117
+Estación de Bombeo de Atarjea,Hogar San Isidro 3,Consumption Point,20350,493
+Estación de Bombeo de Atarjea,Hogar San Isidro 4,Consumption Point,52124,458
+Estación de Bombeo de Atarjea,Hogar San Isidro 5,Consumption Point,45342,158
+Estación de Bombeo de Atarjea,Hogar San Isidro 6,Consumption Point,53740,308
+Estación de Bombeo de Atarjea,Hogar San Isidro 7,Consumption Point,27113,395
+Estación de Bombeo de Atarjea,Hogar San Isidro 8,Consumption Point,33437,461
+Estación de Bombeo de Atarjea,Hogar San Isidro 9,Consumption Point,30988,151
+Estación de Bombeo de Atarjea,Hogar San Isidro 10,Consumption Point,40613,466
+Estación de Bombeo de Atarjea,Hogar San Isidro 11,Consumption Point,55937,359
+Estación de Bombeo de Atarjea,Hogar San Isidro 12,Consumption Point,25478,287
+Estación de Bombeo de Atarjea,Hogar San Isidro 13,Consumption Point,28081,345
+Estación de Bombeo de Atarjea,Hogar San Isidro 14,Consumption Point,23098,178
+Estación de Bombeo de Atarjea,Hogar San Isidro 15,Consumption Point,25088,301
+Estación de Bombeo de Atarjea,Hogar San Isidro 16,Consumption Point,29542,191
+Estación de Bombeo de Atarjea,Hogar San Isidro 17,Consumption Point,30389,357
+Estación de Bombeo de Atarjea,Hogar San Isidro 18,Consumption Point,53184,150
+Estación de Bombeo de Atarjea,Hogar San Isidro 19,Consumption Point,30315,381
+Estación de Bombeo de Atarjea,Hogar San Isidro 20,Consumption Point,48908,259
+Estación de Bombeo de Atarjea,Hogar San Isidro 21,Consumption Point,58480,177
+Estación de Bombeo de Atarjea,Hogar San Isidro 22,Consumption Point,27388,273
+Estación de Bombeo de Atarjea,Hogar San Isidro 23,Consumption Point,22072,341
+Estación de Bombeo de Atarjea,Hogar San Isidro 24,Consumption Point,47799,277
+Estación de Bombeo de Atarjea,Hogar San Isidro 25,Consumption Point,26010,214
+Estación de Bombeo de Atarjea,Hogar San Isidro 26,Consumption Point,43848,181
+Estación de Bombeo de Atarjea,Hogar San Isidro 27,Consumption Point,59013,210
+Estación de Bombeo de Atarjea,Hogar San Isidro 28,Consumption Point,57097,482
+Estación de Bombeo de Atarjea,Hogar San Isidro 29,Consumption Point,58399,258
+Estación de Bombeo de Atarjea,Hogar San Isidro 30,Consumption Point,37658,433
+Estación de Bombeo de Atarjea,Hogar San Isidro 31,Consumption Point,41005,249
+Estación de Bombeo de Atarjea,Hogar San Isidro 32,Consumption Point,27166,227
+Estación de Bombeo de Atarjea,Hogar San Isidro 33,Consumption Point,41687,260
+Estación de Bombeo de Atarjea,Hogar San Isidro 34,Consumption Point,20843,192
+Estación de Bombeo de Atarjea,Hogar San Isidro 35,Consumption Point,51458,339
+Estación de Bombeo de Atarjea,Hogar San Isidro 36,Consumption Point,22208,398
+Estación de Bombeo de Atarjea,Hogar San Isidro 37,Consumption Point,47902,460
+Estación de Bombeo de Atarjea,Hogar San Isidro 38,Consumption Point,58347,294
+Estación de Bombeo de Atarjea,Hogar San Isidro 39,Consumption Point,45950,156
+Estación de Bombeo de Atarjea,Hogar San Isidro 40,Consumption Point,39558,403
+Estación de Bombeo de Atarjea,Hogar Barranco 1,Consumption Point,59615,182
+Estación de Bombeo de Atarjea,Hogar Barranco 2,Consumption Point,55773,388
+Estación de Bombeo de Atarjea,Hogar Barranco 3,Consumption Point,29272,345
+Estación de Bombeo de Atarjea,Hogar Barranco 4,Consumption Point,20257,229
+Estación de Bombeo de Atarjea,Hogar Barranco 5,Consumption Point,58900,386
+Estación de Bombeo de Atarjea,Hogar Barranco 6,Consumption Point,21861,344
+Estación de Bombeo de Atarjea,Hogar Barranco 7,Consumption Point,46864,457
+Estación de Bombeo de Atarjea,Hogar Barranco 8,Consumption Point,51405,465
+Estación de Bombeo de Atarjea,Hogar Barranco 9,Consumption Point,28188,176
+Estación de Bombeo de Atarjea,Hogar Barranco 10,Consumption Point,39237,241
+Estación de Bombeo de Atarjea,Hogar Barranco 11,Consumption Point,40156,405
+Estación de Bombeo de Atarjea,Hogar Barranco 12,Consumption Point,24716,274
+Estación de Bombeo de Atarjea,Hogar Barranco 13,Consumption Point,35263,225
+Estación de Bombeo de Atarjea,Hogar Barranco 14,Consumption Point,35482,194
+Estación de Bombeo de Atarjea,Hogar Barranco 15,Consumption Point,46359,490
+Estación de Bombeo de Atarjea,Hogar Barranco 16,Consumption Point,33753,396
+Estación de Bombeo de Atarjea,Hogar Barranco 17,Consumption Point,29949,406
+Estación de Bombeo de Atarjea,Hogar Barranco 18,Consumption Point,27205,373
+Estación de Bombeo de Atarjea,Hogar Barranco 19,Consumption Point,27880,151
+Estación de Bombeo de Atarjea,Hogar Barranco 20,Consumption Point,33714,426
+Estación de Bombeo de Atarjea,Hogar Barranco 21,Consumption Point,39755,185
+Estación de Bombeo de Atarjea,Hogar Barranco 22,Consumption Point,38405,132
+Estación de Bombeo de Atarjea,Hogar Barranco 23,Consumption Point,50884,170
+Estación de Bombeo de Atarjea,Hogar Barranco 24,Consumption Point,41244,389
+Estación de Bombeo de Atarjea,Hogar Barranco 25,Consumption Point,21897,242
+Estación de Bombeo de Atarjea,Hogar Barranco 26,Consumption Point,58810,213
+Estación de Bombeo de Atarjea,Hogar Barranco 27,Consumption Point,42594,274
+Estación de Bombeo de Atarjea,Hogar Barranco 28,Consumption Point,38082,222
+Estación de Bombeo de Atarjea,Hogar Barranco 29,Consumption Point,57512,423
+Estación de Bombeo de Atarjea,Hogar Barranco 30,Consumption Point,45406,352
+Estación de Bombeo de Atarjea,Hogar Barranco 31,Consumption Point,24237,420
+Estación de Bombeo de Atarjea,Hogar Barranco 32,Consumption Point,56994,243
+Estación de Bombeo de Atarjea,Hogar Barranco 33,Consumption Point,32520,385
+Estación de Bombeo de Atarjea,Hogar Barranco 34,Consumption Point,27799,148
+Estación de Bombeo de Atarjea,Hogar Barranco 35,Consumption Point,57646,349
+Estación de Bombeo de Atarjea,Hogar Barranco 36,Consumption Point,21008,340
+Estación de Bombeo de Atarjea,Hogar Barranco 37,Consumption Point,43719,458
+Estación de Bombeo de Atarjea,Hogar Barranco 38,Consumption Point,48449,107
+Estación de Bombeo de Atarjea,Hogar Barranco 39,Consumption Point,59111,300
+Estación de Bombeo de Atarjea,Hogar Barranco 40,Consumption Point,57552,193
+Estación de Bombeo de Atarjea,Hogar Pueblo Libre 1,Consumption Point,36143,177
+Estación de Bombeo de Atarjea,Hogar Pueblo Libre 2,Consumption Point,24207,264
+Estación de Bombeo de Atarjea,Hogar Pueblo Libre 3,Consumption Point,56341,441
+Estación de Bombeo de Atarjea,Hogar Pueblo Libre 4,Consumption Point,36192,283
+Estación de Bombeo de Atarjea,Hogar Pueblo Libre 5,Consumption Point,30856,320
+Estación de Bombeo de Atarjea,Hogar Pueblo Libre 6,Consumption Point,20450,414
+Estación de Bombeo de Atarjea,Hogar Pueblo Libre 7,Consumption Point,31408,263
+Estación de Bombeo de Atarjea,Hogar Pueblo Libre 8,Consumption Point,22754,487
+Estación de Bombeo de Atarjea,Hogar Pueblo Libre 9,Consumption Point,20617,199
+Estación de Bombeo de Atarjea,Hogar Pueblo Libre 10,Consumption Point,32637,124
+Estación de Bombeo de Atarjea,Hogar Pueblo Libre 11,Consumption Point,28249,205
+Estación de Bombeo de Atarjea,Hogar Pueblo Libre 12,Consumption Point,52835,264
+Estación de Bombeo de Atarjea,Hogar Pueblo Libre 13,Consumption Point,49882,350
+Estación de Bombeo de Atarjea,Hogar Pueblo Libre 14,Consumption Point,30661,393
+Estación de Bombeo de Atarjea,Hogar Pueblo Libre 15,Consumption Point,43059,220
+Estación de Bombeo de Atarjea,Hogar Pueblo Libre 16,Consumption Point,28916,354
+Estación de Bombeo de Atarjea,Hogar Pueblo Libre 17,Consumption Point,41297,477
+Estación de Bombeo de Atarjea,Hogar Pueblo Libre 18,Consumption Point,44697,122
+Estación de Bombeo de Atarjea,Hogar Pueblo Libre 19,Consumption Point,24393,381
+Estación de Bombeo de Atarjea,Hogar Pueblo Libre 20,Consumption Point,48280,145
+Estación de Bombeo de Atarjea,Hogar Pueblo Libre 21,Consumption Point,46968,457
+Estación de Bombeo de Atarjea,Hogar Pueblo Libre 22,Consumption Point,52570,397
+Estación de Bombeo de Atarjea,Hogar Pueblo Libre 23,Consumption Point,35875,192
+Estación de Bombeo de Atarjea,Hogar Pueblo Libre 24,Consumption Point,46120,149
+Estación de Bombeo de Atarjea,Hogar Pueblo Libre 25,Consumption Point,42157,408
+Estación de Bombeo de Atarjea,Hogar Pueblo Libre 26,Consumption Point,34122,349
+Estación de Bombeo de Atarjea,Hogar Pueblo Libre 27,Consumption Point,24611,429
+Estación de Bombeo de Atarjea,Hogar Pueblo Libre 28,Consumption Point,31832,344
+Estación de Bombeo de Atarjea,Hogar Pueblo Libre 29,Consumption Point,36476,114
+Estación de Bombeo de Atarjea,Hogar Pueblo Libre 30,Consumption Point,42889,244
+Estación de Bombeo de Atarjea,Hogar Pueblo Libre 31,Consumption Point,33599,410
+Estación de Bombeo de Atarjea,Hogar Pueblo Libre 32,Consumption Point,27769,406
+Estación de Bombeo de Atarjea,Hogar Pueblo Libre 33,Consumption Point,39636,497
+Estación de Bombeo de Atarjea,Hogar Pueblo Libre 34,Consumption Point,39542,299
+Estación de Bombeo de Atarjea,Hogar Pueblo Libre 35,Consumption Point,27652,343
+Estación de Bombeo de Atarjea,Hogar Pueblo Libre 36,Consumption Point,39950,230
+Estación de Bombeo de Atarjea,Hogar Pueblo Libre 37,Consumption Point,33600,306
+Estación de Bombeo de Atarjea,Hogar Pueblo Libre 38,Consumption Point,53762,341
+Estación de Bombeo de Atarjea,Hogar Pueblo Libre 39,Consumption Point,56705,325
+Estación de Bombeo de Atarjea,Hogar Pueblo Libre 40,Consumption Point,36713,352
+Estación de Bombeo de Atarjea,Hogar San Miguel 1,Consumption Point,45787,190
+Estación de Bombeo de Atarjea,Hogar San Miguel 2,Consumption Point,39498,284
+Estación de Bombeo de Atarjea,Hogar San Miguel 3,Consumption Point,34001,413
+Estación de Bombeo de Atarjea,Hogar San Miguel 4,Consumption Point,50464,106
+Estación de Bombeo de Atarjea,Hogar San Miguel 5,Consumption Point,29574,227
+Estación de Bombeo de Atarjea,Hogar San Miguel 6,Consumption Point,28098,350
+Estación de Bombeo de Atarjea,Hogar San Miguel 7,Consumption Point,24754,395
+Estación de Bombeo de Atarjea,Hogar San Miguel 8,Consumption Point,22255,370
+Estación de Bombeo de Atarjea,Hogar San Miguel 9,Consumption Point,44341,233
+Estación de Bombeo de Atarjea,Hogar San Miguel 10,Consumption Point,29323,377
+Estación de Bombeo de Atarjea,Hogar San Miguel 11,Consumption Point,26196,132
+Estación de Bombeo de Atarjea,Hogar San Miguel 12,Consumption Point,57137,396
+Estación de Bombeo de Atarjea,Hogar San Miguel 13,Consumption Point,57421,456
+Estación de Bombeo de Atarjea,Hogar San Miguel 14,Consumption Point,30599,167
+Estación de Bombeo de Atarjea,Hogar San Miguel 15,Consumption Point,47384,260
+Estación de Bombeo de Atarjea,Hogar San Miguel 16,Consumption Point,45432,313
+Estación de Bombeo de Atarjea,Hogar San Miguel 17,Consumption Point,44582,348
+Estación de Bombeo de Atarjea,Hogar San Miguel 18,Consumption Point,50884,446
+Estación de Bombeo de Atarjea,Hogar San Miguel 19,Consumption Point,53260,138
+Estación de Bombeo de Atarjea,Hogar San Miguel 20,Consumption Point,29745,313
+Estación de Bombeo de Atarjea,Hogar San Miguel 21,Consumption Point,44490,377
+Estación de Bombeo de Atarjea,Hogar San Miguel 22,Consumption Point,47194,437
+Estación de Bombeo de Atarjea,Hogar San Miguel 23,Consumption Point,53228,163
+Estación de Bombeo de Atarjea,Hogar San Miguel 24,Consumption Point,54135,240
+Estación de Bombeo de Atarjea,Hogar San Miguel 25,Consumption Point,27511,233
+Estación de Bombeo de Atarjea,Hogar San Miguel 26,Consumption Point,22946,434
+Estación de Bombeo de Atarjea,Hogar San Miguel 27,Consumption Point,59008,205
+Estación de Bombeo de Atarjea,Hogar San Miguel 28,Consumption Point,54382,153
+Estación de Bombeo de Atarjea,Hogar San Miguel 29,Consumption Point,58329,107
+Estación de Bombeo de Atarjea,Hogar San Miguel 30,Consumption Point,44058,385
+Estación de Bombeo de Atarjea,Hogar San Miguel 31,Consumption Point,23898,262
+Estación de Bombeo de Atarjea,Hogar San Miguel 32,Consumption Point,21852,414
+Estación de Bombeo de Atarjea,Hogar San Miguel 33,Consumption Point,22265,119
+Estación de Bombeo de Atarjea,Hogar San Miguel 34,Consumption Point,50926,381
+Estación de Bombeo de Atarjea,Hogar San Miguel 35,Consumption Point,49644,433
+Estación de Bombeo de Atarjea,Hogar San Miguel 36,Consumption Point,44968,239
+Estación de Bombeo de Atarjea,Hogar San Miguel 37,Consumption Point,21357,122
+Estación de Bombeo de Atarjea,Hogar San Miguel 38,Consumption Point,32417,102
+Estación de Bombeo de Atarjea,Hogar San Miguel 39,Consumption Point,36166,418
+Estación de Bombeo de Atarjea,Hogar San Miguel 40,Consumption Point,49713,395
+Estación de Bombeo de Atarjea,Hogar Magdalena del Mar 1,Consumption Point,42672,440
+Estación de Bombeo de Atarjea,Hogar Magdalena del Mar 2,Consumption Point,54020,193
+Estación de Bombeo de Atarjea,Hogar Magdalena del Mar 3,Consumption Point,34190,324
+Estación de Bombeo de Atarjea,Hogar Magdalena del Mar 4,Consumption Point,30580,308
+Estación de Bombeo de Atarjea,Hogar Magdalena del Mar 5,Consumption Point,44828,431
+Estación de Bombeo de Atarjea,Hogar Magdalena del Mar 6,Consumption Point,36926,199
+Estación de Bombeo de Atarjea,Hogar Magdalena del Mar 7,Consumption Point,32422,285
+Estación de Bombeo de Atarjea,Hogar Magdalena del Mar 8,Consumption Point,44245,189
+Estación de Bombeo de Atarjea,Hogar Magdalena del Mar 9,Consumption Point,58116,409
+Estación de Bombeo de Atarjea,Hogar Magdalena del Mar 10,Consumption Point,28373,325
+Estación de Bombeo de Atarjea,Hogar Magdalena del Mar 11,Consumption Point,51445,156
+Estación de Bombeo de Atarjea,Hogar Magdalena del Mar 12,Consumption Point,44537,405
+Estación de Bombeo de Atarjea,Hogar Magdalena del Mar 13,Consumption Point,29062,220
+Estación de Bombeo de Atarjea,Hogar Magdalena del Mar 14,Consumption Point,54022,379
+Estación de Bombeo de Atarjea,Hogar Magdalena del Mar 15,Consumption Point,35139,121
+Estación de Bombeo de Atarjea,Hogar Magdalena del Mar 16,Consumption Point,37343,224
+Estación de Bombeo de Atarjea,Hogar Magdalena del Mar 17,Consumption Point,37337,106
+Estación de Bombeo de Atarjea,Hogar Magdalena del Mar 18,Consumption Point,51529,207
+Estación de Bombeo de Atarjea,Hogar Magdalena del Mar 19,Consumption Point,53341,233
+Estación de Bombeo de Atarjea,Hogar Magdalena del Mar 20,Consumption Point,32793,158
+Estación de Bombeo de Atarjea,Hogar Magdalena del Mar 21,Consumption Point,47448,194
+Estación de Bombeo de Atarjea,Hogar Magdalena del Mar 22,Consumption Point,26108,160
+Estación de Bombeo de Atarjea,Hogar Magdalena del Mar 23,Consumption Point,29953,435
+Estación de Bombeo de Atarjea,Hogar Magdalena del Mar 24,Consumption Point,55790,458
+Estación de Bombeo de Atarjea,Hogar Magdalena del Mar 25,Consumption Point,49591,482
+Estación de Bombeo de Atarjea,Hogar Magdalena del Mar 26,Consumption Point,35955,163
+Estación de Bombeo de Atarjea,Hogar Magdalena del Mar 27,Consumption Point,53961,163
+Estación de Bombeo de Atarjea,Hogar Magdalena del Mar 28,Consumption Point,34172,209
+Estación de Bombeo de Atarjea,Hogar Magdalena del Mar 29,Consumption Point,33477,499
+Estación de Bombeo de Atarjea,Hogar Magdalena del Mar 30,Consumption Point,51393,304
+Estación de Bombeo de Atarjea,Hogar Magdalena del Mar 31,Consumption Point,46005,144
+Estación de Bombeo de Atarjea,Hogar Magdalena del Mar 32,Consumption Point,44048,484
+Estación de Bombeo de Atarjea,Hogar Magdalena del Mar 33,Consumption Point,40601,282
+Estación de Bombeo de Atarjea,Hogar Magdalena del Mar 34,Consumption Point,33798,154
+Estación de Bombeo de Atarjea,Hogar Magdalena del Mar 35,Consumption Point,40080,323
+Estación de Bombeo de Atarjea,Hogar Magdalena del Mar 36,Consumption Point,40825,279
+Estación de Bombeo de Atarjea,Hogar Magdalena del Mar 37,Consumption Point,39606,172
+Estación de Bombeo de Atarjea,Hogar Magdalena del Mar 38,Consumption Point,33902,366
+Estación de Bombeo de Atarjea,Hogar Magdalena del Mar 39,Consumption Point,21193,342
+Estación de Bombeo de Atarjea,Hogar Magdalena del Mar 40,Consumption Point,37881,414
+Estación de Bombeo de Atarjea,Hogar Jesús María 1,Consumption Point,53425,400
+Estación de Bombeo de Atarjea,Hogar Jesús María 2,Consumption Point,51192,285
+Estación de Bombeo de Atarjea,Hogar Jesús María 3,Consumption Point,56227,420
+Estación de Bombeo de Atarjea,Hogar Jesús María 4,Consumption Point,29422,307
+Estación de Bombeo de Atarjea,Hogar Jesús María 5,Consumption Point,42167,267
+Estación de Bombeo de Atarjea,Hogar Jesús María 6,Consumption Point,33663,122
+Estación de Bombeo de Atarjea,Hogar Jesús María 7,Consumption Point,34287,375
+Estación de Bombeo de Atarjea,Hogar Jesús María 8,Consumption Point,41674,419
+Estación de Bombeo de Atarjea,Hogar Jesús María 9,Consumption Point,36175,424
+Estación de Bombeo de Atarjea,Hogar Jesús María 10,Consumption Point,56069,209
+Estación de Bombeo de Atarjea,Hogar Jesús María 11,Consumption Point,31369,415
+Estación de Bombeo de Atarjea,Hogar Jesús María 12,Consumption Point,38710,113
+Estación de Bombeo de Atarjea,Hogar Jesús María 13,Consumption Point,51253,142
+Estación de Bombeo de Atarjea,Hogar Jesús María 14,Consumption Point,23462,441
+Estación de Bombeo de Atarjea,Hogar Jesús María 15,Consumption Point,42827,480
+Estación de Bombeo de Atarjea,Hogar Jesús María 16,Consumption Point,47419,128
+Estación de Bombeo de Atarjea,Hogar Jesús María 17,Consumption Point,42978,149
+Estación de Bombeo de Atarjea,Hogar Jesús María 18,Consumption Point,35799,134
+Estación de Bombeo de Atarjea,Hogar Jesús María 19,Consumption Point,30917,147
+Estación de Bombeo de Atarjea,Hogar Jesús María 20,Consumption Point,27608,329
+Estación de Bombeo de Atarjea,Hogar Jesús María 21,Consumption Point,21379,101
+Estación de Bombeo de Atarjea,Hogar Jesús María 22,Consumption Point,20910,258
+Estación de Bombeo de Atarjea,Hogar Jesús María 23,Consumption Point,45133,184
+Estación de Bombeo de Atarjea,Hogar Jesús María 24,Consumption Point,54375,130
+Estación de Bombeo de Atarjea,Hogar Jesús María 25,Consumption Point,21325,127
+Estación de Bombeo de Atarjea,Hogar Jesús María 26,Consumption Point,32039,158
+Estación de Bombeo de Atarjea,Hogar Jesús María 27,Consumption Point,45679,330
+Estación de Bombeo de Atarjea,Hogar Jesús María 28,Consumption Point,47815,444
+Estación de Bombeo de Atarjea,Hogar Jesús María 29,Consumption Point,38968,480
+Estación de Bombeo de Atarjea,Hogar Jesús María 30,Consumption Point,48343,189
+Estación de Bombeo de Atarjea,Hogar Jesús María 31,Consumption Point,55915,328
+Estación de Bombeo de Atarjea,Hogar Jesús María 32,Consumption Point,28329,399
+Estación de Bombeo de Atarjea,Hogar Jesús María 33,Consumption Point,29665,490
+Estación de Bombeo de Atarjea,Hogar Jesús María 34,Consumption Point,53174,344
+Estación de Bombeo de Atarjea,Hogar Jesús María 35,Consumption Point,20256,180
+Estación de Bombeo de Atarjea,Hogar Jesús María 36,Consumption Point,59513,222
+Estación de Bombeo de Atarjea,Hogar Jesús María 37,Consumption Point,39427,279
+Estación de Bombeo de Atarjea,Hogar Jesús María 38,Consumption Point,58422,129
+Estación de Bombeo de Atarjea,Hogar Jesús María 39,Consumption Point,20641,277
+Estación de Bombeo de Atarjea,Hogar Jesús María 40,Consumption Point,40776,467
+Estación de Bombeo de Atarjea,Hogar Lince 1,Consumption Point,45539,251
+Estación de Bombeo de Atarjea,Hogar Lince 2,Consumption Point,55085,299
+Estación de Bombeo de Atarjea,Hogar Lince 3,Consumption Point,40229,112
+Estación de Bombeo de Atarjea,Hogar Lince 4,Consumption Point,29667,445
+Estación de Bombeo de Atarjea,Hogar Lince 5,Consumption Point,23180,166
+Estación de Bombeo de Atarjea,Hogar Lince 6,Consumption Point,23246,264
+Estación de Bombeo de Atarjea,Hogar Lince 7,Consumption Point,32631,367
+Estación de Bombeo de Atarjea,Hogar Lince 8,Consumption Point,40592,485
+Estación de Bombeo de Atarjea,Hogar Lince 9,Consumption Point,31496,195
+Estación de Bombeo de Atarjea,Hogar Lince 10,Consumption Point,50134,193
+Estación de Bombeo de Atarjea,Hogar Lince 11,Consumption Point,26864,104
+Estación de Bombeo de Atarjea,Hogar Lince 12,Consumption Point,21611,203
+Estación de Bombeo de Atarjea,Hogar Lince 13,Consumption Point,21037,408
+Estación de Bombeo de Atarjea,Hogar Lince 14,Consumption Point,34167,218
+Estación de Bombeo de Atarjea,Hogar Lince 15,Consumption Point,33037,183
+Estación de Bombeo de Atarjea,Hogar Lince 16,Consumption Point,36670,383
+Estación de Bombeo de Atarjea,Hogar Lince 17,Consumption Point,44361,346
+Estación de Bombeo de Atarjea,Hogar Lince 18,Consumption Point,22631,234
+Estación de Bombeo de Atarjea,Hogar Lince 19,Consumption Point,20582,165
+Estación de Bombeo de Atarjea,Hogar Lince 20,Consumption Point,53721,218
+Estación de Bombeo de Atarjea,Hogar Lince 21,Consumption Point,30395,348
+Estación de Bombeo de Atarjea,Hogar Lince 22,Consumption Point,45130,120
+Estación de Bombeo de Atarjea,Hogar Lince 23,Consumption Point,43391,321
+Estación de Bombeo de Atarjea,Hogar Lince 24,Consumption Point,25291,245
+Estación de Bombeo de Atarjea,Hogar Lince 25,Consumption Point,33888,234
+Estación de Bombeo de Atarjea,Hogar Lince 26,Consumption Point,32199,389
+Estación de Bombeo de Atarjea,Hogar Lince 27,Consumption Point,31893,287
+Estación de Bombeo de Atarjea,Hogar Lince 28,Consumption Point,26005,216
+Estación de Bombeo de Atarjea,Hogar Lince 29,Consumption Point,57206,128
+Estación de Bombeo de Atarjea,Hogar Lince 30,Consumption Point,49909,392
+Estación de Bombeo de Atarjea,Hogar Lince 31,Consumption Point,58013,439
+Estación de Bombeo de Atarjea,Hogar Lince 32,Consumption Point,24163,336
+Estación de Bombeo de Atarjea,Hogar Lince 33,Consumption Point,32023,382
+Estación de Bombeo de Atarjea,Hogar Lince 34,Consumption Point,48214,454
+Estación de Bombeo de Atarjea,Hogar Lince 35,Consumption Point,56199,476
+Estación de Bombeo de Atarjea,Hogar Lince 36,Consumption Point,44754,201
+Estación de Bombeo de Atarjea,Hogar Lince 37,Consumption Point,56263,185
+Estación de Bombeo de Atarjea,Hogar Lince 38,Consumption Point,27301,457
+Estación de Bombeo de Atarjea,Hogar Lince 39,Consumption Point,34806,430
+Estación de Bombeo de Atarjea,Hogar Lince 40,Consumption Point,25734,494
+Estación de Bombeo de Atarjea,Hogar Breña 1,Consumption Point,48580,275
+Estación de Bombeo de Atarjea,Hogar Breña 2,Consumption Point,22709,415
+Estación de Bombeo de Atarjea,Hogar Breña 3,Consumption Point,49974,351
+Estación de Bombeo de Atarjea,Hogar Breña 4,Consumption Point,31098,434
+Estación de Bombeo de Atarjea,Hogar Breña 5,Consumption Point,44307,174
+Estación de Bombeo de Atarjea,Hogar Breña 6,Consumption Point,25790,135
+Estación de Bombeo de Atarjea,Hogar Breña 7,Consumption Point,57543,329
+Estación de Bombeo de Atarjea,Hogar Breña 8,Consumption Point,51940,130
+Estación de Bombeo de Atarjea,Hogar Breña 9,Consumption Point,47212,306
+Estación de Bombeo de Atarjea,Hogar Breña 10,Consumption Point,46775,467
+Estación de Bombeo de Atarjea,Hogar Breña 11,Consumption Point,49403,399
+Estación de Bombeo de Atarjea,Hogar Breña 12,Consumption Point,43731,131
+Estación de Bombeo de Atarjea,Hogar Breña 13,Consumption Point,42128,365
+Estación de Bombeo de Atarjea,Hogar Breña 14,Consumption Point,58593,258
+Estación de Bombeo de Atarjea,Hogar Breña 15,Consumption Point,32546,190
+Estación de Bombeo de Atarjea,Hogar Breña 16,Consumption Point,50928,251
+Estación de Bombeo de Atarjea,Hogar Breña 17,Consumption Point,21013,435
+Estación de Bombeo de Atarjea,Hogar Breña 18,Consumption Point,49776,452
+Estación de Bombeo de Atarjea,Hogar Breña 19,Consumption Point,25649,298
+Estación de Bombeo de Atarjea,Hogar Breña 20,Consumption Point,28790,234
+Estación de Bombeo de Atarjea,Hogar Breña 21,Consumption Point,22066,165
+Estación de Bombeo de Atarjea,Hogar Breña 22,Consumption Point,51416,259
+Estación de Bombeo de Atarjea,Hogar Breña 23,Consumption Point,43565,377
+Estación de Bombeo de Atarjea,Hogar Breña 24,Consumption Point,54671,344
+Estación de Bombeo de Atarjea,Hogar Breña 25,Consumption Point,58412,214
+Estación de Bombeo de Atarjea,Hogar Breña 26,Consumption Point,37754,464
+Estación de Bombeo de Atarjea,Hogar Breña 27,Consumption Point,40822,404
+Estación de Bombeo de Atarjea,Hogar Breña 28,Consumption Point,20903,282
+Estación de Bombeo de Atarjea,Hogar Breña 29,Consumption Point,32191,252
+Estación de Bombeo de Atarjea,Hogar Breña 30,Consumption Point,26290,230
+Estación de Bombeo de Atarjea,Hogar Breña 31,Consumption Point,39352,141
+Estación de Bombeo de Atarjea,Hogar Breña 32,Consumption Point,38215,487
+Estación de Bombeo de Atarjea,Hogar Breña 33,Consumption Point,38242,115
+Estación de Bombeo de Atarjea,Hogar Breña 34,Consumption Point,35489,312
+Estación de Bombeo de Atarjea,Hogar Breña 35,Consumption Point,53682,299
+Estación de Bombeo de Atarjea,Hogar Breña 36,Consumption Point,24665,247
+Estación de Bombeo de Atarjea,Hogar Breña 37,Consumption Point,50056,347
+Estación de Bombeo de Atarjea,Hogar Breña 38,Consumption Point,34174,459
+Estación de Bombeo de Atarjea,Hogar Breña 39,Consumption Point,46285,410
+Estación de Bombeo de Atarjea,Hogar Breña 40,Consumption Point,40894,261
+Estación de Bombeo de Atarjea,Hogar La Victoria 1,Consumption Point,29268,213
+Estación de Bombeo de Atarjea,Hogar La Victoria 2,Consumption Point,33556,132
+Estación de Bombeo de Atarjea,Hogar La Victoria 3,Consumption Point,26681,181
+Estación de Bombeo de Atarjea,Hogar La Victoria 4,Consumption Point,59088,404
+Estación de Bombeo de Atarjea,Hogar La Victoria 5,Consumption Point,36431,271
+Estación de Bombeo de Atarjea,Hogar La Victoria 6,Consumption Point,51247,148
+Estación de Bombeo de Atarjea,Hogar La Victoria 7,Consumption Point,37378,192
+Estación de Bombeo de Atarjea,Hogar La Victoria 8,Consumption Point,24071,490
+Estación de Bombeo de Atarjea,Hogar La Victoria 9,Consumption Point,53657,349
+Estación de Bombeo de Atarjea,Hogar La Victoria 10,Consumption Point,28195,211
+Estación de Bombeo de Atarjea,Hogar La Victoria 11,Consumption Point,22757,479
+Estación de Bombeo de Atarjea,Hogar La Victoria 12,Consumption Point,27851,443
+Estación de Bombeo de Atarjea,Hogar La Victoria 13,Consumption Point,47908,292
+Estación de Bombeo de Atarjea,Hogar La Victoria 14,Consumption Point,35322,292
+Estación de Bombeo de Atarjea,Hogar La Victoria 15,Consumption Point,58374,403
+Estación de Bombeo de Atarjea,Hogar La Victoria 16,Consumption Point,35428,442
+Estación de Bombeo de Atarjea,Hogar La Victoria 17,Consumption Point,57535,164
+Estación de Bombeo de Atarjea,Hogar La Victoria 18,Consumption Point,24233,240
+Estación de Bombeo de Atarjea,Hogar La Victoria 19,Consumption Point,51372,150
+Estación de Bombeo de Atarjea,Hogar La Victoria 20,Consumption Point,25914,126
+Estación de Bombeo de Atarjea,Hogar La Victoria 21,Consumption Point,48562,248
+Estación de Bombeo de Atarjea,Hogar La Victoria 22,Consumption Point,43825,199
+Estación de Bombeo de Atarjea,Hogar La Victoria 23,Consumption Point,54220,358
+Estación de Bombeo de Atarjea,Hogar La Victoria 24,Consumption Point,43150,430
+Estación de Bombeo de Atarjea,Hogar La Victoria 25,Consumption Point,57390,225
+Estación de Bombeo de Atarjea,Hogar La Victoria 26,Consumption Point,23442,478
+Estación de Bombeo de Atarjea,Hogar La Victoria 27,Consumption Point,40391,359
+Estación de Bombeo de Atarjea,Hogar La Victoria 28,Consumption Point,59264,450
+Estación de Bombeo de Atarjea,Hogar La Victoria 29,Consumption Point,30149,305
+Estación de Bombeo de Atarjea,Hogar La Victoria 30,Consumption Point,28986,263
+Estación de Bombeo de Atarjea,Hogar La Victoria 31,Consumption Point,39266,206
+Estación de Bombeo de Atarjea,Hogar La Victoria 32,Consumption Point,55560,110
+Estación de Bombeo de Atarjea,Hogar La Victoria 33,Consumption Point,30485,461
+Estación de Bombeo de Atarjea,Hogar La Victoria 34,Consumption Point,45094,186
+Estación de Bombeo de Atarjea,Hogar La Victoria 35,Consumption Point,58792,418
+Estación de Bombeo de Atarjea,Hogar La Victoria 36,Consumption Point,29065,180
+Estación de Bombeo de Atarjea,Hogar La Victoria 37,Consumption Point,40783,130
+Estación de Bombeo de Atarjea,Hogar La Victoria 38,Consumption Point,57286,317
+Estación de Bombeo de Atarjea,Hogar La Victoria 39,Consumption Point,22897,167
+Estación de Bombeo de Atarjea,Hogar La Victoria 40,Consumption Point,33265,333
+Estación de Bombeo de Atarjea,Hogar Cercado de Lima 1,Consumption Point,47161,410
+Estación de Bombeo de Atarjea,Hogar Cercado de Lima 2,Consumption Point,24749,243
+Estación de Bombeo de Atarjea,Hogar Cercado de Lima 3,Consumption Point,59645,278
+Estación de Bombeo de Atarjea,Hogar Cercado de Lima 4,Consumption Point,30823,363
+Estación de Bombeo de Atarjea,Hogar Cercado de Lima 5,Consumption Point,56842,415
+Estación de Bombeo de Atarjea,Hogar Cercado de Lima 6,Consumption Point,51662,274
+Estación de Bombeo de Atarjea,Hogar Cercado de Lima 7,Consumption Point,30414,310
+Estación de Bombeo de Atarjea,Hogar Cercado de Lima 8,Consumption Point,20756,499
+Estación de Bombeo de Atarjea,Hogar Cercado de Lima 9,Consumption Point,44176,411
+Estación de Bombeo de Atarjea,Hogar Cercado de Lima 10,Consumption Point,20620,375
+Estación de Bombeo de Atarjea,Hogar Cercado de Lima 11,Consumption Point,41865,240
+Estación de Bombeo de Atarjea,Hogar Cercado de Lima 12,Consumption Point,26655,465
+Estación de Bombeo de Atarjea,Hogar Cercado de Lima 13,Consumption Point,20989,152
+Estación de Bombeo de Atarjea,Hogar Cercado de Lima 14,Consumption Point,45382,171
+Estación de Bombeo de Atarjea,Hogar Cercado de Lima 15,Consumption Point,53286,371
+Estación de Bombeo de Atarjea,Hogar Cercado de Lima 16,Consumption Point,29754,297
+Estación de Bombeo de Atarjea,Hogar Cercado de Lima 17,Consumption Point,57218,234
+Estación de Bombeo de Atarjea,Hogar Cercado de Lima 18,Consumption Point,34980,206
+Estación de Bombeo de Atarjea,Hogar Cercado de Lima 19,Consumption Point,47452,185
+Estación de Bombeo de Atarjea,Hogar Cercado de Lima 20,Consumption Point,54415,116
+Estación de Bombeo de Atarjea,Hogar Cercado de Lima 21,Consumption Point,57011,331
+Estación de Bombeo de Atarjea,Hogar Cercado de Lima 22,Consumption Point,34545,181
+Estación de Bombeo de Atarjea,Hogar Cercado de Lima 23,Consumption Point,40683,298
+Estación de Bombeo de Atarjea,Hogar Cercado de Lima 24,Consumption Point,47892,412
+Estación de Bombeo de Atarjea,Hogar Cercado de Lima 25,Consumption Point,58386,487
+Estación de Bombeo de Atarjea,Hogar Cercado de Lima 26,Consumption Point,56504,171
+Estación de Bombeo de Atarjea,Hogar Cercado de Lima 27,Consumption Point,37914,109
+Estación de Bombeo de Atarjea,Hogar Cercado de Lima 28,Consumption Point,56126,349
+Estación de Bombeo de Atarjea,Hogar Cercado de Lima 29,Consumption Point,27966,282
+Estación de Bombeo de Atarjea,Hogar Cercado de Lima 30,Consumption Point,34631,256
+Estación de Bombeo de Atarjea,Hogar Cercado de Lima 31,Consumption Point,49419,442
+Estación de Bombeo de Atarjea,Hogar Cercado de Lima 32,Consumption Point,24046,181
+Estación de Bombeo de Atarjea,Hogar Cercado de Lima 33,Consumption Point,29338,257
+Estación de Bombeo de Atarjea,Hogar Cercado de Lima 34,Consumption Point,24072,241
+Estación de Bombeo de Atarjea,Hogar Cercado de Lima 35,Consumption Point,27608,296
+Estación de Bombeo de Atarjea,Hogar Cercado de Lima 36,Consumption Point,38825,317
+Estación de Bombeo de Atarjea,Hogar Cercado de Lima 37,Consumption Point,49239,176
+Estación de Bombeo de Atarjea,Hogar Cercado de Lima 38,Consumption Point,33540,251
+Estación de Bombeo de Atarjea,Hogar Cercado de Lima 39,Consumption Point,31147,109
+Estación de Bombeo de Atarjea,Hogar Cercado de Lima 40,Consumption Point,49997,138
+Estación de Bombeo de Atarjea,Hogar Rímac 1,Consumption Point,26974,158
+Estación de Bombeo de Atarjea,Hogar Rímac 2,Consumption Point,42215,251
+Estación de Bombeo de Atarjea,Hogar Rímac 3,Consumption Point,35464,459
+Estación de Bombeo de Atarjea,Hogar Rímac 4,Consumption Point,30616,221
+Estación de Bombeo de Atarjea,Hogar Rímac 5,Consumption Point,24467,477
+Estación de Bombeo de Atarjea,Hogar Rímac 6,Consumption Point,50933,285
+Estación de Bombeo de Atarjea,Hogar Rímac 7,Consumption Point,59535,149
+Estación de Bombeo de Atarjea,Hogar Rímac 8,Consumption Point,21427,133
+Estación de Bombeo de Atarjea,Hogar Rímac 9,Consumption Point,30883,440
+Estación de Bombeo de Atarjea,Hogar Rímac 10,Consumption Point,55921,250
+Estación de Bombeo de Atarjea,Hogar Rímac 11,Consumption Point,54957,423
+Estación de Bombeo de Atarjea,Hogar Rímac 12,Consumption Point,20800,109
+Estación de Bombeo de Atarjea,Hogar Rímac 13,Consumption Point,51148,377
+Estación de Bombeo de Atarjea,Hogar Rímac 14,Consumption Point,38746,236
+Estación de Bombeo de Atarjea,Hogar Rímac 15,Consumption Point,45829,182
+Estación de Bombeo de Atarjea,Hogar Rímac 16,Consumption Point,42705,192
+Estación de Bombeo de Atarjea,Hogar Rímac 17,Consumption Point,24064,336
+Estación de Bombeo de Atarjea,Hogar Rímac 18,Consumption Point,34031,307
+Estación de Bombeo de Atarjea,Hogar Rímac 19,Consumption Point,24664,120
+Estación de Bombeo de Atarjea,Hogar Rímac 20,Consumption Point,51021,449
+Estación de Bombeo de Atarjea,Hogar Rímac 21,Consumption Point,39768,421
+Estación de Bombeo de Atarjea,Hogar Rímac 22,Consumption Point,43355,330
+Estación de Bombeo de Atarjea,Hogar Rímac 23,Consumption Point,26941,119
+Estación de Bombeo de Atarjea,Hogar Rímac 24,Consumption Point,26555,354
+Estación de Bombeo de Atarjea,Hogar Rímac 25,Consumption Point,35320,232
+Estación de Bombeo de Atarjea,Hogar Rímac 26,Consumption Point,58099,282
+Estación de Bombeo de Atarjea,Hogar Rímac 27,Consumption Point,54289,410
+Estación de Bombeo de Atarjea,Hogar Rímac 28,Consumption Point,25281,193
+Estación de Bombeo de Atarjea,Hogar Rímac 29,Consumption Point,57376,449
+Estación de Bombeo de Atarjea,Hogar Rímac 30,Consumption Point,37521,271
+Estación de Bombeo de Atarjea,Hogar Rímac 31,Consumption Point,38778,491
+Estación de Bombeo de Atarjea,Hogar Rímac 32,Consumption Point,42104,304
+Estación de Bombeo de Atarjea,Hogar Rímac 33,Consumption Point,55654,194
+Estación de Bombeo de Atarjea,Hogar Rímac 34,Consumption Point,45053,140
+Estación de Bombeo de Atarjea,Hogar Rímac 35,Consumption Point,57838,459
+Estación de Bombeo de Atarjea,Hogar Rímac 36,Consumption Point,48787,238
+Estación de Bombeo de Atarjea,Hogar Rímac 37,Consumption Point,33348,440
+Estación de Bombeo de Atarjea,Hogar Rímac 38,Consumption Point,54263,317
+Estación de Bombeo de Atarjea,Hogar Rímac 39,Consumption Point,30160,271
+Estación de Bombeo de Atarjea,Hogar Rímac 40,Consumption Point,29466,214
+Estación de Bombeo de Huachipa,Hogar San Juan de Lurigancho 1,Consumption Point,43014,260
+Estación de Bombeo de Huachipa,Hogar San Juan de Lurigancho 2,Consumption Point,44189,275
+Estación de Bombeo de Huachipa,Hogar San Juan de Lurigancho 3,Consumption Point,37855,474
+Estación de Bombeo de Huachipa,Hogar San Juan de Lurigancho 4,Consumption Point,50243,305
+Estación de Bombeo de Huachipa,Hogar San Juan de Lurigancho 5,Consumption Point,57417,439
+Estación de Bombeo de Huachipa,Hogar San Juan de Lurigancho 6,Consumption Point,51244,483
+Estación de Bombeo de Huachipa,Hogar San Juan de Lurigancho 7,Consumption Point,35436,135
+Estación de Bombeo de Huachipa,Hogar San Juan de Lurigancho 8,Consumption Point,58795,486
+Estación de Bombeo de Huachipa,Hogar San Juan de Lurigancho 9,Consumption Point,59771,176
+Estación de Bombeo de Huachipa,Hogar San Juan de Lurigancho 10,Consumption Point,52841,293
+Estación de Bombeo de Huachipa,Hogar San Juan de Lurigancho 11,Consumption Point,49977,469
+Estación de Bombeo de Huachipa,Hogar San Juan de Lurigancho 12,Consumption Point,40524,335
+Estación de Bombeo de Huachipa,Hogar San Juan de Lurigancho 13,Consumption Point,47118,469
+Estación de Bombeo de Huachipa,Hogar San Juan de Lurigancho 14,Consumption Point,29269,347
+Estación de Bombeo de Huachipa,Hogar San Juan de Lurigancho 15,Consumption Point,26012,431
+Estación de Bombeo de Huachipa,Hogar San Juan de Lurigancho 16,Consumption Point,48218,261
+Estación de Bombeo de Huachipa,Hogar San Juan de Lurigancho 17,Consumption Point,37787,288
+Estación de Bombeo de Huachipa,Hogar San Juan de Lurigancho 18,Consumption Point,44237,137
+Estación de Bombeo de Huachipa,Hogar San Juan de Lurigancho 19,Consumption Point,51830,341
+Estación de Bombeo de Huachipa,Hogar San Juan de Lurigancho 20,Consumption Point,28602,300
+Estación de Bombeo de Huachipa,Hogar San Juan de Lurigancho 21,Consumption Point,33110,463
+Estación de Bombeo de Huachipa,Hogar San Juan de Lurigancho 22,Consumption Point,35784,160
+Estación de Bombeo de Huachipa,Hogar San Juan de Lurigancho 23,Consumption Point,20688,256
+Estación de Bombeo de Huachipa,Hogar San Juan de Lurigancho 24,Consumption Point,46592,479
+Estación de Bombeo de Huachipa,Hogar San Juan de Lurigancho 25,Consumption Point,30693,437
+Estación de Bombeo de Huachipa,Hogar San Juan de Lurigancho 26,Consumption Point,47634,116
+Estación de Bombeo de Huachipa,Hogar San Juan de Lurigancho 27,Consumption Point,57035,206
+Estación de Bombeo de Huachipa,Hogar San Juan de Lurigancho 28,Consumption Point,48150,167
+Estación de Bombeo de Huachipa,Hogar San Juan de Lurigancho 29,Consumption Point,51634,291
+Estación de Bombeo de Huachipa,Hogar San Juan de Lurigancho 30,Consumption Point,37138,384
+Estación de Bombeo de Huachipa,Hogar San Juan de Lurigancho 31,Consumption Point,49672,483
+Estación de Bombeo de Huachipa,Hogar San Juan de Lurigancho 32,Consumption Point,54010,333
+Estación de Bombeo de Huachipa,Hogar San Juan de Lurigancho 33,Consumption Point,23741,296
+Estación de Bombeo de Huachipa,Hogar San Juan de Lurigancho 34,Consumption Point,56539,297
+Estación de Bombeo de Huachipa,Hogar San Juan de Lurigancho 35,Consumption Point,47769,145
+Estación de Bombeo de Huachipa,Hogar San Juan de Lurigancho 36,Consumption Point,27540,179
+Estación de Bombeo de Huachipa,Hogar San Juan de Lurigancho 37,Consumption Point,44152,450
+Estación de Bombeo de Huachipa,Hogar San Juan de Lurigancho 38,Consumption Point,52206,150
+Estación de Bombeo de Huachipa,Hogar San Juan de Lurigancho 39,Consumption Point,39408,309
+Estación de Bombeo de Huachipa,Hogar San Juan de Lurigancho 40,Consumption Point,31667,176
+Estación de Bombeo de Huachipa,Hogar La Molina 1,Consumption Point,43544,392
+Estación de Bombeo de Huachipa,Hogar La Molina 2,Consumption Point,27996,113
+Estación de Bombeo de Huachipa,Hogar La Molina 3,Consumption Point,48042,183
+Estación de Bombeo de Huachipa,Hogar La Molina 4,Consumption Point,46699,286
+Estación de Bombeo de Huachipa,Hogar La Molina 5,Consumption Point,48284,239
+Estación de Bombeo de Huachipa,Hogar La Molina 6,Consumption Point,40561,131
+Estación de Bombeo de Huachipa,Hogar La Molina 7,Consumption Point,43347,395
+Estación de Bombeo de Huachipa,Hogar La Molina 8,Consumption Point,54238,335
+Estación de Bombeo de Huachipa,Hogar La Molina 9,Consumption Point,24691,476
+Estación de Bombeo de Huachipa,Hogar La Molina 10,Consumption Point,38533,455
+Estación de Bombeo de Huachipa,Hogar La Molina 11,Consumption Point,25769,139
+Estación de Bombeo de Huachipa,Hogar La Molina 12,Consumption Point,45291,205
+Estación de Bombeo de Huachipa,Hogar La Molina 13,Consumption Point,38073,340
+Estación de Bombeo de Huachipa,Hogar La Molina 14,Consumption Point,20509,127
+Estación de Bombeo de Huachipa,Hogar La Molina 15,Consumption Point,45135,243
+Estación de Bombeo de Huachipa,Hogar La Molina 16,Consumption Point,37973,387
+Estación de Bombeo de Huachipa,Hogar La Molina 17,Consumption Point,40368,248
+Estación de Bombeo de Huachipa,Hogar La Molina 18,Consumption Point,46798,498
+Estación de Bombeo de Huachipa,Hogar La Molina 19,Consumption Point,26142,339
+Estación de Bombeo de Huachipa,Hogar La Molina 20,Consumption Point,46826,211
+Estación de Bombeo de Huachipa,Hogar La Molina 21,Consumption Point,40265,404
+Estación de Bombeo de Huachipa,Hogar La Molina 22,Consumption Point,50032,285
+Estación de Bombeo de Huachipa,Hogar La Molina 23,Consumption Point,41659,123
+Estación de Bombeo de Huachipa,Hogar La Molina 24,Consumption Point,42997,270
+Estación de Bombeo de Huachipa,Hogar La Molina 25,Consumption Point,32031,458
+Estación de Bombeo de Huachipa,Hogar La Molina 26,Consumption Point,42683,263
+Estación de Bombeo de Huachipa,Hogar La Molina 27,Consumption Point,29488,381
+Estación de Bombeo de Huachipa,Hogar La Molina 28,Consumption Point,21554,369
+Estación de Bombeo de Huachipa,Hogar La Molina 29,Consumption Point,54953,153
+Estación de Bombeo de Huachipa,Hogar La Molina 30,Consumption Point,42039,172
+Estación de Bombeo de Huachipa,Hogar La Molina 31,Consumption Point,46198,185
+Estación de Bombeo de Huachipa,Hogar La Molina 32,Consumption Point,58026,388
+Estación de Bombeo de Huachipa,Hogar La Molina 33,Consumption Point,20513,270
+Estación de Bombeo de Huachipa,Hogar La Molina 34,Consumption Point,41885,127
+Estación de Bombeo de Huachipa,Hogar La Molina 35,Consumption Point,49903,223
+Estación de Bombeo de Huachipa,Hogar La Molina 36,Consumption Point,50510,412
+Estación de Bombeo de Huachipa,Hogar La Molina 37,Consumption Point,52054,115
+Estación de Bombeo de Huachipa,Hogar La Molina 38,Consumption Point,41920,253
+Estación de Bombeo de Huachipa,Hogar La Molina 39,Consumption Point,51109,210
+Estación de Bombeo de Huachipa,Hogar La Molina 40,Consumption Point,42306,116
+Estación de Bombeo de Huachipa,Hogar Ate 1,Consumption Point,49784,473
+Estación de Bombeo de Huachipa,Hogar Ate 2,Consumption Point,41190,469
+Estación de Bombeo de Huachipa,Hogar Ate 3,Consumption Point,40645,405
+Estación de Bombeo de Huachipa,Hogar Ate 4,Consumption Point,53611,483
+Estación de Bombeo de Huachipa,Hogar Ate 5,Consumption Point,21941,214
+Estación de Bombeo de Huachipa,Hogar Ate 6,Consumption Point,22004,346
+Estación de Bombeo de Huachipa,Hogar Ate 7,Consumption Point,27492,360
+Estación de Bombeo de Huachipa,Hogar Ate 8,Consumption Point,46891,348
+Estación de Bombeo de Huachipa,Hogar Ate 9,Consumption Point,30972,304
+Estación de Bombeo de Huachipa,Hogar Ate 10,Consumption Point,30471,385
+Estación de Bombeo de Huachipa,Hogar Ate 11,Consumption Point,27409,113
+Estación de Bombeo de Huachipa,Hogar Ate 12,Consumption Point,54902,101
+Estación de Bombeo de Huachipa,Hogar Ate 13,Consumption Point,59147,376
+Estación de Bombeo de Huachipa,Hogar Ate 14,Consumption Point,38441,360
+Estación de Bombeo de Huachipa,Hogar Ate 15,Consumption Point,30903,466
+Estación de Bombeo de Huachipa,Hogar Ate 16,Consumption Point,59622,200
+Estación de Bombeo de Huachipa,Hogar Ate 17,Consumption Point,36308,482
+Estación de Bombeo de Huachipa,Hogar Ate 18,Consumption Point,44531,338
+Estación de Bombeo de Huachipa,Hogar Ate 19,Consumption Point,31554,280
+Estación de Bombeo de Huachipa,Hogar Ate 20,Consumption Point,45622,429
+Estación de Bombeo de Huachipa,Hogar Ate 21,Consumption Point,53264,237
+Estación de Bombeo de Huachipa,Hogar Ate 22,Consumption Point,45854,265
+Estación de Bombeo de Huachipa,Hogar Ate 23,Consumption Point,39558,446
+Estación de Bombeo de Huachipa,Hogar Ate 24,Consumption Point,32083,359
+Estación de Bombeo de Huachipa,Hogar Ate 25,Consumption Point,23836,435
+Estación de Bombeo de Huachipa,Hogar Ate 26,Consumption Point,49323,464
+Estación de Bombeo de Huachipa,Hogar Ate 27,Consumption Point,41063,410
+Estación de Bombeo de Huachipa,Hogar Ate 28,Consumption Point,40460,164
+Estación de Bombeo de Huachipa,Hogar Ate 29,Consumption Point,27567,441
+Estación de Bombeo de Huachipa,Hogar Ate 30,Consumption Point,46539,490
+Estación de Bombeo de Huachipa,Hogar Ate 31,Consumption Point,34608,116
+Estación de Bombeo de Huachipa,Hogar Ate 32,Consumption Point,26365,191
+Estación de Bombeo de Huachipa,Hogar Ate 33,Consumption Point,31480,383
+Estación de Bombeo de Huachipa,Hogar Ate 34,Consumption Point,26737,367
+Estación de Bombeo de Huachipa,Hogar Ate 35,Consumption Point,49489,438
+Estación de Bombeo de Huachipa,Hogar Ate 36,Consumption Point,28515,159
+Estación de Bombeo de Huachipa,Hogar Ate 37,Consumption Point,25717,243
+Estación de Bombeo de Huachipa,Hogar Ate 38,Consumption Point,40701,481
+Estación de Bombeo de Huachipa,Hogar Ate 39,Consumption Point,58922,177
+Estación de Bombeo de Huachipa,Hogar Ate 40,Consumption Point,44491,266
+Estación de Bombeo de Huachipa,Hogar Santa Anita 1,Consumption Point,20249,273
+Estación de Bombeo de Huachipa,Hogar Santa Anita 2,Consumption Point,46983,349
+Estación de Bombeo de Huachipa,Hogar Santa Anita 3,Consumption Point,26787,303
+Estación de Bombeo de Huachipa,Hogar Santa Anita 4,Consumption Point,54209,260
+Estación de Bombeo de Huachipa,Hogar Santa Anita 5,Consumption Point,35300,420
+Estación de Bombeo de Huachipa,Hogar Santa Anita 6,Consumption Point,25585,127
+Estación de Bombeo de Huachipa,Hogar Santa Anita 7,Consumption Point,30738,430
+Estación de Bombeo de Huachipa,Hogar Santa Anita 8,Consumption Point,50634,419
+Estación de Bombeo de Huachipa,Hogar Santa Anita 9,Consumption Point,31458,491
+Estación de Bombeo de Huachipa,Hogar Santa Anita 10,Consumption Point,20507,104
+Estación de Bombeo de Huachipa,Hogar Santa Anita 11,Consumption Point,53376,282
+Estación de Bombeo de Huachipa,Hogar Santa Anita 12,Consumption Point,29654,222
+Estación de Bombeo de Huachipa,Hogar Santa Anita 13,Consumption Point,52593,340
+Estación de Bombeo de Huachipa,Hogar Santa Anita 14,Consumption Point,57758,190
+Estación de Bombeo de Huachipa,Hogar Santa Anita 15,Consumption Point,33385,474
+Estación de Bombeo de Huachipa,Hogar Santa Anita 16,Consumption Point,54642,438
+Estación de Bombeo de Huachipa,Hogar Santa Anita 17,Consumption Point,29728,248
+Estación de Bombeo de Huachipa,Hogar Santa Anita 18,Consumption Point,54815,344
+Estación de Bombeo de Huachipa,Hogar Santa Anita 19,Consumption Point,46221,470
+Estación de Bombeo de Huachipa,Hogar Santa Anita 20,Consumption Point,37072,393
+Estación de Bombeo de Huachipa,Hogar Santa Anita 21,Consumption Point,41777,329
+Estación de Bombeo de Huachipa,Hogar Santa Anita 22,Consumption Point,52717,295
+Estación de Bombeo de Huachipa,Hogar Santa Anita 23,Consumption Point,33101,100
+Estación de Bombeo de Huachipa,Hogar Santa Anita 24,Consumption Point,38352,135
+Estación de Bombeo de Huachipa,Hogar Santa Anita 25,Consumption Point,29261,456
+Estación de Bombeo de Huachipa,Hogar Santa Anita 26,Consumption Point,22589,276
+Estación de Bombeo de Huachipa,Hogar Santa Anita 27,Consumption Point,48108,484
+Estación de Bombeo de Huachipa,Hogar Santa Anita 28,Consumption Point,38647,367
+Estación de Bombeo de Huachipa,Hogar Santa Anita 29,Consumption Point,43641,143
+Estación de Bombeo de Huachipa,Hogar Santa Anita 30,Consumption Point,25079,374
+Estación de Bombeo de Huachipa,Hogar Santa Anita 31,Consumption Point,28442,266
+Estación de Bombeo de Huachipa,Hogar Santa Anita 32,Consumption Point,36518,184
+Estación de Bombeo de Huachipa,Hogar Santa Anita 33,Consumption Point,54318,460
+Estación de Bombeo de Huachipa,Hogar Santa Anita 34,Consumption Point,34111,169
+Estación de Bombeo de Huachipa,Hogar Santa Anita 35,Consumption Point,23311,363
+Estación de Bombeo de Huachipa,Hogar Santa Anita 36,Consumption Point,32507,215
+Estación de Bombeo de Huachipa,Hogar Santa Anita 37,Consumption Point,24658,339
+Estación de Bombeo de Huachipa,Hogar Santa Anita 38,Consumption Point,51170,217
+Estación de Bombeo de Huachipa,Hogar Santa Anita 39,Consumption Point,37862,401
+Estación de Bombeo de Huachipa,Hogar Santa Anita 40,Consumption Point,22329,375
+Estación de Bombeo de Huachipa,Hogar Cieneguilla 1,Consumption Point,49444,366
+Estación de Bombeo de Huachipa,Hogar Cieneguilla 2,Consumption Point,31412,294
+Estación de Bombeo de Huachipa,Hogar Cieneguilla 3,Consumption Point,36445,476
+Estación de Bombeo de Huachipa,Hogar Cieneguilla 4,Consumption Point,36774,493
+Estación de Bombeo de Huachipa,Hogar Cieneguilla 5,Consumption Point,25540,249
+Estación de Bombeo de Huachipa,Hogar Cieneguilla 6,Consumption Point,25013,221
+Estación de Bombeo de Huachipa,Hogar Cieneguilla 7,Consumption Point,42215,436
+Estación de Bombeo de Huachipa,Hogar Cieneguilla 8,Consumption Point,44658,426
+Estación de Bombeo de Huachipa,Hogar Cieneguilla 9,Consumption Point,44788,390
+Estación de Bombeo de Huachipa,Hogar Cieneguilla 10,Consumption Point,28417,369
+Estación de Bombeo de Huachipa,Hogar Cieneguilla 11,Consumption Point,46594,159
+Estación de Bombeo de Huachipa,Hogar Cieneguilla 12,Consumption Point,49172,427
+Estación de Bombeo de Huachipa,Hogar Cieneguilla 13,Consumption Point,46463,195
+Estación de Bombeo de Huachipa,Hogar Cieneguilla 14,Consumption Point,53906,215
+Estación de Bombeo de Huachipa,Hogar Cieneguilla 15,Consumption Point,47021,301
+Estación de Bombeo de Huachipa,Hogar Cieneguilla 16,Consumption Point,29905,174
+Estación de Bombeo de Huachipa,Hogar Cieneguilla 17,Consumption Point,26042,217
+Estación de Bombeo de Huachipa,Hogar Cieneguilla 18,Consumption Point,22944,103
+Estación de Bombeo de Huachipa,Hogar Cieneguilla 19,Consumption Point,20491,175
+Estación de Bombeo de Huachipa,Hogar Cieneguilla 20,Consumption Point,21927,229
+Estación de Bombeo de Huachipa,Hogar Cieneguilla 21,Consumption Point,23110,248
+Estación de Bombeo de Huachipa,Hogar Cieneguilla 22,Consumption Point,52874,402
+Estación de Bombeo de Huachipa,Hogar Cieneguilla 23,Consumption Point,32968,431
+Estación de Bombeo de Huachipa,Hogar Cieneguilla 24,Consumption Point,51606,422
+Estación de Bombeo de Huachipa,Hogar Cieneguilla 25,Consumption Point,48269,145
+Estación de Bombeo de Huachipa,Hogar Cieneguilla 26,Consumption Point,36979,315
+Estación de Bombeo de Huachipa,Hogar Cieneguilla 27,Consumption Point,45658,156
+Estación de Bombeo de Huachipa,Hogar Cieneguilla 28,Consumption Point,25254,277
+Estación de Bombeo de Huachipa,Hogar Cieneguilla 29,Consumption Point,58278,273
+Estación de Bombeo de Huachipa,Hogar Cieneguilla 30,Consumption Point,28691,242
+Estación de Bombeo de Huachipa,Hogar Cieneguilla 31,Consumption Point,21944,434
+Estación de Bombeo de Huachipa,Hogar Cieneguilla 32,Consumption Point,49689,131
+Estación de Bombeo de Huachipa,Hogar Cieneguilla 33,Consumption Point,26324,139
+Estación de Bombeo de Huachipa,Hogar Cieneguilla 34,Consumption Point,41548,381
+Estación de Bombeo de Huachipa,Hogar Cieneguilla 35,Consumption Point,21657,498
+Estación de Bombeo de Huachipa,Hogar Cieneguilla 36,Consumption Point,46002,146
+Estación de Bombeo de Huachipa,Hogar Cieneguilla 37,Consumption Point,35577,187
+Estación de Bombeo de Huachipa,Hogar Cieneguilla 38,Consumption Point,30522,162
+Estación de Bombeo de Huachipa,Hogar Cieneguilla 39,Consumption Point,47871,461
+Estación de Bombeo de Huachipa,Hogar Cieneguilla 40,Consumption Point,43361,462
+Estación de Bombeo de Huachipa,Hogar El Agustino 1,Consumption Point,58283,254
+Estación de Bombeo de Huachipa,Hogar El Agustino 2,Consumption Point,38619,212
+Estación de Bombeo de Huachipa,Hogar El Agustino 3,Consumption Point,39358,364
+Estación de Bombeo de Huachipa,Hogar El Agustino 4,Consumption Point,57804,341
+Estación de Bombeo de Huachipa,Hogar El Agustino 5,Consumption Point,54517,453
+Estación de Bombeo de Huachipa,Hogar El Agustino 6,Consumption Point,55899,466
+Estación de Bombeo de Huachipa,Hogar El Agustino 7,Consumption Point,41677,262
+Estación de Bombeo de Huachipa,Hogar El Agustino 8,Consumption Point,39936,165
+Estación de Bombeo de Huachipa,Hogar El Agustino 9,Consumption Point,39712,368
+Estación de Bombeo de Huachipa,Hogar El Agustino 10,Consumption Point,55426,304
+Estación de Bombeo de Huachipa,Hogar El Agustino 11,Consumption Point,46302,428
+Estación de Bombeo de Huachipa,Hogar El Agustino 12,Consumption Point,33453,168
+Estación de Bombeo de Huachipa,Hogar El Agustino 13,Consumption Point,39931,202
+Estación de Bombeo de Huachipa,Hogar El Agustino 14,Consumption Point,35373,388
+Estación de Bombeo de Huachipa,Hogar El Agustino 15,Consumption Point,47325,282
+Estación de Bombeo de Huachipa,Hogar El Agustino 16,Consumption Point,21157,292
+Estación de Bombeo de Huachipa,Hogar El Agustino 17,Consumption Point,25967,488
+Estación de Bombeo de Huachipa,Hogar El Agustino 18,Consumption Point,53149,456
+Estación de Bombeo de Huachipa,Hogar El Agustino 19,Consumption Point,45119,194
+Estación de Bombeo de Huachipa,Hogar El Agustino 20,Consumption Point,24808,145
+Estación de Bombeo de Huachipa,Hogar El Agustino 21,Consumption Point,21758,318
+Estación de Bombeo de Huachipa,Hogar El Agustino 22,Consumption Point,50307,422
+Estación de Bombeo de Huachipa,Hogar El Agustino 23,Consumption Point,54344,100
+Estación de Bombeo de Huachipa,Hogar El Agustino 24,Consumption Point,32189,271
+Estación de Bombeo de Huachipa,Hogar El Agustino 25,Consumption Point,39461,404
+Estación de Bombeo de Huachipa,Hogar El Agustino 26,Consumption Point,23939,275
+Estación de Bombeo de Huachipa,Hogar El Agustino 27,Consumption Point,35210,430
+Estación de Bombeo de Huachipa,Hogar El Agustino 28,Consumption Point,50117,394
+Estación de Bombeo de Huachipa,Hogar El Agustino 29,Consumption Point,26168,322
+Estación de Bombeo de Huachipa,Hogar El Agustino 30,Consumption Point,31384,476
+Estación de Bombeo de Huachipa,Hogar El Agustino 31,Consumption Point,41136,171
+Estación de Bombeo de Huachipa,Hogar El Agustino 32,Consumption Point,38713,110
+Estación de Bombeo de Huachipa,Hogar El Agustino 33,Consumption Point,21930,168
+Estación de Bombeo de Huachipa,Hogar El Agustino 34,Consumption Point,49838,238
+Estación de Bombeo de Huachipa,Hogar El Agustino 35,Consumption Point,35133,227
+Estación de Bombeo de Huachipa,Hogar El Agustino 36,Consumption Point,34494,170
+Estación de Bombeo de Huachipa,Hogar El Agustino 37,Consumption Point,38846,152
+Estación de Bombeo de Huachipa,Hogar El Agustino 38,Consumption Point,22615,351
+Estación de Bombeo de Huachipa,Hogar El Agustino 39,Consumption Point,34555,375
+Estación de Bombeo de Huachipa,Hogar El Agustino 40,Consumption Point,55131,468
+Estación de Bombeo de Huachipa,Hogar San Luis 1,Consumption Point,51293,203
+Estación de Bombeo de Huachipa,Hogar San Luis 2,Consumption Point,33138,435
+Estación de Bombeo de Huachipa,Hogar San Luis 3,Consumption Point,20161,195
+Estación de Bombeo de Huachipa,Hogar San Luis 4,Consumption Point,39785,344
+Estación de Bombeo de Huachipa,Hogar San Luis 5,Consumption Point,24474,182
+Estación de Bombeo de Huachipa,Hogar San Luis 6,Consumption Point,29885,258
+Estación de Bombeo de Huachipa,Hogar San Luis 7,Consumption Point,24164,185
+Estación de Bombeo de Huachipa,Hogar San Luis 8,Consumption Point,23680,190
+Estación de Bombeo de Huachipa,Hogar San Luis 9,Consumption Point,55946,157
+Estación de Bombeo de Huachipa,Hogar San Luis 10,Consumption Point,44706,375
+Estación de Bombeo de Huachipa,Hogar San Luis 11,Consumption Point,49795,374
+Estación de Bombeo de Huachipa,Hogar San Luis 12,Consumption Point,42490,210
+Estación de Bombeo de Huachipa,Hogar San Luis 13,Consumption Point,35887,390
+Estación de Bombeo de Huachipa,Hogar San Luis 14,Consumption Point,25724,395
+Estación de Bombeo de Huachipa,Hogar San Luis 15,Consumption Point,50868,397
+Estación de Bombeo de Huachipa,Hogar San Luis 16,Consumption Point,40004,315
+Estación de Bombeo de Huachipa,Hogar San Luis 17,Consumption Point,50671,287
+Estación de Bombeo de Huachipa,Hogar San Luis 18,Consumption Point,29821,345
+Estación de Bombeo de Huachipa,Hogar San Luis 19,Consumption Point,30433,307
+Estación de Bombeo de Huachipa,Hogar San Luis 20,Consumption Point,20520,447
+Estación de Bombeo de Huachipa,Hogar San Luis 21,Consumption Point,25679,407
+Estación de Bombeo de Huachipa,Hogar San Luis 22,Consumption Point,34063,384
+Estación de Bombeo de Huachipa,Hogar San Luis 23,Consumption Point,20651,310
+Estación de Bombeo de Huachipa,Hogar San Luis 24,Consumption Point,54878,496
+Estación de Bombeo de Huachipa,Hogar San Luis 25,Consumption Point,30473,375
+Estación de Bombeo de Huachipa,Hogar San Luis 26,Consumption Point,44112,303
+Estación de Bombeo de Huachipa,Hogar San Luis 27,Consumption Point,36079,104
+Estación de Bombeo de Huachipa,Hogar San Luis 28,Consumption Point,26971,377
+Estación de Bombeo de Huachipa,Hogar San Luis 29,Consumption Point,50743,386
+Estación de Bombeo de Huachipa,Hogar San Luis 30,Consumption Point,36749,396
+Estación de Bombeo de Huachipa,Hogar San Luis 31,Consumption Point,27059,452
+Estación de Bombeo de Huachipa,Hogar San Luis 32,Consumption Point,37589,210
+Estación de Bombeo de Huachipa,Hogar San Luis 33,Consumption Point,47583,446
+Estación de Bombeo de Huachipa,Hogar San Luis 34,Consumption Point,44350,243
+Estación de Bombeo de Huachipa,Hogar San Luis 35,Consumption Point,41582,233
+Estación de Bombeo de Huachipa,Hogar San Luis 36,Consumption Point,38347,164
+Estación de Bombeo de Huachipa,Hogar San Luis 37,Consumption Point,23553,251
+Estación de Bombeo de Huachipa,Hogar San Luis 38,Consumption Point,20546,367
+Estación de Bombeo de Huachipa,Hogar San Luis 39,Consumption Point,59606,189
+Estación de Bombeo de Huachipa,Hogar San Luis 40,Consumption Point,34057,369
+Estación de Bombeo de Huachipa,Hogar San Borja 1,Consumption Point,39432,375
+Estación de Bombeo de Huachipa,Hogar San Borja 2,Consumption Point,34214,409
+Estación de Bombeo de Huachipa,Hogar San Borja 3,Consumption Point,29849,239
+Estación de Bombeo de Huachipa,Hogar San Borja 4,Consumption Point,26647,343
+Estación de Bombeo de Huachipa,Hogar San Borja 5,Consumption Point,27005,434
+Estación de Bombeo de Huachipa,Hogar San Borja 6,Consumption Point,29024,134
+Estación de Bombeo de Huachipa,Hogar San Borja 7,Consumption Point,32981,213
+Estación de Bombeo de Huachipa,Hogar San Borja 8,Consumption Point,46166,359
+Estación de Bombeo de Huachipa,Hogar San Borja 9,Consumption Point,44681,143
+Estación de Bombeo de Huachipa,Hogar San Borja 10,Consumption Point,27927,487
+Estación de Bombeo de Huachipa,Hogar San Borja 11,Consumption Point,33783,424
+Estación de Bombeo de Huachipa,Hogar San Borja 12,Consumption Point,20490,199
+Estación de Bombeo de Huachipa,Hogar San Borja 13,Consumption Point,58446,403
+Estación de Bombeo de Huachipa,Hogar San Borja 14,Consumption Point,50759,197
+Estación de Bombeo de Huachipa,Hogar San Borja 15,Consumption Point,27173,277
+Estación de Bombeo de Huachipa,Hogar San Borja 16,Consumption Point,57897,193
+Estación de Bombeo de Huachipa,Hogar San Borja 17,Consumption Point,47776,332
+Estación de Bombeo de Huachipa,Hogar San Borja 18,Consumption Point,34852,374
+Estación de Bombeo de Huachipa,Hogar San Borja 19,Consumption Point,21724,220
+Estación de Bombeo de Huachipa,Hogar San Borja 20,Consumption Point,25616,478
+Estación de Bombeo de Huachipa,Hogar San Borja 21,Consumption Point,38525,405
+Estación de Bombeo de Huachipa,Hogar San Borja 22,Consumption Point,22729,259
+Estación de Bombeo de Huachipa,Hogar San Borja 23,Consumption Point,55330,229
+Estación de Bombeo de Huachipa,Hogar San Borja 24,Consumption Point,56661,250
+Estación de Bombeo de Huachipa,Hogar San Borja 25,Consumption Point,36147,410
+Estación de Bombeo de Huachipa,Hogar San Borja 26,Consumption Point,42975,244
+Estación de Bombeo de Huachipa,Hogar San Borja 27,Consumption Point,27022,344
+Estación de Bombeo de Huachipa,Hogar San Borja 28,Consumption Point,53034,416
+Estación de Bombeo de Huachipa,Hogar San Borja 29,Consumption Point,21136,422
+Estación de Bombeo de Huachipa,Hogar San Borja 30,Consumption Point,53452,234
+Estación de Bombeo de Huachipa,Hogar San Borja 31,Consumption Point,49544,229
+Estación de Bombeo de Huachipa,Hogar San Borja 32,Consumption Point,30404,347
+Estación de Bombeo de Huachipa,Hogar San Borja 33,Consumption Point,27201,166
+Estación de Bombeo de Huachipa,Hogar San Borja 34,Consumption Point,38885,432
+Estación de Bombeo de Huachipa,Hogar San Borja 35,Consumption Point,39312,384
+Estación de Bombeo de Huachipa,Hogar San Borja 36,Consumption Point,28838,428
+Estación de Bombeo de Huachipa,Hogar San Borja 37,Consumption Point,36037,493
+Estación de Bombeo de Huachipa,Hogar San Borja 38,Consumption Point,55596,324
+Estación de Bombeo de Huachipa,Hogar San Borja 39,Consumption Point,44243,209
+Estación de Bombeo de Huachipa,Hogar San Borja 40,Consumption Point,55677,374
+Estación de Bombeo de Huachipa,Hogar Santiago de Surco 1,Consumption Point,40845,149
+Estación de Bombeo de Huachipa,Hogar Santiago de Surco 2,Consumption Point,48473,348
+Estación de Bombeo de Huachipa,Hogar Santiago de Surco 3,Consumption Point,31090,334
+Estación de Bombeo de Huachipa,Hogar Santiago de Surco 4,Consumption Point,47932,255
+Estación de Bombeo de Huachipa,Hogar Santiago de Surco 5,Consumption Point,50034,107
+Estación de Bombeo de Huachipa,Hogar Santiago de Surco 6,Consumption Point,24513,247
+Estación de Bombeo de Huachipa,Hogar Santiago de Surco 7,Consumption Point,42235,411
+Estación de Bombeo de Huachipa,Hogar Santiago de Surco 8,Consumption Point,43075,266
+Estación de Bombeo de Huachipa,Hogar Santiago de Surco 9,Consumption Point,59153,248
+Estación de Bombeo de Huachipa,Hogar Santiago de Surco 10,Consumption Point,45323,258
+Estación de Bombeo de Huachipa,Hogar Santiago de Surco 11,Consumption Point,32886,122
+Estación de Bombeo de Huachipa,Hogar Santiago de Surco 12,Consumption Point,20124,429
+Estación de Bombeo de Huachipa,Hogar Santiago de Surco 13,Consumption Point,20331,339
+Estación de Bombeo de Huachipa,Hogar Santiago de Surco 14,Consumption Point,57136,202
+Estación de Bombeo de Huachipa,Hogar Santiago de Surco 15,Consumption Point,25944,114
+Estación de Bombeo de Huachipa,Hogar Santiago de Surco 16,Consumption Point,46418,417
+Estación de Bombeo de Huachipa,Hogar Santiago de Surco 17,Consumption Point,41498,155
+Estación de Bombeo de Huachipa,Hogar Santiago de Surco 18,Consumption Point,56052,387
+Estación de Bombeo de Huachipa,Hogar Santiago de Surco 19,Consumption Point,41422,361
+Estación de Bombeo de Huachipa,Hogar Santiago de Surco 20,Consumption Point,57841,363
+Estación de Bombeo de Huachipa,Hogar Santiago de Surco 21,Consumption Point,21278,241
+Estación de Bombeo de Huachipa,Hogar Santiago de Surco 22,Consumption Point,45376,478
+Estación de Bombeo de Huachipa,Hogar Santiago de Surco 23,Consumption Point,29551,110
+Estación de Bombeo de Huachipa,Hogar Santiago de Surco 24,Consumption Point,56493,397
+Estación de Bombeo de Huachipa,Hogar Santiago de Surco 25,Consumption Point,46271,109
+Estación de Bombeo de Huachipa,Hogar Santiago de Surco 26,Consumption Point,41172,496
+Estación de Bombeo de Huachipa,Hogar Santiago de Surco 27,Consumption Point,26119,491
+Estación de Bombeo de Huachipa,Hogar Santiago de Surco 28,Consumption Point,55960,193
+Estación de Bombeo de Huachipa,Hogar Santiago de Surco 29,Consumption Point,40738,246
+Estación de Bombeo de Huachipa,Hogar Santiago de Surco 30,Consumption Point,28536,333
+Estación de Bombeo de Huachipa,Hogar Santiago de Surco 31,Consumption Point,35018,333
+Estación de Bombeo de Huachipa,Hogar Santiago de Surco 32,Consumption Point,49985,269
+Estación de Bombeo de Huachipa,Hogar Santiago de Surco 33,Consumption Point,25110,371
+Estación de Bombeo de Huachipa,Hogar Santiago de Surco 34,Consumption Point,27180,101
+Estación de Bombeo de Huachipa,Hogar Santiago de Surco 35,Consumption Point,43329,428
+Estación de Bombeo de Huachipa,Hogar Santiago de Surco 36,Consumption Point,50053,380
+Estación de Bombeo de Huachipa,Hogar Santiago de Surco 37,Consumption Point,28330,177
+Estación de Bombeo de Huachipa,Hogar Santiago de Surco 38,Consumption Point,44273,420
+Estación de Bombeo de Huachipa,Hogar Santiago de Surco 39,Consumption Point,54424,189
+Estación de Bombeo de Huachipa,Hogar Santiago de Surco 40,Consumption Point,36673,119
+Estación de Bombeo de Puente Piedra,Hogar Comas 1,Consumption Point,40422,124
+Estación de Bombeo de Puente Piedra,Hogar Comas 2,Consumption Point,48755,374
+Estación de Bombeo de Puente Piedra,Hogar Comas 3,Consumption Point,50464,394
+Estación de Bombeo de Puente Piedra,Hogar Comas 4,Consumption Point,30123,467
+Estación de Bombeo de Puente Piedra,Hogar Comas 5,Consumption Point,38353,391
+Estación de Bombeo de Puente Piedra,Hogar Comas 6,Consumption Point,34322,403
+Estación de Bombeo de Puente Piedra,Hogar Comas 7,Consumption Point,43547,283
+Estación de Bombeo de Puente Piedra,Hogar Comas 8,Consumption Point,34448,368
+Estación de Bombeo de Puente Piedra,Hogar Comas 9,Consumption Point,53680,491
+Estación de Bombeo de Puente Piedra,Hogar Comas 10,Consumption Point,53823,391
+Estación de Bombeo de Puente Piedra,Hogar Comas 11,Consumption Point,45638,463
+Estación de Bombeo de Puente Piedra,Hogar Comas 12,Consumption Point,46246,270
+Estación de Bombeo de Puente Piedra,Hogar Comas 13,Consumption Point,49154,285
+Estación de Bombeo de Puente Piedra,Hogar Comas 14,Consumption Point,45349,244
+Estación de Bombeo de Puente Piedra,Hogar Comas 15,Consumption Point,36279,283
+Estación de Bombeo de Puente Piedra,Hogar Comas 16,Consumption Point,51667,231
+Estación de Bombeo de Puente Piedra,Hogar Comas 17,Consumption Point,58665,487
+Estación de Bombeo de Puente Piedra,Hogar Comas 18,Consumption Point,43494,306
+Estación de Bombeo de Puente Piedra,Hogar Comas 19,Consumption Point,26441,242
+Estación de Bombeo de Puente Piedra,Hogar Comas 20,Consumption Point,26904,192
+Estación de Bombeo de Puente Piedra,Hogar Comas 21,Consumption Point,52053,419
+Estación de Bombeo de Puente Piedra,Hogar Comas 22,Consumption Point,42453,458
+Estación de Bombeo de Puente Piedra,Hogar Comas 23,Consumption Point,35796,372
+Estación de Bombeo de Puente Piedra,Hogar Comas 24,Consumption Point,43489,287
+Estación de Bombeo de Puente Piedra,Hogar Comas 25,Consumption Point,51564,311
+Estación de Bombeo de Puente Piedra,Hogar Comas 26,Consumption Point,38063,222
+Estación de Bombeo de Puente Piedra,Hogar Comas 27,Consumption Point,32505,474
+Estación de Bombeo de Puente Piedra,Hogar Comas 28,Consumption Point,32668,461
+Estación de Bombeo de Puente Piedra,Hogar Comas 29,Consumption Point,59895,208
+Estación de Bombeo de Puente Piedra,Hogar Comas 30,Consumption Point,39490,311
+Estación de Bombeo de Puente Piedra,Hogar Comas 31,Consumption Point,34421,390
+Estación de Bombeo de Puente Piedra,Hogar Comas 32,Consumption Point,21396,262
+Estación de Bombeo de Puente Piedra,Hogar Comas 33,Consumption Point,51445,326
+Estación de Bombeo de Puente Piedra,Hogar Comas 34,Consumption Point,22668,460
+Estación de Bombeo de Puente Piedra,Hogar Comas 35,Consumption Point,20739,341
+Estación de Bombeo de Puente Piedra,Hogar Comas 36,Consumption Point,47052,183
+Estación de Bombeo de Puente Piedra,Hogar Comas 37,Consumption Point,51747,196
+Estación de Bombeo de Puente Piedra,Hogar Comas 38,Consumption Point,55826,132
+Estación de Bombeo de Puente Piedra,Hogar Comas 39,Consumption Point,36020,257
+Estación de Bombeo de Puente Piedra,Hogar Comas 40,Consumption Point,58222,345
+Estación de Bombeo de Puente Piedra,Hogar Los Olivos 1,Consumption Point,56599,454
+Estación de Bombeo de Puente Piedra,Hogar Los Olivos 2,Consumption Point,26929,223
+Estación de Bombeo de Puente Piedra,Hogar Los Olivos 3,Consumption Point,57439,152
+Estación de Bombeo de Puente Piedra,Hogar Los Olivos 4,Consumption Point,29907,175
+Estación de Bombeo de Puente Piedra,Hogar Los Olivos 5,Consumption Point,44158,475
+Estación de Bombeo de Puente Piedra,Hogar Los Olivos 6,Consumption Point,35377,454
+Estación de Bombeo de Puente Piedra,Hogar Los Olivos 7,Consumption Point,32173,475
+Estación de Bombeo de Puente Piedra,Hogar Los Olivos 8,Consumption Point,40571,412
+Estación de Bombeo de Puente Piedra,Hogar Los Olivos 9,Consumption Point,24409,293
+Estación de Bombeo de Puente Piedra,Hogar Los Olivos 10,Consumption Point,27148,422
+Estación de Bombeo de Puente Piedra,Hogar Los Olivos 11,Consumption Point,52376,383
+Estación de Bombeo de Puente Piedra,Hogar Los Olivos 12,Consumption Point,38987,427
+Estación de Bombeo de Puente Piedra,Hogar Los Olivos 13,Consumption Point,43337,288
+Estación de Bombeo de Puente Piedra,Hogar Los Olivos 14,Consumption Point,39850,363
+Estación de Bombeo de Puente Piedra,Hogar Los Olivos 15,Consumption Point,52866,459
+Estación de Bombeo de Puente Piedra,Hogar Los Olivos 16,Consumption Point,31899,437
+Estación de Bombeo de Puente Piedra,Hogar Los Olivos 17,Consumption Point,25123,121
+Estación de Bombeo de Puente Piedra,Hogar Los Olivos 18,Consumption Point,54362,146
+Estación de Bombeo de Puente Piedra,Hogar Los Olivos 19,Consumption Point,45035,218
+Estación de Bombeo de Puente Piedra,Hogar Los Olivos 20,Consumption Point,32746,185
+Estación de Bombeo de Puente Piedra,Hogar Los Olivos 21,Consumption Point,47327,244
+Estación de Bombeo de Puente Piedra,Hogar Los Olivos 22,Consumption Point,29504,475
+Estación de Bombeo de Puente Piedra,Hogar Los Olivos 23,Consumption Point,21018,314
+Estación de Bombeo de Puente Piedra,Hogar Los Olivos 24,Consumption Point,42418,390
+Estación de Bombeo de Puente Piedra,Hogar Los Olivos 25,Consumption Point,44790,305
+Estación de Bombeo de Puente Piedra,Hogar Los Olivos 26,Consumption Point,26604,195
+Estación de Bombeo de Puente Piedra,Hogar Los Olivos 27,Consumption Point,26986,254
+Estación de Bombeo de Puente Piedra,Hogar Los Olivos 28,Consumption Point,31296,247
+Estación de Bombeo de Puente Piedra,Hogar Los Olivos 29,Consumption Point,28945,376
+Estación de Bombeo de Puente Piedra,Hogar Los Olivos 30,Consumption Point,46431,195
+Estación de Bombeo de Puente Piedra,Hogar Los Olivos 31,Consumption Point,28709,445
+Estación de Bombeo de Puente Piedra,Hogar Los Olivos 32,Consumption Point,46963,188
+Estación de Bombeo de Puente Piedra,Hogar Los Olivos 33,Consumption Point,36758,354
+Estación de Bombeo de Puente Piedra,Hogar Los Olivos 34,Consumption Point,49802,483
+Estación de Bombeo de Puente Piedra,Hogar Los Olivos 35,Consumption Point,27362,454
+Estación de Bombeo de Puente Piedra,Hogar Los Olivos 36,Consumption Point,43660,218
+Estación de Bombeo de Puente Piedra,Hogar Los Olivos 37,Consumption Point,43886,293
+Estación de Bombeo de Puente Piedra,Hogar Los Olivos 38,Consumption Point,39647,307
+Estación de Bombeo de Puente Piedra,Hogar Los Olivos 39,Consumption Point,43943,184
+Estación de Bombeo de Puente Piedra,Hogar Los Olivos 40,Consumption Point,41688,353
+Estación de Bombeo de Puente Piedra,Hogar Carabayllo 1,Consumption Point,51433,450
+Estación de Bombeo de Puente Piedra,Hogar Carabayllo 2,Consumption Point,41848,170
+Estación de Bombeo de Puente Piedra,Hogar Carabayllo 3,Consumption Point,58661,181
+Estación de Bombeo de Puente Piedra,Hogar Carabayllo 4,Consumption Point,50981,308
+Estación de Bombeo de Puente Piedra,Hogar Carabayllo 5,Consumption Point,22019,287
+Estación de Bombeo de Puente Piedra,Hogar Carabayllo 6,Consumption Point,49928,380
+Estación de Bombeo de Puente Piedra,Hogar Carabayllo 7,Consumption Point,43944,493
+Estación de Bombeo de Puente Piedra,Hogar Carabayllo 8,Consumption Point,40705,392
+Estación de Bombeo de Puente Piedra,Hogar Carabayllo 9,Consumption Point,24500,392
+Estación de Bombeo de Puente Piedra,Hogar Carabayllo 10,Consumption Point,32701,134
+Estación de Bombeo de Puente Piedra,Hogar Carabayllo 11,Consumption Point,22723,179
+Estación de Bombeo de Puente Piedra,Hogar Carabayllo 12,Consumption Point,30106,322
+Estación de Bombeo de Puente Piedra,Hogar Carabayllo 13,Consumption Point,40819,197
+Estación de Bombeo de Puente Piedra,Hogar Carabayllo 14,Consumption Point,56746,314
+Estación de Bombeo de Puente Piedra,Hogar Carabayllo 15,Consumption Point,23789,295
+Estación de Bombeo de Puente Piedra,Hogar Carabayllo 16,Consumption Point,30441,218
+Estación de Bombeo de Puente Piedra,Hogar Carabayllo 17,Consumption Point,56632,229
+Estación de Bombeo de Puente Piedra,Hogar Carabayllo 18,Consumption Point,36210,103
+Estación de Bombeo de Puente Piedra,Hogar Carabayllo 19,Consumption Point,57753,129
+Estación de Bombeo de Puente Piedra,Hogar Carabayllo 20,Consumption Point,22015,136
+Estación de Bombeo de Puente Piedra,Hogar Carabayllo 21,Consumption Point,28110,402
+Estación de Bombeo de Puente Piedra,Hogar Carabayllo 22,Consumption Point,40271,384
+Estación de Bombeo de Puente Piedra,Hogar Carabayllo 23,Consumption Point,44529,369
+Estación de Bombeo de Puente Piedra,Hogar Carabayllo 24,Consumption Point,42867,490
+Estación de Bombeo de Puente Piedra,Hogar Carabayllo 25,Consumption Point,30689,274
+Estación de Bombeo de Puente Piedra,Hogar Carabayllo 26,Consumption Point,52440,412
+Estación de Bombeo de Puente Piedra,Hogar Carabayllo 27,Consumption Point,35806,194
+Estación de Bombeo de Puente Piedra,Hogar Carabayllo 28,Consumption Point,59848,494
+Estación de Bombeo de Puente Piedra,Hogar Carabayllo 29,Consumption Point,56791,456
+Estación de Bombeo de Puente Piedra,Hogar Carabayllo 30,Consumption Point,57173,224
+Estación de Bombeo de Puente Piedra,Hogar Carabayllo 31,Consumption Point,54631,223
+Estación de Bombeo de Puente Piedra,Hogar Carabayllo 32,Consumption Point,21069,391
+Estación de Bombeo de Puente Piedra,Hogar Carabayllo 33,Consumption Point,57710,110
+Estación de Bombeo de Puente Piedra,Hogar Carabayllo 34,Consumption Point,27907,440
+Estación de Bombeo de Puente Piedra,Hogar Carabayllo 35,Consumption Point,48832,233
+Estación de Bombeo de Puente Piedra,Hogar Carabayllo 36,Consumption Point,30852,368
+Estación de Bombeo de Puente Piedra,Hogar Carabayllo 37,Consumption Point,47077,293
+Estación de Bombeo de Puente Piedra,Hogar Carabayllo 38,Consumption Point,54305,319
+Estación de Bombeo de Puente Piedra,Hogar Carabayllo 39,Consumption Point,27548,105
+Estación de Bombeo de Puente Piedra,Hogar Carabayllo 40,Consumption Point,39257,403
+Estación de Bombeo de Puente Piedra,Hogar Independencia 1,Consumption Point,26667,328
+Estación de Bombeo de Puente Piedra,Hogar Independencia 2,Consumption Point,32378,253
+Estación de Bombeo de Puente Piedra,Hogar Independencia 3,Consumption Point,35823,312
+Estación de Bombeo de Puente Piedra,Hogar Independencia 4,Consumption Point,30821,112
+Estación de Bombeo de Puente Piedra,Hogar Independencia 5,Consumption Point,21285,118
+Estación de Bombeo de Puente Piedra,Hogar Independencia 6,Consumption Point,47646,375
+Estación de Bombeo de Puente Piedra,Hogar Independencia 7,Consumption Point,46978,287
+Estación de Bombeo de Puente Piedra,Hogar Independencia 8,Consumption Point,46064,292
+Estación de Bombeo de Puente Piedra,Hogar Independencia 9,Consumption Point,35963,293
+Estación de Bombeo de Puente Piedra,Hogar Independencia 10,Consumption Point,38639,147
+Estación de Bombeo de Puente Piedra,Hogar Independencia 11,Consumption Point,21206,483
+Estación de Bombeo de Puente Piedra,Hogar Independencia 12,Consumption Point,39789,306
+Estación de Bombeo de Puente Piedra,Hogar Independencia 13,Consumption Point,32639,490
+Estación de Bombeo de Puente Piedra,Hogar Independencia 14,Consumption Point,38917,293
+Estación de Bombeo de Puente Piedra,Hogar Independencia 15,Consumption Point,28030,485
+Estación de Bombeo de Puente Piedra,Hogar Independencia 16,Consumption Point,49381,442
+Estación de Bombeo de Puente Piedra,Hogar Independencia 17,Consumption Point,39536,189
+Estación de Bombeo de Puente Piedra,Hogar Independencia 18,Consumption Point,51344,101
+Estación de Bombeo de Puente Piedra,Hogar Independencia 19,Consumption Point,32129,361
+Estación de Bombeo de Puente Piedra,Hogar Independencia 20,Consumption Point,36963,383
+Estación de Bombeo de Puente Piedra,Hogar Independencia 21,Consumption Point,54624,143
+Estación de Bombeo de Puente Piedra,Hogar Independencia 22,Consumption Point,41905,450
+Estación de Bombeo de Puente Piedra,Hogar Independencia 23,Consumption Point,58252,155
+Estación de Bombeo de Puente Piedra,Hogar Independencia 24,Consumption Point,25117,205
+Estación de Bombeo de Puente Piedra,Hogar Independencia 25,Consumption Point,40288,102
+Estación de Bombeo de Puente Piedra,Hogar Independencia 26,Consumption Point,38882,474
+Estación de Bombeo de Puente Piedra,Hogar Independencia 27,Consumption Point,47983,214
+Estación de Bombeo de Puente Piedra,Hogar Independencia 28,Consumption Point,27836,427
+Estación de Bombeo de Puente Piedra,Hogar Independencia 29,Consumption Point,39056,151
+Estación de Bombeo de Puente Piedra,Hogar Independencia 30,Consumption Point,24795,493
+Estación de Bombeo de Puente Piedra,Hogar Independencia 31,Consumption Point,37835,421
+Estación de Bombeo de Puente Piedra,Hogar Independencia 32,Consumption Point,52494,449
+Estación de Bombeo de Puente Piedra,Hogar Independencia 33,Consumption Point,32886,415
+Estación de Bombeo de Puente Piedra,Hogar Independencia 34,Consumption Point,22469,242
+Estación de Bombeo de Puente Piedra,Hogar Independencia 35,Consumption Point,37806,302
+Estación de Bombeo de Puente Piedra,Hogar Independencia 36,Consumption Point,50958,316
+Estación de Bombeo de Puente Piedra,Hogar Independencia 37,Consumption Point,20532,330
+Estación de Bombeo de Puente Piedra,Hogar Independencia 38,Consumption Point,24199,463
+Estación de Bombeo de Puente Piedra,Hogar Independencia 39,Consumption Point,51357,151
+Estación de Bombeo de Puente Piedra,Hogar Independencia 40,Consumption Point,50058,320
+Estación de Bombeo de Puente Piedra,Hogar San Martín de Porres 1,Consumption Point,27635,422
+Estación de Bombeo de Puente Piedra,Hogar San Martín de Porres 2,Consumption Point,23724,234
+Estación de Bombeo de Puente Piedra,Hogar San Martín de Porres 3,Consumption Point,58142,324
+Estación de Bombeo de Puente Piedra,Hogar San Martín de Porres 4,Consumption Point,23372,263
+Estación de Bombeo de Puente Piedra,Hogar San Martín de Porres 5,Consumption Point,22141,446
+Estación de Bombeo de Puente Piedra,Hogar San Martín de Porres 6,Consumption Point,37760,416
+Estación de Bombeo de Puente Piedra,Hogar San Martín de Porres 7,Consumption Point,39127,396
+Estación de Bombeo de Puente Piedra,Hogar San Martín de Porres 8,Consumption Point,46345,254
+Estación de Bombeo de Puente Piedra,Hogar San Martín de Porres 9,Consumption Point,23173,273
+Estación de Bombeo de Puente Piedra,Hogar San Martín de Porres 10,Consumption Point,42541,296
+Estación de Bombeo de Puente Piedra,Hogar San Martín de Porres 11,Consumption Point,53103,113
+Estación de Bombeo de Puente Piedra,Hogar San Martín de Porres 12,Consumption Point,31986,347
+Estación de Bombeo de Puente Piedra,Hogar San Martín de Porres 13,Consumption Point,52909,256
+Estación de Bombeo de Puente Piedra,Hogar San Martín de Porres 14,Consumption Point,26052,188
+Estación de Bombeo de Puente Piedra,Hogar San Martín de Porres 15,Consumption Point,44833,212
+Estación de Bombeo de Puente Piedra,Hogar San Martín de Porres 16,Consumption Point,30378,387
+Estación de Bombeo de Puente Piedra,Hogar San Martín de Porres 17,Consumption Point,35394,299
+Estación de Bombeo de Puente Piedra,Hogar San Martín de Porres 18,Consumption Point,29895,129
+Estación de Bombeo de Puente Piedra,Hogar San Martín de Porres 19,Consumption Point,34430,345
+Estación de Bombeo de Puente Piedra,Hogar San Martín de Porres 20,Consumption Point,35324,374
+Estación de Bombeo de Puente Piedra,Hogar San Martín de Porres 21,Consumption Point,55615,192
+Estación de Bombeo de Puente Piedra,Hogar San Martín de Porres 22,Consumption Point,20763,405
+Estación de Bombeo de Puente Piedra,Hogar San Martín de Porres 23,Consumption Point,29345,299
+Estación de Bombeo de Puente Piedra,Hogar San Martín de Porres 24,Consumption Point,43068,134
+Estación de Bombeo de Puente Piedra,Hogar San Martín de Porres 25,Consumption Point,39891,283
+Estación de Bombeo de Puente Piedra,Hogar San Martín de Porres 26,Consumption Point,40776,351
+Estación de Bombeo de Puente Piedra,Hogar San Martín de Porres 27,Consumption Point,23166,172
+Estación de Bombeo de Puente Piedra,Hogar San Martín de Porres 28,Consumption Point,23277,455
+Estación de Bombeo de Puente Piedra,Hogar San Martín de Porres 29,Consumption Point,57466,163
+Estación de Bombeo de Puente Piedra,Hogar San Martín de Porres 30,Consumption Point,38823,385
+Estación de Bombeo de Puente Piedra,Hogar San Martín de Porres 31,Consumption Point,36818,309
+Estación de Bombeo de Puente Piedra,Hogar San Martín de Porres 32,Consumption Point,40560,365
+Estación de Bombeo de Puente Piedra,Hogar San Martín de Porres 33,Consumption Point,35755,283
+Estación de Bombeo de Puente Piedra,Hogar San Martín de Porres 34,Consumption Point,29756,321
+Estación de Bombeo de Puente Piedra,Hogar San Martín de Porres 35,Consumption Point,25084,207
+Estación de Bombeo de Puente Piedra,Hogar San Martín de Porres 36,Consumption Point,49900,301
+Estación de Bombeo de Puente Piedra,Hogar San Martín de Porres 37,Consumption Point,21739,400
+Estación de Bombeo de Puente Piedra,Hogar San Martín de Porres 38,Consumption Point,47872,393
+Estación de Bombeo de Puente Piedra,Hogar San Martín de Porres 39,Consumption Point,41332,291
+Estación de Bombeo de Puente Piedra,Hogar San Martín de Porres 40,Consumption Point,24698,457
+Estación de Bombeo de Puente Piedra,Hogar Puente Piedra 1,Consumption Point,50749,462
+Estación de Bombeo de Puente Piedra,Hogar Puente Piedra 2,Consumption Point,32211,418
+Estación de Bombeo de Puente Piedra,Hogar Puente Piedra 3,Consumption Point,24210,276
+Estación de Bombeo de Puente Piedra,Hogar Puente Piedra 4,Consumption Point,57598,305
+Estación de Bombeo de Puente Piedra,Hogar Puente Piedra 5,Consumption Point,44634,333
+Estación de Bombeo de Puente Piedra,Hogar Puente Piedra 6,Consumption Point,55989,411
+Estación de Bombeo de Puente Piedra,Hogar Puente Piedra 7,Consumption Point,46292,360
+Estación de Bombeo de Puente Piedra,Hogar Puente Piedra 8,Consumption Point,51828,205
+Estación de Bombeo de Puente Piedra,Hogar Puente Piedra 9,Consumption Point,54507,210
+Estación de Bombeo de Puente Piedra,Hogar Puente Piedra 10,Consumption Point,50805,165
+Estación de Bombeo de Puente Piedra,Hogar Puente Piedra 11,Consumption Point,23369,320
+Estación de Bombeo de Puente Piedra,Hogar Puente Piedra 12,Consumption Point,42158,303
+Estación de Bombeo de Puente Piedra,Hogar Puente Piedra 13,Consumption Point,58971,269
+Estación de Bombeo de Puente Piedra,Hogar Puente Piedra 14,Consumption Point,56890,252
+Estación de Bombeo de Puente Piedra,Hogar Puente Piedra 15,Consumption Point,45226,328
+Estación de Bombeo de Puente Piedra,Hogar Puente Piedra 16,Consumption Point,39348,271
+Estación de Bombeo de Puente Piedra,Hogar Puente Piedra 17,Consumption Point,59395,231
+Estación de Bombeo de Puente Piedra,Hogar Puente Piedra 18,Consumption Point,24881,151
+Estación de Bombeo de Puente Piedra,Hogar Puente Piedra 19,Consumption Point,38880,162
+Estación de Bombeo de Puente Piedra,Hogar Puente Piedra 20,Consumption Point,45422,436
+Estación de Bombeo de Puente Piedra,Hogar Puente Piedra 21,Consumption Point,37855,107
+Estación de Bombeo de Puente Piedra,Hogar Puente Piedra 22,Consumption Point,32542,267
+Estación de Bombeo de Puente Piedra,Hogar Puente Piedra 23,Consumption Point,40972,416
+Estación de Bombeo de Puente Piedra,Hogar Puente Piedra 24,Consumption Point,27143,254
+Estación de Bombeo de Puente Piedra,Hogar Puente Piedra 25,Consumption Point,52689,452
+Estación de Bombeo de Puente Piedra,Hogar Puente Piedra 26,Consumption Point,35465,245
+Estación de Bombeo de Puente Piedra,Hogar Puente Piedra 27,Consumption Point,35275,327
+Estación de Bombeo de Puente Piedra,Hogar Puente Piedra 28,Consumption Point,23153,488
+Estación de Bombeo de Puente Piedra,Hogar Puente Piedra 29,Consumption Point,51782,327
+Estación de Bombeo de Puente Piedra,Hogar Puente Piedra 30,Consumption Point,24934,367
+Estación de Bombeo de Puente Piedra,Hogar Puente Piedra 31,Consumption Point,25806,316
+Estación de Bombeo de Puente Piedra,Hogar Puente Piedra 32,Consumption Point,22760,385
+Estación de Bombeo de Puente Piedra,Hogar Puente Piedra 33,Consumption Point,29434,131
+Estación de Bombeo de Puente Piedra,Hogar Puente Piedra 34,Consumption Point,38338,219
+Estación de Bombeo de Puente Piedra,Hogar Puente Piedra 35,Consumption Point,22483,145
+Estación de Bombeo de Puente Piedra,Hogar Puente Piedra 36,Consumption Point,31693,232
+Estación de Bombeo de Puente Piedra,Hogar Puente Piedra 37,Consumption Point,37177,312
+Estación de Bombeo de Puente Piedra,Hogar Puente Piedra 38,Consumption Point,21888,186
+Estación de Bombeo de Puente Piedra,Hogar Puente Piedra 39,Consumption Point,48091,132
+Estación de Bombeo de Puente Piedra,Hogar Puente Piedra 40,Consumption Point,54830,109
+Estaciones en Ventanilla,Hogar Ventanilla 1,Consumption Point,34628,459
+Estaciones en Ventanilla,Hogar Ventanilla 2,Consumption Point,57459,261
+Estaciones en Ventanilla,Hogar Ventanilla 3,Consumption Point,25673,322
+Estaciones en Ventanilla,Hogar Ventanilla 4,Consumption Point,52538,293
+Estaciones en Ventanilla,Hogar Ventanilla 5,Consumption Point,59257,378
+Estaciones en Ventanilla,Hogar Ventanilla 6,Consumption Point,37681,192
+Estaciones en Ventanilla,Hogar Ventanilla 7,Consumption Point,25396,238
+Estaciones en Ventanilla,Hogar Ventanilla 8,Consumption Point,26642,113
+Estaciones en Ventanilla,Hogar Ventanilla 9,Consumption Point,53144,299
+Estaciones en Ventanilla,Hogar Ventanilla 10,Consumption Point,36358,180
+Estaciones en Ventanilla,Hogar Ventanilla 11,Consumption Point,27278,480
+Estaciones en Ventanilla,Hogar Ventanilla 12,Consumption Point,27254,314
+Estaciones en Ventanilla,Hogar Ventanilla 13,Consumption Point,37203,342
+Estaciones en Ventanilla,Hogar Ventanilla 14,Consumption Point,45515,314
+Estaciones en Ventanilla,Hogar Ventanilla 15,Consumption Point,59189,351
+Estaciones en Ventanilla,Hogar Ventanilla 16,Consumption Point,29686,189
+Estaciones en Ventanilla,Hogar Ventanilla 17,Consumption Point,20084,439
+Estaciones en Ventanilla,Hogar Ventanilla 18,Consumption Point,53724,120
+Estaciones en Ventanilla,Hogar Ventanilla 19,Consumption Point,29532,258
+Estaciones en Ventanilla,Hogar Ventanilla 20,Consumption Point,49327,112
+Estaciones en Ventanilla,Hogar Ventanilla 21,Consumption Point,28473,155
+Estaciones en Ventanilla,Hogar Ventanilla 22,Consumption Point,50416,165
+Estaciones en Ventanilla,Hogar Ventanilla 23,Consumption Point,32967,245
+Estaciones en Ventanilla,Hogar Ventanilla 24,Consumption Point,20967,358
+Estaciones en Ventanilla,Hogar Ventanilla 25,Consumption Point,51180,138
+Estaciones en Ventanilla,Hogar Ventanilla 26,Consumption Point,49261,151
+Estaciones en Ventanilla,Hogar Ventanilla 27,Consumption Point,29849,458
+Estaciones en Ventanilla,Hogar Ventanilla 28,Consumption Point,55539,174
+Estaciones en Ventanilla,Hogar Ventanilla 29,Consumption Point,37079,224
+Estaciones en Ventanilla,Hogar Ventanilla 30,Consumption Point,30027,287
+Estaciones en Ventanilla,Hogar Ventanilla 31,Consumption Point,20518,241
+Estaciones en Ventanilla,Hogar Ventanilla 32,Consumption Point,44511,437
+Estaciones en Ventanilla,Hogar Ventanilla 33,Consumption Point,36127,494
+Estaciones en Ventanilla,Hogar Ventanilla 34,Consumption Point,47752,423
+Estaciones en Ventanilla,Hogar Ventanilla 35,Consumption Point,37506,186
+Estaciones en Ventanilla,Hogar Ventanilla 36,Consumption Point,34559,485
+Estaciones en Ventanilla,Hogar Ventanilla 37,Consumption Point,31714,474
+Estaciones en Ventanilla,Hogar Ventanilla 38,Consumption Point,31189,462
+Estaciones en Ventanilla,Hogar Ventanilla 39,Consumption Point,24186,300
+Estaciones en Ventanilla,Hogar Ventanilla 40,Consumption Point,52105,397
+Estación de Bombeo de Villa María,Hogar Villa El Salvador 1,Consumption Point,35272,459
+Estación de Bombeo de Villa María,Hogar Villa El Salvador 2,Consumption Point,45819,125
+Estación de Bombeo de Villa María,Hogar Villa El Salvador 3,Consumption Point,33713,147
+Estación de Bombeo de Villa María,Hogar Villa El Salvador 4,Consumption Point,48892,219
+Estación de Bombeo de Villa María,Hogar Villa El Salvador 5,Consumption Point,58720,120
+Estación de Bombeo de Villa María,Hogar Villa El Salvador 6,Consumption Point,57753,491
+Estación de Bombeo de Villa María,Hogar Villa El Salvador 7,Consumption Point,41468,460
+Estación de Bombeo de Villa María,Hogar Villa El Salvador 8,Consumption Point,35798,380
+Estación de Bombeo de Villa María,Hogar Villa El Salvador 9,Consumption Point,57842,220
+Estación de Bombeo de Villa María,Hogar Villa El Salvador 10,Consumption Point,28310,104
+Estación de Bombeo de Villa María,Hogar Villa El Salvador 11,Consumption Point,46926,180
+Estación de Bombeo de Villa María,Hogar Villa El Salvador 12,Consumption Point,35496,319
+Estación de Bombeo de Villa María,Hogar Villa El Salvador 13,Consumption Point,20183,253
+Estación de Bombeo de Villa María,Hogar Villa El Salvador 14,Consumption Point,32481,423
+Estación de Bombeo de Villa María,Hogar Villa El Salvador 15,Consumption Point,36483,291
+Estación de Bombeo de Villa María,Hogar Villa El Salvador 16,Consumption Point,20503,229
+Estación de Bombeo de Villa María,Hogar Villa El Salvador 17,Consumption Point,56238,180
+Estación de Bombeo de Villa María,Hogar Villa El Salvador 18,Consumption Point,33098,495
+Estación de Bombeo de Villa María,Hogar Villa El Salvador 19,Consumption Point,44277,334
+Estación de Bombeo de Villa María,Hogar Villa El Salvador 20,Consumption Point,55989,150
+Estación de Bombeo de Villa María,Hogar Villa El Salvador 21,Consumption Point,28333,203
+Estación de Bombeo de Villa María,Hogar Villa El Salvador 22,Consumption Point,59349,309
+Estación de Bombeo de Villa María,Hogar Villa El Salvador 23,Consumption Point,58677,426
+Estación de Bombeo de Villa María,Hogar Villa El Salvador 24,Consumption Point,37540,500
+Estación de Bombeo de Villa María,Hogar Villa El Salvador 25,Consumption Point,21289,145
+Estación de Bombeo de Villa María,Hogar Villa El Salvador 26,Consumption Point,25546,357
+Estación de Bombeo de Villa María,Hogar Villa El Salvador 27,Consumption Point,48802,424
+Estación de Bombeo de Villa María,Hogar Villa El Salvador 28,Consumption Point,37796,228
+Estación de Bombeo de Villa María,Hogar Villa El Salvador 29,Consumption Point,27888,245
+Estación de Bombeo de Villa María,Hogar Villa El Salvador 30,Consumption Point,35429,227
+Estación de Bombeo de Villa María,Hogar Villa El Salvador 31,Consumption Point,22064,349
+Estación de Bombeo de Villa María,Hogar Villa El Salvador 32,Consumption Point,45878,428
+Estación de Bombeo de Villa María,Hogar Villa El Salvador 33,Consumption Point,43068,477
+Estación de Bombeo de Villa María,Hogar Villa El Salvador 34,Consumption Point,47860,259
+Estación de Bombeo de Villa María,Hogar Villa El Salvador 35,Consumption Point,55289,400
+Estación de Bombeo de Villa María,Hogar Villa El Salvador 36,Consumption Point,55475,387
+Estación de Bombeo de Villa María,Hogar Villa El Salvador 37,Consumption Point,43878,215
+Estación de Bombeo de Villa María,Hogar Villa El Salvador 38,Consumption Point,38603,154
+Estación de Bombeo de Villa María,Hogar Villa El Salvador 39,Consumption Point,47863,109
+Estación de Bombeo de Villa María,Hogar Villa El Salvador 40,Consumption Point,43139,193
+Estación de Bombeo de Villa María,Hogar Villa María del Triunfo 1,Consumption Point,37285,297
+Estación de Bombeo de Villa María,Hogar Villa María del Triunfo 2,Consumption Point,33784,102
+Estación de Bombeo de Villa María,Hogar Villa María del Triunfo 3,Consumption Point,46800,142
+Estación de Bombeo de Villa María,Hogar Villa María del Triunfo 4,Consumption Point,36088,407
+Estación de Bombeo de Villa María,Hogar Villa María del Triunfo 5,Consumption Point,50691,245
+Estación de Bombeo de Villa María,Hogar Villa María del Triunfo 6,Consumption Point,40447,385
+Estación de Bombeo de Villa María,Hogar Villa María del Triunfo 7,Consumption Point,48341,189
+Estación de Bombeo de Villa María,Hogar Villa María del Triunfo 8,Consumption Point,56705,334
+Estación de Bombeo de Villa María,Hogar Villa María del Triunfo 9,Consumption Point,37609,323
+Estación de Bombeo de Villa María,Hogar Villa María del Triunfo 10,Consumption Point,22561,192
+Estación de Bombeo de Villa María,Hogar Villa María del Triunfo 11,Consumption Point,25490,319
+Estación de Bombeo de Villa María,Hogar Villa María del Triunfo 12,Consumption Point,32504,430
+Estación de Bombeo de Villa María,Hogar Villa María del Triunfo 13,Consumption Point,22868,440
+Estación de Bombeo de Villa María,Hogar Villa María del Triunfo 14,Consumption Point,55225,309
+Estación de Bombeo de Villa María,Hogar Villa María del Triunfo 15,Consumption Point,58357,141
+Estación de Bombeo de Villa María,Hogar Villa María del Triunfo 16,Consumption Point,53603,146
+Estación de Bombeo de Villa María,Hogar Villa María del Triunfo 17,Consumption Point,20823,128
+Estación de Bombeo de Villa María,Hogar Villa María del Triunfo 18,Consumption Point,47361,189
+Estación de Bombeo de Villa María,Hogar Villa María del Triunfo 19,Consumption Point,51585,397
+Estación de Bombeo de Villa María,Hogar Villa María del Triunfo 20,Consumption Point,24155,416
+Estación de Bombeo de Villa María,Hogar Villa María del Triunfo 21,Consumption Point,21381,430
+Estación de Bombeo de Villa María,Hogar Villa María del Triunfo 22,Consumption Point,34878,220
+Estación de Bombeo de Villa María,Hogar Villa María del Triunfo 23,Consumption Point,30034,184
+Estación de Bombeo de Villa María,Hogar Villa María del Triunfo 24,Consumption Point,24210,494
+Estación de Bombeo de Villa María,Hogar Villa María del Triunfo 25,Consumption Point,20618,172
+Estación de Bombeo de Villa María,Hogar Villa María del Triunfo 26,Consumption Point,54029,383
+Estación de Bombeo de Villa María,Hogar Villa María del Triunfo 27,Consumption Point,40323,289
+Estación de Bombeo de Villa María,Hogar Villa María del Triunfo 28,Consumption Point,24358,352
+Estación de Bombeo de Villa María,Hogar Villa María del Triunfo 29,Consumption Point,57450,389
+Estación de Bombeo de Villa María,Hogar Villa María del Triunfo 30,Consumption Point,24242,161
+Estación de Bombeo de Villa María,Hogar Villa María del Triunfo 31,Consumption Point,32374,238
+Estación de Bombeo de Villa María,Hogar Villa María del Triunfo 32,Consumption Point,40663,263
+Estación de Bombeo de Villa María,Hogar Villa María del Triunfo 33,Consumption Point,24335,300
+Estación de Bombeo de Villa María,Hogar Villa María del Triunfo 34,Consumption Point,21497,369
+Estación de Bombeo de Villa María,Hogar Villa María del Triunfo 35,Consumption Point,39075,293
+Estación de Bombeo de Villa María,Hogar Villa María del Triunfo 36,Consumption Point,30295,478
+Estación de Bombeo de Villa María,Hogar Villa María del Triunfo 37,Consumption Point,31664,428
+Estación de Bombeo de Villa María,Hogar Villa María del Triunfo 38,Consumption Point,31293,395
+Estación de Bombeo de Villa María,Hogar Villa María del Triunfo 39,Consumption Point,20875,120
+Estación de Bombeo de Villa María,Hogar Villa María del Triunfo 40,Consumption Point,51292,346
+Estación de Bombeo de Villa María,Hogar Pachacámac 1,Consumption Point,29679,334
+Estación de Bombeo de Villa María,Hogar Pachacámac 2,Consumption Point,21248,379
+Estación de Bombeo de Villa María,Hogar Pachacámac 3,Consumption Point,54952,150
+Estación de Bombeo de Villa María,Hogar Pachacámac 4,Consumption Point,23807,452
+Estación de Bombeo de Villa María,Hogar Pachacámac 5,Consumption Point,25464,209
+Estación de Bombeo de Villa María,Hogar Pachacámac 6,Consumption Point,52076,125
+Estación de Bombeo de Villa María,Hogar Pachacámac 7,Consumption Point,35344,475
+Estación de Bombeo de Villa María,Hogar Pachacámac 8,Consumption Point,33605,275
+Estación de Bombeo de Villa María,Hogar Pachacámac 9,Consumption Point,54624,482
+Estación de Bombeo de Villa María,Hogar Pachacámac 10,Consumption Point,59650,190
+Estación de Bombeo de Villa María,Hogar Pachacámac 11,Consumption Point,38156,350
+Estación de Bombeo de Villa María,Hogar Pachacámac 12,Consumption Point,25217,116
+Estación de Bombeo de Villa María,Hogar Pachacámac 13,Consumption Point,38319,370
+Estación de Bombeo de Villa María,Hogar Pachacámac 14,Consumption Point,57393,225
+Estación de Bombeo de Villa María,Hogar Pachacámac 15,Consumption Point,30769,264
+Estación de Bombeo de Villa María,Hogar Pachacámac 16,Consumption Point,21746,227
+Estación de Bombeo de Villa María,Hogar Pachacámac 17,Consumption Point,52461,268
+Estación de Bombeo de Villa María,Hogar Pachacámac 18,Consumption Point,28665,372
+Estación de Bombeo de Villa María,Hogar Pachacámac 19,Consumption Point,43247,268
+Estación de Bombeo de Villa María,Hogar Pachacámac 20,Consumption Point,28603,133
+Estación de Bombeo de Villa María,Hogar Pachacámac 21,Consumption Point,26631,338
+Estación de Bombeo de Villa María,Hogar Pachacámac 22,Consumption Point,32046,194
+Estación de Bombeo de Villa María,Hogar Pachacámac 23,Consumption Point,30276,297
+Estación de Bombeo de Villa María,Hogar Pachacámac 24,Consumption Point,42739,239
+Estación de Bombeo de Villa María,Hogar Pachacámac 25,Consumption Point,20751,374
+Estación de Bombeo de Villa María,Hogar Pachacámac 26,Consumption Point,43250,375
+Estación de Bombeo de Villa María,Hogar Pachacámac 27,Consumption Point,57992,402
+Estación de Bombeo de Villa María,Hogar Pachacámac 28,Consumption Point,20103,404
+Estación de Bombeo de Villa María,Hogar Pachacámac 29,Consumption Point,22137,228
+Estación de Bombeo de Villa María,Hogar Pachacámac 30,Consumption Point,20179,156
+Estación de Bombeo de Villa María,Hogar Pachacámac 31,Consumption Point,51252,274
+Estación de Bombeo de Villa María,Hogar Pachacámac 32,Consumption Point,44726,430
+Estación de Bombeo de Villa María,Hogar Pachacámac 33,Consumption Point,21953,149
+Estación de Bombeo de Villa María,Hogar Pachacámac 34,Consumption Point,36982,328
+Estación de Bombeo de Villa María,Hogar Pachacámac 35,Consumption Point,22036,404
+Estación de Bombeo de Villa María,Hogar Pachacámac 36,Consumption Point,41899,310
+Estación de Bombeo de Villa María,Hogar Pachacámac 37,Consumption Point,31187,287
+Estación de Bombeo de Villa María,Hogar Pachacámac 38,Consumption Point,53193,375
+Estación de Bombeo de Villa María,Hogar Pachacámac 39,Consumption Point,42673,198
+Estación de Bombeo de Villa María,Hogar Pachacámac 40,Consumption Point,41933,448
+Estación de Bombeo de Villa María,Hogar Pucusana 1,Consumption Point,23545,197
+Estación de Bombeo de Villa María,Hogar Pucusana 2,Consumption Point,59782,106
+Estación de Bombeo de Villa María,Hogar Pucusana 3,Consumption Point,33774,218
+Estación de Bombeo de Villa María,Hogar Pucusana 4,Consumption Point,55266,453
+Estación de Bombeo de Villa María,Hogar Pucusana 5,Consumption Point,21912,271
+Estación de Bombeo de Villa María,Hogar Pucusana 6,Consumption Point,32163,217
+Estación de Bombeo de Villa María,Hogar Pucusana 7,Consumption Point,20620,118
+Estación de Bombeo de Villa María,Hogar Pucusana 8,Consumption Point,27544,100
+Estación de Bombeo de Villa María,Hogar Pucusana 9,Consumption Point,25069,100
+Estación de Bombeo de Villa María,Hogar Pucusana 10,Consumption Point,57842,202
+Estación de Bombeo de Villa María,Hogar Pucusana 11,Consumption Point,43047,250
+Estación de Bombeo de Villa María,Hogar Pucusana 12,Consumption Point,25891,179
+Estación de Bombeo de Villa María,Hogar Pucusana 13,Consumption Point,51638,392
+Estación de Bombeo de Villa María,Hogar Pucusana 14,Consumption Point,52116,210
+Estación de Bombeo de Villa María,Hogar Pucusana 15,Consumption Point,55032,456
+Estación de Bombeo de Villa María,Hogar Pucusana 16,Consumption Point,38370,392
+Estación de Bombeo de Villa María,Hogar Pucusana 17,Consumption Point,52208,491
+Estación de Bombeo de Villa María,Hogar Pucusana 18,Consumption Point,21290,433
+Estación de Bombeo de Villa María,Hogar Pucusana 19,Consumption Point,25035,434
+Estación de Bombeo de Villa María,Hogar Pucusana 20,Consumption Point,52068,433
+Estación de Bombeo de Villa María,Hogar Pucusana 21,Consumption Point,25365,288
+Estación de Bombeo de Villa María,Hogar Pucusana 22,Consumption Point,57326,221
+Estación de Bombeo de Villa María,Hogar Pucusana 23,Consumption Point,40545,222
+Estación de Bombeo de Villa María,Hogar Pucusana 24,Consumption Point,47707,110
+Estación de Bombeo de Villa María,Hogar Pucusana 25,Consumption Point,56019,361
+Estación de Bombeo de Villa María,Hogar Pucusana 26,Consumption Point,26036,409
+Estación de Bombeo de Villa María,Hogar Pucusana 27,Consumption Point,41206,373
+Estación de Bombeo de Villa María,Hogar Pucusana 28,Consumption Point,21813,257
+Estación de Bombeo de Villa María,Hogar Pucusana 29,Consumption Point,34703,311
+Estación de Bombeo de Villa María,Hogar Pucusana 30,Consumption Point,22525,364
+Estación de Bombeo de Villa María,Hogar Pucusana 31,Consumption Point,30999,107
+Estación de Bombeo de Villa María,Hogar Pucusana 32,Consumption Point,41038,100
+Estación de Bombeo de Villa María,Hogar Pucusana 33,Consumption Point,27329,484
+Estación de Bombeo de Villa María,Hogar Pucusana 34,Consumption Point,38163,110
+Estación de Bombeo de Villa María,Hogar Pucusana 35,Consumption Point,48813,457
+Estación de Bombeo de Villa María,Hogar Pucusana 36,Consumption Point,44730,364
+Estación de Bombeo de Villa María,Hogar Pucusana 37,Consumption Point,36704,468
+Estación de Bombeo de Villa María,Hogar Pucusana 38,Consumption Point,21102,281
+Estación de Bombeo de Villa María,Hogar Pucusana 39,Consumption Point,21703,333
+Estación de Bombeo de Villa María,Hogar Pucusana 40,Consumption Point,22316,329
+Estación de Bombeo de Villa María,Hogar San Bartolo 1,Consumption Point,50464,279
+Estación de Bombeo de Villa María,Hogar San Bartolo 2,Consumption Point,21907,117
+Estación de Bombeo de Villa María,Hogar San Bartolo 3,Consumption Point,50102,121
+Estación de Bombeo de Villa María,Hogar San Bartolo 4,Consumption Point,37787,358
+Estación de Bombeo de Villa María,Hogar San Bartolo 5,Consumption Point,39633,453
+Estación de Bombeo de Villa María,Hogar San Bartolo 6,Consumption Point,33113,227
+Estación de Bombeo de Villa María,Hogar San Bartolo 7,Consumption Point,24637,289
+Estación de Bombeo de Villa María,Hogar San Bartolo 8,Consumption Point,29479,494
+Estación de Bombeo de Villa María,Hogar San Bartolo 9,Consumption Point,27984,176
+Estación de Bombeo de Villa María,Hogar San Bartolo 10,Consumption Point,31591,319
+Estación de Bombeo de Villa María,Hogar San Bartolo 11,Consumption Point,39954,465
+Estación de Bombeo de Villa María,Hogar San Bartolo 12,Consumption Point,46844,448
+Estación de Bombeo de Villa María,Hogar San Bartolo 13,Consumption Point,45628,392
+Estación de Bombeo de Villa María,Hogar San Bartolo 14,Consumption Point,57658,217
+Estación de Bombeo de Villa María,Hogar San Bartolo 15,Consumption Point,40272,155
+Estación de Bombeo de Villa María,Hogar San Bartolo 16,Consumption Point,38386,109
+Estación de Bombeo de Villa María,Hogar San Bartolo 17,Consumption Point,56475,251
+Estación de Bombeo de Villa María,Hogar San Bartolo 18,Consumption Point,31304,292
+Estación de Bombeo de Villa María,Hogar San Bartolo 19,Consumption Point,55313,210
+Estación de Bombeo de Villa María,Hogar San Bartolo 20,Consumption Point,23591,487
+Estación de Bombeo de Villa María,Hogar San Bartolo 21,Consumption Point,27406,461
+Estación de Bombeo de Villa María,Hogar San Bartolo 22,Consumption Point,34094,264
+Estación de Bombeo de Villa María,Hogar San Bartolo 23,Consumption Point,39901,193
+Estación de Bombeo de Villa María,Hogar San Bartolo 24,Consumption Point,28749,452
+Estación de Bombeo de Villa María,Hogar San Bartolo 25,Consumption Point,57135,218
+Estación de Bombeo de Villa María,Hogar San Bartolo 26,Consumption Point,27425,401
+Estación de Bombeo de Villa María,Hogar San Bartolo 27,Consumption Point,42492,197
+Estación de Bombeo de Villa María,Hogar San Bartolo 28,Consumption Point,55187,201
+Estación de Bombeo de Villa María,Hogar San Bartolo 29,Consumption Point,44282,224
+Estación de Bombeo de Villa María,Hogar San Bartolo 30,Consumption Point,46442,439
+Estación de Bombeo de Villa María,Hogar San Bartolo 31,Consumption Point,31397,472
+Estación de Bombeo de Villa María,Hogar San Bartolo 32,Consumption Point,25121,496
+Estación de Bombeo de Villa María,Hogar San Bartolo 33,Consumption Point,49489,343
+Estación de Bombeo de Villa María,Hogar San Bartolo 34,Consumption Point,43074,443
+Estación de Bombeo de Villa María,Hogar San Bartolo 35,Consumption Point,44943,308
+Estación de Bombeo de Villa María,Hogar San Bartolo 36,Consumption Point,54771,177
+Estación de Bombeo de Villa María,Hogar San Bartolo 37,Consumption Point,29367,392
+Estación de Bombeo de Villa María,Hogar San Bartolo 38,Consumption Point,27336,378
+Estación de Bombeo de Villa María,Hogar San Bartolo 39,Consumption Point,30983,374
+Estación de Bombeo de Villa María,Hogar San Bartolo 40,Consumption Point,36534,264
+Estación de Bombeo de Villa María,Hogar Santa María del Mar 1,Consumption Point,57315,149
+Estación de Bombeo de Villa María,Hogar Santa María del Mar 2,Consumption Point,22799,159
+Estación de Bombeo de Villa María,Hogar Santa María del Mar 3,Consumption Point,36423,238
+Estación de Bombeo de Villa María,Hogar Santa María del Mar 4,Consumption Point,56620,387
+Estación de Bombeo de Villa María,Hogar Santa María del Mar 5,Consumption Point,47855,459
+Estación de Bombeo de Villa María,Hogar Santa María del Mar 6,Consumption Point,22018,252
+Estación de Bombeo de Villa María,Hogar Santa María del Mar 7,Consumption Point,27260,187
+Estación de Bombeo de Villa María,Hogar Santa María del Mar 8,Consumption Point,44931,343
+Estación de Bombeo de Villa María,Hogar Santa María del Mar 9,Consumption Point,55775,370
+Estación de Bombeo de Villa María,Hogar Santa María del Mar 10,Consumption Point,56911,100
+Estación de Bombeo de Villa María,Hogar Santa María del Mar 11,Consumption Point,38329,218
+Estación de Bombeo de Villa María,Hogar Santa María del Mar 12,Consumption Point,38411,463
+Estación de Bombeo de Villa María,Hogar Santa María del Mar 13,Consumption Point,23544,421
+Estación de Bombeo de Villa María,Hogar Santa María del Mar 14,Consumption Point,43800,215
+Estación de Bombeo de Villa María,Hogar Santa María del Mar 15,Consumption Point,43405,192
+Estación de Bombeo de Villa María,Hogar Santa María del Mar 16,Consumption Point,26531,235
+Estación de Bombeo de Villa María,Hogar Santa María del Mar 17,Consumption Point,54118,368
+Estación de Bombeo de Villa María,Hogar Santa María del Mar 18,Consumption Point,21824,419
+Estación de Bombeo de Villa María,Hogar Santa María del Mar 19,Consumption Point,40696,499
+Estación de Bombeo de Villa María,Hogar Santa María del Mar 20,Consumption Point,29279,268
+Estación de Bombeo de Villa María,Hogar Santa María del Mar 21,Consumption Point,50764,337
+Estación de Bombeo de Villa María,Hogar Santa María del Mar 22,Consumption Point,35210,360
+Estación de Bombeo de Villa María,Hogar Santa María del Mar 23,Consumption Point,22248,303
+Estación de Bombeo de Villa María,Hogar Santa María del Mar 24,Consumption Point,28182,462
+Estación de Bombeo de Villa María,Hogar Santa María del Mar 25,Consumption Point,38803,323
+Estación de Bombeo de Villa María,Hogar Santa María del Mar 26,Consumption Point,59261,425
+Estación de Bombeo de Villa María,Hogar Santa María del Mar 27,Consumption Point,38005,495
+Estación de Bombeo de Villa María,Hogar Santa María del Mar 28,Consumption Point,38128,484
+Estación de Bombeo de Villa María,Hogar Santa María del Mar 29,Consumption Point,24764,312
+Estación de Bombeo de Villa María,Hogar Santa María del Mar 30,Consumption Point,22896,492
+Estación de Bombeo de Villa María,Hogar Santa María del Mar 31,Consumption Point,52607,139
+Estación de Bombeo de Villa María,Hogar Santa María del Mar 32,Consumption Point,55834,209
+Estación de Bombeo de Villa María,Hogar Santa María del Mar 33,Consumption Point,58493,345
+Estación de Bombeo de Villa María,Hogar Santa María del Mar 34,Consumption Point,54497,268
+Estación de Bombeo de Villa María,Hogar Santa María del Mar 35,Consumption Point,57586,203
+Estación de Bombeo de Villa María,Hogar Santa María del Mar 36,Consumption Point,56215,409
+Estación de Bombeo de Villa María,Hogar Santa María del Mar 37,Consumption Point,50080,257
+Estación de Bombeo de Villa María,Hogar Santa María del Mar 38,Consumption Point,26288,250
+Estación de Bombeo de Villa María,Hogar Santa María del Mar 39,Consumption Point,24276,481
+Estación de Bombeo de Villa María,Hogar Santa María del Mar 40,Consumption Point,54450,131
+Estación de Bombeo de Villa María,Hogar Chilca 1,Consumption Point,36051,419
+Estación de Bombeo de Villa María,Hogar Chilca 2,Consumption Point,23898,230
+Estación de Bombeo de Villa María,Hogar Chilca 3,Consumption Point,25997,425
+Estación de Bombeo de Villa María,Hogar Chilca 4,Consumption Point,27149,471
+Estación de Bombeo de Villa María,Hogar Chilca 5,Consumption Point,39432,462
+Estación de Bombeo de Villa María,Hogar Chilca 6,Consumption Point,49146,307
+Estación de Bombeo de Villa María,Hogar Chilca 7,Consumption Point,57780,213
+Estación de Bombeo de Villa María,Hogar Chilca 8,Consumption Point,34586,111
+Estación de Bombeo de Villa María,Hogar Chilca 9,Consumption Point,39321,354
+Estación de Bombeo de Villa María,Hogar Chilca 10,Consumption Point,35881,280
+Estación de Bombeo de Villa María,Hogar Chilca 11,Consumption Point,58488,391
+Estación de Bombeo de Villa María,Hogar Chilca 12,Consumption Point,50450,349
+Estación de Bombeo de Villa María,Hogar Chilca 13,Consumption Point,51000,349
+Estación de Bombeo de Villa María,Hogar Chilca 14,Consumption Point,56176,125
+Estación de Bombeo de Villa María,Hogar Chilca 15,Consumption Point,22048,121
+Estación de Bombeo de Villa María,Hogar Chilca 16,Consumption Point,41749,272
+Estación de Bombeo de Villa María,Hogar Chilca 17,Consumption Point,30487,387
+Estación de Bombeo de Villa María,Hogar Chilca 18,Consumption Point,28137,407
+Estación de Bombeo de Villa María,Hogar Chilca 19,Consumption Point,57785,350
+Estación de Bombeo de Villa María,Hogar Chilca 20,Consumption Point,50520,147
+Estación de Bombeo de Villa María,Hogar Chilca 21,Consumption Point,50126,110
+Estación de Bombeo de Villa María,Hogar Chilca 22,Consumption Point,45438,337
+Estación de Bombeo de Villa María,Hogar Chilca 23,Consumption Point,57905,455
+Estación de Bombeo de Villa María,Hogar Chilca 24,Consumption Point,25755,162
+Estación de Bombeo de Villa María,Hogar Chilca 25,Consumption Point,45666,206
+Estación de Bombeo de Villa María,Hogar Chilca 26,Consumption Point,37441,448
+Estación de Bombeo de Villa María,Hogar Chilca 27,Consumption Point,52494,305
+Estación de Bombeo de Villa María,Hogar Chilca 28,Consumption Point,28069,250
+Estación de Bombeo de Villa María,Hogar Chilca 29,Consumption Point,36694,307
+Estación de Bombeo de Villa María,Hogar Chilca 30,Consumption Point,44649,318
+Estación de Bombeo de Villa María,Hogar Chilca 31,Consumption Point,31662,399
+Estación de Bombeo de Villa María,Hogar Chilca 32,Consumption Point,35927,245
+Estación de Bombeo de Villa María,Hogar Chilca 33,Consumption Point,20386,216
+Estación de Bombeo de Villa María,Hogar Chilca 34,Consumption Point,35400,142
+Estación de Bombeo de Villa María,Hogar Chilca 35,Consumption Point,43499,233
+Estación de Bombeo de Villa María,Hogar Chilca 36,Consumption Point,48041,322
+Estación de Bombeo de Villa María,Hogar Chilca 37,Consumption Point,43684,373
+Estación de Bombeo de Villa María,Hogar Chilca 38,Consumption Point,34974,108
+Estación de Bombeo de Villa María,Hogar Chilca 39,Consumption Point,31936,377
+Estación de Bombeo de Villa María,Hogar Chilca 40,Consumption Point,57611,407
+Estación de Bombeo de Villa María,Hogar Lurín 1,Consumption Point,27449,466
+Estación de Bombeo de Villa María,Hogar Lurín 2,Consumption Point,58169,192
+Estación de Bombeo de Villa María,Hogar Lurín 3,Consumption Point,59350,207
+Estación de Bombeo de Villa María,Hogar Lurín 4,Consumption Point,40367,140
+Estación de Bombeo de Villa María,Hogar Lurín 5,Consumption Point,44783,276
+Estación de Bombeo de Villa María,Hogar Lurín 6,Consumption Point,50846,261
+Estación de Bombeo de Villa María,Hogar Lurín 7,Consumption Point,20386,103
+Estación de Bombeo de Villa María,Hogar Lurín 8,Consumption Point,57175,428
+Estación de Bombeo de Villa María,Hogar Lurín 9,Consumption Point,37967,240
+Estación de Bombeo de Villa María,Hogar Lurín 10,Consumption Point,36158,349
+Estación de Bombeo de Villa María,Hogar Lurín 11,Consumption Point,50216,126
+Estación de Bombeo de Villa María,Hogar Lurín 12,Consumption Point,29961,459
+Estación de Bombeo de Villa María,Hogar Lurín 13,Consumption Point,29741,411
+Estación de Bombeo de Villa María,Hogar Lurín 14,Consumption Point,49234,250
+Estación de Bombeo de Villa María,Hogar Lurín 15,Consumption Point,48191,438
+Estación de Bombeo de Villa María,Hogar Lurín 16,Consumption Point,59086,127
+Estación de Bombeo de Villa María,Hogar Lurín 17,Consumption Point,45395,200
+Estación de Bombeo de Villa María,Hogar Lurín 18,Consumption Point,41474,430
+Estación de Bombeo de Villa María,Hogar Lurín 19,Consumption Point,37005,136
+Estación de Bombeo de Villa María,Hogar Lurín 20,Consumption Point,25336,484
+Estación de Bombeo de Villa María,Hogar Lurín 21,Consumption Point,26336,428
+Estación de Bombeo de Villa María,Hogar Lurín 22,Consumption Point,29716,125
+Estación de Bombeo de Villa María,Hogar Lurín 23,Consumption Point,35044,347
+Estación de Bombeo de Villa María,Hogar Lurín 24,Consumption Point,58090,233
+Estación de Bombeo de Villa María,Hogar Lurín 25,Consumption Point,24309,472
+Estación de Bombeo de Villa María,Hogar Lurín 26,Consumption Point,54185,382
+Estación de Bombeo de Villa María,Hogar Lurín 27,Consumption Point,48040,305
+Estación de Bombeo de Villa María,Hogar Lurín 28,Consumption Point,56531,406
+Estación de Bombeo de Villa María,Hogar Lurín 29,Consumption Point,25768,376
+Estación de Bombeo de Villa María,Hogar Lurín 30,Consumption Point,52063,359
+Estación de Bombeo de Villa María,Hogar Lurín 31,Consumption Point,36316,296
+Estación de Bombeo de Villa María,Hogar Lurín 32,Consumption Point,30260,218
+Estación de Bombeo de Villa María,Hogar Lurín 33,Consumption Point,23198,394
+Estación de Bombeo de Villa María,Hogar Lurín 34,Consumption Point,56724,322
+Estación de Bombeo de Villa María,Hogar Lurín 35,Consumption Point,47350,247
+Estación de Bombeo de Villa María,Hogar Lurín 36,Consumption Point,55015,386
+Estación de Bombeo de Villa María,Hogar Lurín 37,Consumption Point,52364,382
+Estación de Bombeo de Villa María,Hogar Lurín 38,Consumption Point,26257,309
+Estación de Bombeo de Villa María,Hogar Lurín 39,Consumption Point,35747,275
+Estación de Bombeo de Villa María,Hogar Lurín 40,Consumption Point,57874,491
+Estación de Bombeo de Villa María,Hogar Punta Hermosa 1,Consumption Point,39342,353
+Estación de Bombeo de Villa María,Hogar Punta Hermosa 2,Consumption Point,23526,497
+Estación de Bombeo de Villa María,Hogar Punta Hermosa 3,Consumption Point,59522,459
+Estación de Bombeo de Villa María,Hogar Punta Hermosa 4,Consumption Point,28814,407
+Estación de Bombeo de Villa María,Hogar Punta Hermosa 5,Consumption Point,34443,366
+Estación de Bombeo de Villa María,Hogar Punta Hermosa 6,Consumption Point,31197,226
+Estación de Bombeo de Villa María,Hogar Punta Hermosa 7,Consumption Point,31749,126
+Estación de Bombeo de Villa María,Hogar Punta Hermosa 8,Consumption Point,51838,496
+Estación de Bombeo de Villa María,Hogar Punta Hermosa 9,Consumption Point,56977,202
+Estación de Bombeo de Villa María,Hogar Punta Hermosa 10,Consumption Point,38086,261
+Estación de Bombeo de Villa María,Hogar Punta Hermosa 11,Consumption Point,36899,285
+Estación de Bombeo de Villa María,Hogar Punta Hermosa 12,Consumption Point,43968,302
+Estación de Bombeo de Villa María,Hogar Punta Hermosa 13,Consumption Point,27163,106
+Estación de Bombeo de Villa María,Hogar Punta Hermosa 14,Consumption Point,34317,420
+Estación de Bombeo de Villa María,Hogar Punta Hermosa 15,Consumption Point,56053,296
+Estación de Bombeo de Villa María,Hogar Punta Hermosa 16,Consumption Point,52050,423
+Estación de Bombeo de Villa María,Hogar Punta Hermosa 17,Consumption Point,20439,244
+Estación de Bombeo de Villa María,Hogar Punta Hermosa 18,Consumption Point,39431,317
+Estación de Bombeo de Villa María,Hogar Punta Hermosa 19,Consumption Point,22117,132
+Estación de Bombeo de Villa María,Hogar Punta Hermosa 20,Consumption Point,33561,398
+Estación de Bombeo de Villa María,Hogar Punta Hermosa 21,Consumption Point,27544,118
+Estación de Bombeo de Villa María,Hogar Punta Hermosa 22,Consumption Point,35228,238
+Estación de Bombeo de Villa María,Hogar Punta Hermosa 23,Consumption Point,29194,291
+Estación de Bombeo de Villa María,Hogar Punta Hermosa 24,Consumption Point,35479,375
+Estación de Bombeo de Villa María,Hogar Punta Hermosa 25,Consumption Point,48370,254
+Estación de Bombeo de Villa María,Hogar Punta Hermosa 26,Consumption Point,37874,473
+Estación de Bombeo de Villa María,Hogar Punta Hermosa 27,Consumption Point,49510,451
+Estación de Bombeo de Villa María,Hogar Punta Hermosa 28,Consumption Point,34240,188
+Estación de Bombeo de Villa María,Hogar Punta Hermosa 29,Consumption Point,49137,350
+Estación de Bombeo de Villa María,Hogar Punta Hermosa 30,Consumption Point,38388,215
+Estación de Bombeo de Villa María,Hogar Punta Hermosa 31,Consumption Point,56927,481
+Estación de Bombeo de Villa María,Hogar Punta Hermosa 32,Consumption Point,36962,176
+Estación de Bombeo de Villa María,Hogar Punta Hermosa 33,Consumption Point,47144,222
+Estación de Bombeo de Villa María,Hogar Punta Hermosa 34,Consumption Point,57179,426
+Estación de Bombeo de Villa María,Hogar Punta Hermosa 35,Consumption Point,50053,295
+Estación de Bombeo de Villa María,Hogar Punta Hermosa 36,Consumption Point,28273,446
+Estación de Bombeo de Villa María,Hogar Punta Hermosa 37,Consumption Point,50020,191
+Estación de Bombeo de Villa María,Hogar Punta Hermosa 38,Consumption Point,25491,440
+Estación de Bombeo de Villa María,Hogar Punta Hermosa 39,Consumption Point,54885,408
+Estación de Bombeo de Villa María,Hogar Punta Hermosa 40,Consumption Point,42910,397
+Estación de Bombeo de Villa María,Hogar Punta Negra 1,Consumption Point,28372,286
+Estación de Bombeo de Villa María,Hogar Punta Negra 2,Consumption Point,32874,260
+Estación de Bombeo de Villa María,Hogar Punta Negra 3,Consumption Point,39946,385
+Estación de Bombeo de Villa María,Hogar Punta Negra 4,Consumption Point,46838,105
+Estación de Bombeo de Villa María,Hogar Punta Negra 5,Consumption Point,37627,215
+Estación de Bombeo de Villa María,Hogar Punta Negra 6,Consumption Point,34597,437
+Estación de Bombeo de Villa María,Hogar Punta Negra 7,Consumption Point,38763,315
+Estación de Bombeo de Villa María,Hogar Punta Negra 8,Consumption Point,32174,373
+Estación de Bombeo de Villa María,Hogar Punta Negra 9,Consumption Point,55354,104
+Estación de Bombeo de Villa María,Hogar Punta Negra 10,Consumption Point,27991,482
+Estación de Bombeo de Villa María,Hogar Punta Negra 11,Consumption Point,41880,354
+Estación de Bombeo de Villa María,Hogar Punta Negra 12,Consumption Point,26929,178
+Estación de Bombeo de Villa María,Hogar Punta Negra 13,Consumption Point,40285,481
+Estación de Bombeo de Villa María,Hogar Punta Negra 14,Consumption Point,24574,191
+Estación de Bombeo de Villa María,Hogar Punta Negra 15,Consumption Point,50657,378
+Estación de Bombeo de Villa María,Hogar Punta Negra 16,Consumption Point,38511,204
+Estación de Bombeo de Villa María,Hogar Punta Negra 17,Consumption Point,53951,152
+Estación de Bombeo de Villa María,Hogar Punta Negra 18,Consumption Point,35284,496
+Estación de Bombeo de Villa María,Hogar Punta Negra 19,Consumption Point,31392,305
+Estación de Bombeo de Villa María,Hogar Punta Negra 20,Consumption Point,34361,403
+Estación de Bombeo de Villa María,Hogar Punta Negra 21,Consumption Point,34264,311
+Estación de Bombeo de Villa María,Hogar Punta Negra 22,Consumption Point,55063,380
+Estación de Bombeo de Villa María,Hogar Punta Negra 23,Consumption Point,54921,466
+Estación de Bombeo de Villa María,Hogar Punta Negra 24,Consumption Point,53746,450
+Estación de Bombeo de Villa María,Hogar Punta Negra 25,Consumption Point,56951,211
+Estación de Bombeo de Villa María,Hogar Punta Negra 26,Consumption Point,23515,393
+Estación de Bombeo de Villa María,Hogar Punta Negra 27,Consumption Point,23209,499
+Estación de Bombeo de Villa María,Hogar Punta Negra 28,Consumption Point,49213,138
+Estación de Bombeo de Villa María,Hogar Punta Negra 29,Consumption Point,23675,196
+Estación de Bombeo de Villa María,Hogar Punta Negra 30,Consumption Point,27849,243
+Estación de Bombeo de Villa María,Hogar Punta Negra 31,Consumption Point,31591,230
+Estación de Bombeo de Villa María,Hogar Punta Negra 32,Consumption Point,59247,129
+Estación de Bombeo de Villa María,Hogar Punta Negra 33,Consumption Point,54157,342
+Estación de Bombeo de Villa María,Hogar Punta Negra 34,Consumption Point,51896,244
+Estación de Bombeo de Villa María,Hogar Punta Negra 35,Consumption Point,34461,129
+Estación de Bombeo de Villa María,Hogar Punta Negra 36,Consumption Point,31908,419
+Estación de Bombeo de Villa María,Hogar Punta Negra 37,Consumption Point,58867,292
+Estación de Bombeo de Villa María,Hogar Punta Negra 38,Consumption Point,53509,473
+Estación de Bombeo de Villa María,Hogar Punta Negra 39,Consumption Point,23320,279
+Estación de Bombeo de Villa María,Hogar Punta Negra 40,Consumption Point,50236,262
+Estación de Bombeo de Villa María,Hogar San Juan de Miraflores 1,Consumption Point,50837,210
+Estación de Bombeo de Villa María,Hogar San Juan de Miraflores 2,Consumption Point,58514,231
+Estación de Bombeo de Villa María,Hogar San Juan de Miraflores 3,Consumption Point,59332,400
+Estación de Bombeo de Villa María,Hogar San Juan de Miraflores 4,Consumption Point,46012,283
+Estación de Bombeo de Villa María,Hogar San Juan de Miraflores 5,Consumption Point,46753,327
+Estación de Bombeo de Villa María,Hogar San Juan de Miraflores 6,Consumption Point,49194,202
+Estación de Bombeo de Villa María,Hogar San Juan de Miraflores 7,Consumption Point,47875,121
+Estación de Bombeo de Villa María,Hogar San Juan de Miraflores 8,Consumption Point,46172,127
+Estación de Bombeo de Villa María,Hogar San Juan de Miraflores 9,Consumption Point,42199,104
+Estación de Bombeo de Villa María,Hogar San Juan de Miraflores 10,Consumption Point,37473,163
+Estación de Bombeo de Villa María,Hogar San Juan de Miraflores 11,Consumption Point,57808,186
+Estación de Bombeo de Villa María,Hogar San Juan de Miraflores 12,Consumption Point,47056,401
+Estación de Bombeo de Villa María,Hogar San Juan de Miraflores 13,Consumption Point,58610,145
+Estación de Bombeo de Villa María,Hogar San Juan de Miraflores 14,Consumption Point,21803,252
+Estación de Bombeo de Villa María,Hogar San Juan de Miraflores 15,Consumption Point,51042,247
+Estación de Bombeo de Villa María,Hogar San Juan de Miraflores 16,Consumption Point,39325,460
+Estación de Bombeo de Villa María,Hogar San Juan de Miraflores 17,Consumption Point,27920,154
+Estación de Bombeo de Villa María,Hogar San Juan de Miraflores 18,Consumption Point,53969,279
+Estación de Bombeo de Villa María,Hogar San Juan de Miraflores 19,Consumption Point,44387,158
+Estación de Bombeo de Villa María,Hogar San Juan de Miraflores 20,Consumption Point,24138,373
+Estación de Bombeo de Villa María,Hogar San Juan de Miraflores 21,Consumption Point,27760,402
+Estación de Bombeo de Villa María,Hogar San Juan de Miraflores 22,Consumption Point,55508,408
+Estación de Bombeo de Villa María,Hogar San Juan de Miraflores 23,Consumption Point,21066,254
+Estación de Bombeo de Villa María,Hogar San Juan de Miraflores 24,Consumption Point,20585,193
+Estación de Bombeo de Villa María,Hogar San Juan de Miraflores 25,Consumption Point,28518,433
+Estación de Bombeo de Villa María,Hogar San Juan de Miraflores 26,Consumption Point,43943,475
+Estación de Bombeo de Villa María,Hogar San Juan de Miraflores 27,Consumption Point,52033,334
+Estación de Bombeo de Villa María,Hogar San Juan de Miraflores 28,Consumption Point,44259,235
+Estación de Bombeo de Villa María,Hogar San Juan de Miraflores 29,Consumption Point,46206,142
+Estación de Bombeo de Villa María,Hogar San Juan de Miraflores 30,Consumption Point,30427,462
+Estación de Bombeo de Villa María,Hogar San Juan de Miraflores 31,Consumption Point,36310,433
+Estación de Bombeo de Villa María,Hogar San Juan de Miraflores 32,Consumption Point,31572,305
+Estación de Bombeo de Villa María,Hogar San Juan de Miraflores 33,Consumption Point,36211,389
+Estación de Bombeo de Villa María,Hogar San Juan de Miraflores 34,Consumption Point,57846,363
+Estación de Bombeo de Villa María,Hogar San Juan de Miraflores 35,Consumption Point,23729,345
+Estación de Bombeo de Villa María,Hogar San Juan de Miraflores 36,Consumption Point,57364,436
+Estación de Bombeo de Villa María,Hogar San Juan de Miraflores 37,Consumption Point,30893,235
+Estación de Bombeo de Villa María,Hogar San Juan de Miraflores 38,Consumption Point,28496,497
+Estación de Bombeo de Villa María,Hogar San Juan de Miraflores 39,Consumption Point,56210,336
+Estación de Bombeo de Villa María,Hogar San Juan de Miraflores 40,Consumption Point,52337,303

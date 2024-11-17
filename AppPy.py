@@ -6,7 +6,7 @@ from bellman_ford import apply_bellman_ford
 from ford_fulkerson import apply_ford_fulkerson
 
 # Cargar el grafo desde el archivo CSV
-G = load_graph_from_csv('nodos_conectividad.csv')
+G = load_graph_from_csv('Grafo.csv')
 nodes = list(G.nodes())
 
 # Crear la app de Dash
@@ -20,9 +20,9 @@ app.layout = html.Div(style={'font-family': 'Arial, sans-serif', 'backgroundColo
 
                           # Primera sección: Opciones iniciales
                           html.Div(
-                              style={'display': 'flex', 'flexWrap': 'wrap', 'justify-content': 'space-between', 'margin-bottom': '40px'},
+                              style={'display': 'flex', 'justify-content': 'space-around', 'margin-bottom': '30px'},
                               children=[
-                                  html.Div(style={'width': '48%', 'backgroundColor': '#d7eaf8', 'padding': '20px',
+                                  html.Div(style={'width': '30%', 'backgroundColor': '#d7eaf8', 'padding': '15px',
                                                   'borderRadius': '10px'}, children=[
                                       html.H3("Seleccione nodos:", style={'color': '#0056b3'}),
                                       dcc.Dropdown(
@@ -38,7 +38,7 @@ app.layout = html.Div(style={'font-family': 'Arial, sans-serif', 'backgroundColo
                                           style={'margin-bottom': '20px'}
                                       )
                                   ]),
-                                  html.Div(style={'width': '48%', 'backgroundColor': '#d7eaf8', 'padding': '20px',
+                                  html.Div(style={'width': '30%', 'backgroundColor': '#d7eaf8', 'padding': '15px',
                                                   'borderRadius': '10px'}, children=[
                                       html.H3("Seleccione algoritmo:", style={'color': '#0056b3'}),
                                       dcc.Dropdown(
@@ -55,7 +55,7 @@ app.layout = html.Div(style={'font-family': 'Arial, sans-serif', 'backgroundColo
 
                           # Segunda sección: Resultado
                           html.Div(style={'backgroundColor': '#cce5ff', 'padding': '20px', 'borderRadius': '10px',
-                                          'margin-bottom': '40px'}, children=[
+                                          'margin-bottom': '30px'}, children=[
                               html.H3("Resultado:", style={'color': '#0056b3', 'margin-bottom': '10px'}),
                               html.Div(id='optimization-info', style={'color': '#003366', 'fontSize': '16px'})
                           ]),
@@ -65,8 +65,7 @@ app.layout = html.Div(style={'font-family': 'Arial, sans-serif', 'backgroundColo
                                    children=[
                                        dcc.Graph(
                                            id='network-graph',
-                                           figure=style_water_network_graph(),  # Grafo estilizado
-                                           style={'height': '600px'}  # Aumentar la altura del gráfico
+                                           figure=style_water_network_graph()  # Grafo estilizado
                                        )
                                    ])
                       ])
