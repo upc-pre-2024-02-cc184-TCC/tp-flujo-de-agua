@@ -9,3 +9,9 @@ def apply_bellman_ford(G, source, target):
     except nx.NetworkXNoPath:
         # Return infinity and an empty path if no path exists
         return float('inf'), []
+    
+    
+    
+    
+    
+    

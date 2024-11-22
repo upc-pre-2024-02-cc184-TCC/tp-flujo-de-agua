@@ -9,3 +9,8 @@ def apply_ford_fulkerson(G, source, target):
     except nx.NetworkXError as e:
         # Return zero flow and an empty dictionary if an error occurs
         return 0, {}
+    
+    
+    
+    
+    
